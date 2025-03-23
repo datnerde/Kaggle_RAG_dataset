@@ -1,0 +1,3314 @@
+[
+    {
+        "slug": "titanic",
+        "competition_url": "https://www.kaggle.com/competitions/titanic",
+        "code_url": "https://www.kaggle.com/competitions/titanic/code",
+        "teams_count": 15734
+    },
+    {
+        "slug": "home-data-for-ml-course",
+        "competition_url": "https://www.kaggle.com/competitions/home-data-for-ml-course",
+        "code_url": "https://www.kaggle.com/competitions/home-data-for-ml-course/code",
+        "teams_count": 7031
+    },
+    {
+        "slug": "house-prices-advanced-regression-techniques",
+        "competition_url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques",
+        "code_url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/code",
+        "teams_count": 4047
+    },
+    {
+        "slug": "spaceship-titanic",
+        "competition_url": "https://www.kaggle.com/competitions/spaceship-titanic",
+        "code_url": "https://www.kaggle.com/competitions/spaceship-titanic/code",
+        "teams_count": 1835
+    },
+    {
+        "slug": "ai-mathematical-olympiad-progress-prize-2",
+        "competition_url": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2",
+        "code_url": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/code",
+        "teams_count": 2253
+    },
+    {
+        "slug": "stanford-rna-3d-folding",
+        "competition_url": "https://www.kaggle.com/competitions/stanford-rna-3d-folding",
+        "code_url": "https://www.kaggle.com/competitions/stanford-rna-3d-folding/code",
+        "teams_count": 689
+    },
+    {
+        "slug": "byu-locating-bacterial-flagellar-motors-2025",
+        "competition_url": "https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025",
+        "code_url": "https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/code",
+        "teams_count": 424
+    },
+    {
+        "slug": "drawing-with-llms",
+        "competition_url": "https://www.kaggle.com/competitions/drawing-with-llms",
+        "code_url": "https://www.kaggle.com/competitions/drawing-with-llms/code",
+        "teams_count": 450
+    },
+    {
+        "slug": "birdclef-2025",
+        "competition_url": "https://www.kaggle.com/competitions/birdclef-2025",
+        "code_url": "https://www.kaggle.com/competitions/birdclef-2025/code",
+        "teams_count": 431
+    },
+    {
+        "slug": "playground-series-s5e3",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s5e3",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s5e3/code",
+        "teams_count": 3298
+    },
+    {
+        "slug": "konwinski-prize",
+        "competition_url": "https://www.kaggle.com/competitions/konwinski-prize",
+        "code_url": "https://www.kaggle.com/competitions/konwinski-prize/code",
+        "teams_count": 617
+    },
+    {
+        "slug": "jane-street-real-time-market-data-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/code",
+        "teams_count": 3757
+    },
+    {
+        "slug": "march-machine-learning-mania-2025",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2025",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2025/code",
+        "teams_count": 1745
+    },
+    {
+        "slug": "lux-ai-season-3",
+        "competition_url": "https://www.kaggle.com/competitions/lux-ai-season-3",
+        "code_url": "https://www.kaggle.com/competitions/lux-ai-season-3/code",
+        "teams_count": 704
+    },
+    {
+        "slug": "wsdm-cup-multilingual-chatbot-arena",
+        "competition_url": "https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena",
+        "code_url": "https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/code",
+        "teams_count": 950
+    },
+    {
+        "slug": "fide-google-efficiency-chess-ai-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge",
+        "code_url": "https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/code",
+        "teams_count": 1120
+    },
+    {
+        "slug": "equity-post-HCT-survival-predictions",
+        "competition_url": "https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions",
+        "code_url": "https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/code",
+        "teams_count": 3325
+    },
+    {
+        "slug": "llms-you-cant-please-them-all",
+        "competition_url": "https://www.kaggle.com/competitions/llms-you-cant-please-them-all",
+        "code_url": "https://www.kaggle.com/competitions/llms-you-cant-please-them-all/code",
+        "teams_count": 1692
+    },
+    {
+        "slug": "playground-series-s5e2",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s5e2",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s5e2/code",
+        "teams_count": 3393
+    },
+    {
+        "slug": "czii-cryo-et-object-identification",
+        "competition_url": "https://www.kaggle.com/competitions/czii-cryo-et-object-identification",
+        "code_url": "https://www.kaggle.com/competitions/czii-cryo-et-object-identification/code",
+        "teams_count": 931
+    },
+    {
+        "slug": "santa-2024",
+        "competition_url": "https://www.kaggle.com/competitions/santa-2024",
+        "code_url": "https://www.kaggle.com/competitions/santa-2024/code",
+        "teams_count": 1514
+    },
+    {
+        "slug": "playground-series-s5e1",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s5e1",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s5e1/code",
+        "teams_count": 2722
+    },
+    {
+        "slug": "nexar-collision-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/nexar-collision-prediction",
+        "code_url": "https://www.kaggle.com/competitions/nexar-collision-prediction/code",
+        "teams_count": 114
+    },
+    {
+        "slug": "russian-car-plates-prices-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/russian-car-plates-prices-prediction",
+        "code_url": "https://www.kaggle.com/competitions/russian-car-plates-prices-prediction/code",
+        "teams_count": 206
+    },
+    {
+        "slug": "catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2",
+        "competition_url": "https://www.kaggle.com/competitions/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2",
+        "code_url": "https://www.kaggle.com/competitions/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2/code",
+        "teams_count": 5631
+    },
+    {
+        "slug": "platesv2",
+        "competition_url": "https://www.kaggle.com/competitions/platesv2",
+        "code_url": "https://www.kaggle.com/competitions/platesv2/code",
+        "teams_count": 2949
+    },
+    {
+        "slug": "flight-delays-fall-2018",
+        "competition_url": "https://www.kaggle.com/competitions/flight-delays-fall-2018",
+        "code_url": "https://www.kaggle.com/competitions/flight-delays-fall-2018/code",
+        "teams_count": 2193
+    },
+    {
+        "slug": "talkingdata-adtracking-fraud-detection",
+        "competition_url": "https://www.kaggle.com/competitions/talkingdata-adtracking-fraud-detection",
+        "code_url": "https://www.kaggle.com/competitions/talkingdata-adtracking-fraud-detection/code",
+        "teams_count": 3943
+    },
+    {
+        "slug": "cassava-leaf-disease-classification",
+        "competition_url": "https://www.kaggle.com/competitions/cassava-leaf-disease-classification",
+        "code_url": "https://www.kaggle.com/competitions/cassava-leaf-disease-classification/code",
+        "teams_count": 3900
+    },
+    {
+        "slug": "playground-series-s4e10",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e10",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e10/code",
+        "teams_count": 3858
+    },
+    {
+        "slug": "home-credit-credit-risk-model-stability",
+        "competition_url": "https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability",
+        "code_url": "https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/code",
+        "teams_count": 3856
+    },
+    {
+        "slug": "optiver-realized-volatility-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction",
+        "code_url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/code",
+        "teams_count": 3852
+    },
+    {
+        "slug": "mercedes-benz-greener-manufacturing",
+        "competition_url": "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing",
+        "code_url": "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing/code",
+        "teams_count": 3823
+    },
+    {
+        "slug": "zillow-prize-1",
+        "competition_url": "https://www.kaggle.com/competitions/zillow-prize-1",
+        "code_url": "https://www.kaggle.com/competitions/zillow-prize-1/code",
+        "teams_count": 3770
+    },
+    {
+        "slug": "data-science-bowl-2018",
+        "competition_url": "https://www.kaggle.com/competitions/data-science-bowl-2018",
+        "code_url": "https://www.kaggle.com/competitions/data-science-bowl-2018/code",
+        "teams_count": 3634
+    },
+    {
+        "slug": "commonlitreadabilityprize",
+        "competition_url": "https://www.kaggle.com/competitions/commonlitreadabilityprize",
+        "code_url": "https://www.kaggle.com/competitions/commonlitreadabilityprize/code",
+        "teams_count": 3633
+    },
+    {
+        "slug": "playground-series-s4e1",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e1",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e1/code",
+        "teams_count": 3632
+    },
+    {
+        "slug": "ashrae-energy-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/ashrae-energy-prediction",
+        "code_url": "https://www.kaggle.com/competitions/ashrae-energy-prediction/code",
+        "teams_count": 3614
+    },
+    {
+        "slug": "ga-customer-revenue-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/ga-customer-revenue-prediction",
+        "code_url": "https://www.kaggle.com/competitions/ga-customer-revenue-prediction/code",
+        "teams_count": 3611
+    },
+    {
+        "slug": "playground-series-s4e2",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e2",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e2/code",
+        "teams_count": 3587
+    },
+    {
+        "slug": "child-mind-institute-problematic-internet-use",
+        "competition_url": "https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use",
+        "code_url": "https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/code",
+        "teams_count": 3559
+    },
+    {
+        "slug": "godaddy-microbusiness-density-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/code",
+        "teams_count": 3547
+    },
+    {
+        "slug": "petfinder-pawpularity-score",
+        "competition_url": "https://www.kaggle.com/competitions/petfinder-pawpularity-score",
+        "code_url": "https://www.kaggle.com/competitions/petfinder-pawpularity-score/code",
+        "teams_count": 3537
+    },
+    {
+        "slug": "otto-group-product-classification-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/otto-group-product-classification-challenge",
+        "code_url": "https://www.kaggle.com/competitions/otto-group-product-classification-challenge/code",
+        "teams_count": 3507
+    },
+    {
+        "slug": "data-science-bowl-2019",
+        "competition_url": "https://www.kaggle.com/competitions/data-science-bowl-2019",
+        "code_url": "https://www.kaggle.com/competitions/data-science-bowl-2019/code",
+        "teams_count": 3493
+    },
+    {
+        "slug": "riiid-test-answer-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/riiid-test-answer-prediction",
+        "code_url": "https://www.kaggle.com/competitions/riiid-test-answer-prediction/code",
+        "teams_count": 3406
+    },
+    {
+        "slug": "statoil-iceberg-classifier-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge",
+        "code_url": "https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/code",
+        "teams_count": 3330
+    },
+    {
+        "slug": "siim-isic-melanoma-classification",
+        "competition_url": "https://www.kaggle.com/competitions/siim-isic-melanoma-classification",
+        "code_url": "https://www.kaggle.com/competitions/siim-isic-melanoma-classification/code",
+        "teams_count": 3308
+    },
+    {
+        "slug": "rossmann-store-sales",
+        "competition_url": "https://www.kaggle.com/competitions/rossmann-store-sales",
+        "code_url": "https://www.kaggle.com/competitions/rossmann-store-sales/code",
+        "teams_count": 3298
+    },
+    {
+        "slug": "quora-question-pairs",
+        "competition_url": "https://www.kaggle.com/competitions/quora-question-pairs",
+        "code_url": "https://www.kaggle.com/competitions/quora-question-pairs/code",
+        "teams_count": 3295
+    },
+    {
+        "slug": "sberbank-russian-housing-market",
+        "competition_url": "https://www.kaggle.com/competitions/sberbank-russian-housing-market",
+        "code_url": "https://www.kaggle.com/competitions/sberbank-russian-housing-market/code",
+        "teams_count": 3264
+    },
+    {
+        "slug": "bike-sharing-demand",
+        "competition_url": "https://www.kaggle.com/competitions/bike-sharing-demand",
+        "code_url": "https://www.kaggle.com/competitions/bike-sharing-demand/code",
+        "teams_count": 3242
+    },
+    {
+        "slug": "tgs-salt-identification-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/tgs-salt-identification-challenge",
+        "code_url": "https://www.kaggle.com/competitions/tgs-salt-identification-challenge/code",
+        "teams_count": 3219
+    },
+    {
+        "slug": "jigsaw-unintended-bias-in-toxicity-classification",
+        "competition_url": "https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification",
+        "code_url": "https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification/code",
+        "teams_count": 3165
+    },
+    {
+        "slug": "playground-series-s4e9",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e9",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e9/code",
+        "teams_count": 3066
+    },
+    {
+        "slug": "allstate-claims-severity",
+        "competition_url": "https://www.kaggle.com/competitions/allstate-claims-severity",
+        "code_url": "https://www.kaggle.com/competitions/allstate-claims-severity/code",
+        "teams_count": 3045
+    },
+    {
+        "slug": "h-and-m-personalized-fashion-recommendations",
+        "competition_url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
+        "code_url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/code",
+        "teams_count": 2952
+    },
+    {
+        "slug": "aptos2019-blindness-detection",
+        "competition_url": "https://www.kaggle.com/competitions/aptos2019-blindness-detection",
+        "code_url": "https://www.kaggle.com/competitions/aptos2019-blindness-detection/code",
+        "teams_count": 2928
+    },
+    {
+        "slug": "two-sigma-financial-news",
+        "competition_url": "https://www.kaggle.com/competitions/two-sigma-financial-news",
+        "code_url": "https://www.kaggle.com/competitions/two-sigma-financial-news/code",
+        "teams_count": 2927
+    },
+    {
+        "slug": "15-071x-the-analytics-edge-competition-spring-2015",
+        "competition_url": "https://www.kaggle.com/competitions/15-071x-the-analytics-edge-competition-spring-2015",
+        "code_url": "https://www.kaggle.com/competitions/15-071x-the-analytics-edge-competition-spring-2015/code",
+        "teams_count": 2920
+    },
+    {
+        "slug": "bnp-paribas-cardif-claims-management",
+        "competition_url": "https://www.kaggle.com/competitions/bnp-paribas-cardif-claims-management",
+        "code_url": "https://www.kaggle.com/competitions/bnp-paribas-cardif-claims-management/code",
+        "teams_count": 2920
+    },
+    {
+        "slug": "ubiquant-market-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/ubiquant-market-prediction",
+        "code_url": "https://www.kaggle.com/competitions/ubiquant-market-prediction/code",
+        "teams_count": 2893
+    },
+    {
+        "slug": "playground-series-s4e5",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e5",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e5/code",
+        "teams_count": 2788
+    },
+    {
+        "slug": "hms-harmful-brain-activity-classification",
+        "competition_url": "https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification",
+        "code_url": "https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/code",
+        "teams_count": 2767
+    },
+    {
+        "slug": "isic-2024-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/isic-2024-challenge",
+        "code_url": "https://www.kaggle.com/competitions/isic-2024-challenge/code",
+        "teams_count": 2739
+    },
+    {
+        "slug": "champs-scalar-coupling",
+        "competition_url": "https://www.kaggle.com/competitions/champs-scalar-coupling",
+        "code_url": "https://www.kaggle.com/competitions/champs-scalar-coupling/code",
+        "teams_count": 2737
+    },
+    {
+        "slug": "predict-energy-behavior-of-prosumers",
+        "competition_url": "https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers",
+        "code_url": "https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/code",
+        "teams_count": 2731
+    },
+    {
+        "slug": "learning-agency-lab-automated-essay-scoring-2",
+        "competition_url": "https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2",
+        "code_url": "https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/code",
+        "teams_count": 2706
+    },
+    {
+        "slug": "playground-series-s4e11",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e11",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e11/code",
+        "teams_count": 2685
+    },
+    {
+        "slug": "playground-series-s4e6",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e6",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e6/code",
+        "teams_count": 2684
+    },
+    {
+        "slug": "kaggle-llm-science-exam",
+        "competition_url": "https://www.kaggle.com/competitions/kaggle-llm-science-exam",
+        "code_url": "https://www.kaggle.com/competitions/kaggle-llm-science-exam/code",
+        "teams_count": 2664
+    },
+    {
+        "slug": "feedback-prize-english-language-learning",
+        "competition_url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning",
+        "code_url": "https://www.kaggle.com/competitions/feedback-prize-english-language-learning/code",
+        "teams_count": 2654
+    },
+    {
+        "slug": "instacart-market-basket-analysis",
+        "competition_url": "https://www.kaggle.com/competitions/instacart-market-basket-analysis",
+        "code_url": "https://www.kaggle.com/competitions/instacart-market-basket-analysis/code",
+        "teams_count": 2621
+    },
+    {
+        "slug": "liverpool-ion-switching",
+        "competition_url": "https://www.kaggle.com/competitions/liverpool-ion-switching",
+        "code_url": "https://www.kaggle.com/competitions/liverpool-ion-switching/code",
+        "teams_count": 2618
+    },
+    {
+        "slug": "prudential-life-insurance-assessment",
+        "competition_url": "https://www.kaggle.com/competitions/prudential-life-insurance-assessment",
+        "code_url": "https://www.kaggle.com/competitions/prudential-life-insurance-assessment/code",
+        "teams_count": 2610
+    },
+    {
+        "slug": "playground-series-s4e4",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e4",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e4/code",
+        "teams_count": 2606
+    },
+    {
+        "slug": "ventilator-pressure-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/ventilator-pressure-prediction",
+        "code_url": "https://www.kaggle.com/competitions/ventilator-pressure-prediction/code",
+        "teams_count": 2605
+    },
+    {
+        "slug": "otto-recommender-system",
+        "competition_url": "https://www.kaggle.com/competitions/otto-recommender-system",
+        "code_url": "https://www.kaggle.com/competitions/otto-recommender-system/code",
+        "teams_count": 2574
+    },
+    {
+        "slug": "novozymes-enzyme-stability-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction",
+        "code_url": "https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/code",
+        "teams_count": 2482
+    },
+    {
+        "slug": "two-sigma-connect-rental-listing-inquiries",
+        "competition_url": "https://www.kaggle.com/competitions/two-sigma-connect-rental-listing-inquiries",
+        "code_url": "https://www.kaggle.com/competitions/two-sigma-connect-rental-listing-inquiries/code",
+        "teams_count": 2480
+    },
+    {
+        "slug": "severstal-steel-defect-detection",
+        "competition_url": "https://www.kaggle.com/competitions/severstal-steel-defect-detection",
+        "code_url": "https://www.kaggle.com/competitions/severstal-steel-defect-detection/code",
+        "teams_count": 2427
+    },
+    {
+        "slug": "shopee-product-matching",
+        "competition_url": "https://www.kaggle.com/competitions/shopee-product-matching",
+        "code_url": "https://www.kaggle.com/competitions/shopee-product-matching/code",
+        "teams_count": 2426
+    },
+    {
+        "slug": "playground-series-s4e8",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e8",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e8/code",
+        "teams_count": 2422
+    },
+    {
+        "slug": "microsoft-malware-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/microsoft-malware-prediction",
+        "code_url": "https://www.kaggle.com/competitions/microsoft-malware-prediction/code",
+        "teams_count": 2410
+    },
+    {
+        "slug": "playground-series-s4e12",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e12",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e12/code",
+        "teams_count": 2390
+    },
+    {
+        "slug": "mercari-price-suggestion-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/mercari-price-suggestion-challenge",
+        "code_url": "https://www.kaggle.com/competitions/mercari-price-suggestion-challenge/code",
+        "teams_count": 2380
+    },
+    {
+        "slug": "sf-crime",
+        "competition_url": "https://www.kaggle.com/competitions/sf-crime",
+        "code_url": "https://www.kaggle.com/competitions/sf-crime/code",
+        "teams_count": 2331
+    },
+    {
+        "slug": "dont-overfit-ii",
+        "competition_url": "https://www.kaggle.com/competitions/dont-overfit-ii",
+        "code_url": "https://www.kaggle.com/competitions/dont-overfit-ii/code",
+        "teams_count": 2315
+    },
+    {
+        "slug": "jigsaw-toxic-severity-rating",
+        "competition_url": "https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating",
+        "code_url": "https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/code",
+        "teams_count": 2301
+    },
+    {
+        "slug": "the-nature-conservancy-fisheries-monitoring",
+        "competition_url": "https://www.kaggle.com/competitions/the-nature-conservancy-fisheries-monitoring",
+        "code_url": "https://www.kaggle.com/competitions/the-nature-conservancy-fisheries-monitoring/code",
+        "teams_count": 2293
+    },
+    {
+        "slug": "deepfake-detection-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/deepfake-detection-challenge",
+        "code_url": "https://www.kaggle.com/competitions/deepfake-detection-challenge/code",
+        "teams_count": 2265
+    },
+    {
+        "slug": "predicting-red-hat-business-value",
+        "competition_url": "https://www.kaggle.com/competitions/predicting-red-hat-business-value",
+        "code_url": "https://www.kaggle.com/competitions/predicting-red-hat-business-value/code",
+        "teams_count": 2260
+    },
+    {
+        "slug": "restaurant-revenue-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/restaurant-revenue-prediction",
+        "code_url": "https://www.kaggle.com/competitions/restaurant-revenue-prediction/code",
+        "teams_count": 2257
+    },
+    {
+        "slug": "global-wheat-detection",
+        "competition_url": "https://www.kaggle.com/competitions/global-wheat-detection",
+        "code_url": "https://www.kaggle.com/competitions/global-wheat-detection/code",
+        "teams_count": 2245
+    },
+    {
+        "slug": "playground-series-s4e7",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e7",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e7/code",
+        "teams_count": 2234
+    },
+    {
+        "slug": "liberty-mutual-group-property-inspection-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/liberty-mutual-group-property-inspection-prediction",
+        "code_url": "https://www.kaggle.com/competitions/liberty-mutual-group-property-inspection-prediction/code",
+        "teams_count": 2232
+    },
+    {
+        "slug": "tweet-sentiment-extraction",
+        "competition_url": "https://www.kaggle.com/competitions/tweet-sentiment-extraction",
+        "code_url": "https://www.kaggle.com/competitions/tweet-sentiment-extraction/code",
+        "teams_count": 2225
+    },
+    {
+        "slug": "springleaf-marketing-response",
+        "competition_url": "https://www.kaggle.com/competitions/springleaf-marketing-response",
+        "code_url": "https://www.kaggle.com/competitions/springleaf-marketing-response/code",
+        "teams_count": 2221
+    },
+    {
+        "slug": "playground-series-s4e3",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s4e3",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s4e3/code",
+        "teams_count": 2199
+    },
+    {
+        "slug": "llm-prompt-recovery",
+        "competition_url": "https://www.kaggle.com/competitions/llm-prompt-recovery",
+        "code_url": "https://www.kaggle.com/competitions/llm-prompt-recovery/code",
+        "teams_count": 2175
+    },
+    {
+        "slug": "human-protein-atlas-image-classification",
+        "competition_url": "https://www.kaggle.com/competitions/human-protein-atlas-image-classification",
+        "code_url": "https://www.kaggle.com/competitions/human-protein-atlas-image-classification/code",
+        "teams_count": 2160
+    },
+    {
+        "slug": "recruit-restaurant-visitor-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/code",
+        "teams_count": 2148
+    },
+    {
+        "slug": "home-depot-product-search-relevance",
+        "competition_url": "https://www.kaggle.com/competitions/home-depot-product-search-relevance",
+        "code_url": "https://www.kaggle.com/competitions/home-depot-product-search-relevance/code",
+        "teams_count": 2123
+    },
+    {
+        "slug": "humpback-whale-identification",
+        "competition_url": "https://www.kaggle.com/competitions/humpback-whale-identification",
+        "code_url": "https://www.kaggle.com/competitions/humpback-whale-identification/code",
+        "teams_count": 2120
+    },
+    {
+        "slug": "osic-pulmonary-fibrosis-progression",
+        "competition_url": "https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression",
+        "code_url": "https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/code",
+        "teams_count": 2097
+    },
+    {
+        "slug": "commonlit-evaluate-student-summaries",
+        "competition_url": "https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries",
+        "code_url": "https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/code",
+        "teams_count": 2064
+    },
+    {
+        "slug": "two-sigma-financial-modeling",
+        "competition_url": "https://www.kaggle.com/competitions/two-sigma-financial-modeling",
+        "code_url": "https://www.kaggle.com/competitions/two-sigma-financial-modeling/code",
+        "teams_count": 2063
+    },
+    {
+        "slug": "bengaliai-cv19",
+        "competition_url": "https://www.kaggle.com/competitions/bengaliai-cv19",
+        "code_url": "https://www.kaggle.com/competitions/bengaliai-cv19/code",
+        "teams_count": 2059
+    },
+    {
+        "slug": "feedback-prize-2021",
+        "competition_url": "https://www.kaggle.com/competitions/feedback-prize-2021",
+        "code_url": "https://www.kaggle.com/competitions/feedback-prize-2021/code",
+        "teams_count": 2058
+    },
+    {
+        "slug": "predict-student-performance-from-game-play",
+        "competition_url": "https://www.kaggle.com/competitions/predict-student-performance-from-game-play",
+        "code_url": "https://www.kaggle.com/competitions/predict-student-performance-from-game-play/code",
+        "teams_count": 2051
+    },
+    {
+        "slug": "pii-detection-removal-from-educational-data",
+        "competition_url": "https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data",
+        "code_url": "https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/code",
+        "teams_count": 2048
+    },
+    {
+        "slug": "nfl-big-data-bowl-2020",
+        "competition_url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020",
+        "code_url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2020/code",
+        "teams_count": 2038
+    },
+    {
+        "slug": "jpx-tokyo-stock-exchange-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction",
+        "code_url": "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/code",
+        "teams_count": 2033
+    },
+    {
+        "slug": "tensorflow-great-barrier-reef",
+        "competition_url": "https://www.kaggle.com/competitions/tensorflow-great-barrier-reef",
+        "code_url": "https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/code",
+        "teams_count": 2025
+    },
+    {
+        "slug": "petfinder-adoption-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/petfinder-adoption-prediction",
+        "code_url": "https://www.kaggle.com/competitions/petfinder-adoption-prediction/code",
+        "teams_count": 2023
+    },
+    {
+        "slug": "data-science-bowl-2017",
+        "competition_url": "https://www.kaggle.com/competitions/data-science-bowl-2017",
+        "code_url": "https://www.kaggle.com/competitions/data-science-bowl-2017/code",
+        "teams_count": 1972
+    },
+    {
+        "slug": "expedia-hotel-recommendations",
+        "competition_url": "https://www.kaggle.com/competitions/expedia-hotel-recommendations",
+        "code_url": "https://www.kaggle.com/competitions/expedia-hotel-recommendations/code",
+        "teams_count": 1971
+    },
+    {
+        "slug": "grupo-bimbo-inventory-demand",
+        "competition_url": "https://www.kaggle.com/competitions/grupo-bimbo-inventory-demand",
+        "code_url": "https://www.kaggle.com/competitions/grupo-bimbo-inventory-demand/code",
+        "teams_count": 1963
+    },
+    {
+        "slug": "leash-BELKA",
+        "competition_url": "https://www.kaggle.com/competitions/leash-BELKA",
+        "code_url": "https://www.kaggle.com/competitions/leash-BELKA/code",
+        "teams_count": 1950
+    },
+    {
+        "slug": "g-research-crypto-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/g-research-crypto-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/g-research-crypto-forecasting/code",
+        "teams_count": 1946
+    },
+    {
+        "slug": "tabular-playground-series-sep-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-sep-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-sep-2021/code",
+        "teams_count": 1942
+    },
+    {
+        "slug": "playground-series-s3e24",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e24",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e24/code",
+        "teams_count": 1908
+    },
+    {
+        "slug": "us-patent-phrase-to-phrase-matching",
+        "competition_url": "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching",
+        "code_url": "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/code",
+        "teams_count": 1889
+    },
+    {
+        "slug": "tabular-playground-series-aug-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-aug-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/code",
+        "teams_count": 1888
+    },
+    {
+        "slug": "child-mind-institute-detect-sleep-states",
+        "competition_url": "https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states",
+        "code_url": "https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/code",
+        "teams_count": 1877
+    },
+    {
+        "slug": "linking-writing-processes-to-writing-quality",
+        "competition_url": "https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality",
+        "code_url": "https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/code",
+        "teams_count": 1876
+    },
+    {
+        "slug": "playground-series-s3e14",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e14",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e14/code",
+        "teams_count": 1875
+    },
+    {
+        "slug": "rsna-2024-lumbar-spine-degenerative-classification",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification",
+        "code_url": "https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/code",
+        "teams_count": 1874
+    },
+    {
+        "slug": "avito-demand-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/avito-demand-prediction",
+        "code_url": "https://www.kaggle.com/competitions/avito-demand-prediction/code",
+        "teams_count": 1868
+    },
+    {
+        "slug": "traveling-santa-2018-prime-paths",
+        "competition_url": "https://www.kaggle.com/competitions/traveling-santa-2018-prime-paths",
+        "code_url": "https://www.kaggle.com/competitions/traveling-santa-2018-prime-paths/code",
+        "teams_count": 1866
+    },
+    {
+        "slug": "lmsys-chatbot-arena",
+        "competition_url": "https://www.kaggle.com/competitions/lmsys-chatbot-arena",
+        "code_url": "https://www.kaggle.com/competitions/lmsys-chatbot-arena/code",
+        "teams_count": 1849
+    },
+    {
+        "slug": "instant-gratification",
+        "competition_url": "https://www.kaggle.com/competitions/instant-gratification",
+        "code_url": "https://www.kaggle.com/competitions/instant-gratification/code",
+        "teams_count": 1818
+    },
+    {
+        "slug": "amp-parkinsons-disease-progression-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction",
+        "code_url": "https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/code",
+        "teams_count": 1805
+    },
+    {
+        "slug": "higgs-boson",
+        "competition_url": "https://www.kaggle.com/competitions/higgs-boson",
+        "code_url": "https://www.kaggle.com/competitions/higgs-boson/code",
+        "teams_count": 1784
+    },
+    {
+        "slug": "santander-product-recommendation",
+        "competition_url": "https://www.kaggle.com/competitions/santander-product-recommendation",
+        "code_url": "https://www.kaggle.com/competitions/santander-product-recommendation/code",
+        "teams_count": 1779
+    },
+    {
+        "slug": "homesite-quote-conversion",
+        "competition_url": "https://www.kaggle.com/competitions/homesite-quote-conversion",
+        "code_url": "https://www.kaggle.com/competitions/homesite-quote-conversion/code",
+        "teams_count": 1755
+    },
+    {
+        "slug": "tabular-playground-series-aug-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-aug-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-aug-2021/code",
+        "teams_count": 1753
+    },
+    {
+        "slug": "tabular-playground-series-jan-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-jan-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-jan-2021/code",
+        "teams_count": 1728
+    },
+    {
+        "slug": "playground-series-s3e23",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e23",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e23/code",
+        "teams_count": 1702
+    },
+    {
+        "slug": "forest-cover-type-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/forest-cover-type-prediction",
+        "code_url": "https://www.kaggle.com/competitions/forest-cover-type-prediction/code",
+        "teams_count": 1692
+    },
+    {
+        "slug": "rsna-breast-cancer-detection",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-breast-cancer-detection",
+        "code_url": "https://www.kaggle.com/competitions/rsna-breast-cancer-detection/code",
+        "teams_count": 1687
+    },
+    {
+        "slug": "amazon-employee-access-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/amazon-employee-access-challenge",
+        "code_url": "https://www.kaggle.com/competitions/amazon-employee-access-challenge/code",
+        "teams_count": 1686
+    },
+    {
+        "slug": "the-analytics-edge-mit-15-071x",
+        "competition_url": "https://www.kaggle.com/competitions/the-analytics-edge-mit-15-071x",
+        "code_url": "https://www.kaggle.com/competitions/the-analytics-edge-mit-15-071x/code",
+        "teams_count": 1684
+    },
+    {
+        "slug": "talkingdata-mobile-user-demographics",
+        "competition_url": "https://www.kaggle.com/competitions/talkingdata-mobile-user-demographics",
+        "code_url": "https://www.kaggle.com/competitions/talkingdata-mobile-user-demographics/code",
+        "teams_count": 1680
+    },
+    {
+        "slug": "favorita-grocery-sales-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/code",
+        "teams_count": 1671
+    },
+    {
+        "slug": "rock-paper-scissors",
+        "competition_url": "https://www.kaggle.com/competitions/rock-paper-scissors",
+        "code_url": "https://www.kaggle.com/competitions/rock-paper-scissors/code",
+        "teams_count": 1662
+    },
+    {
+        "slug": "playground-series-s3e26",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e26",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e26/code",
+        "teams_count": 1661
+    },
+    {
+        "slug": "stanford-covid-vaccine",
+        "competition_url": "https://www.kaggle.com/competitions/stanford-covid-vaccine",
+        "code_url": "https://www.kaggle.com/competitions/stanford-covid-vaccine/code",
+        "teams_count": 1636
+    },
+    {
+        "slug": "playground-series-s3e25",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e25",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e25/code",
+        "teams_count": 1632
+    },
+    {
+        "slug": "cafa-5-protein-function-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/cafa-5-protein-function-prediction",
+        "code_url": "https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/code",
+        "teams_count": 1625
+    },
+    {
+        "slug": "jigsaw-multilingual-toxic-comment-classification",
+        "competition_url": "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification",
+        "code_url": "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification/code",
+        "teams_count": 1621
+    },
+    {
+        "slug": "santa-workshop-tour-2019",
+        "competition_url": "https://www.kaggle.com/competitions/santa-workshop-tour-2019",
+        "code_url": "https://www.kaggle.com/competitions/santa-workshop-tour-2019/code",
+        "teams_count": 1618
+    },
+    {
+        "slug": "coleridgeinitiative-show-us-the-data",
+        "competition_url": "https://www.kaggle.com/competitions/coleridgeinitiative-show-us-the-data",
+        "code_url": "https://www.kaggle.com/competitions/coleridgeinitiative-show-us-the-data/code",
+        "teams_count": 1610
+    },
+    {
+        "slug": "um-game-playing-strength-of-mcts-variants",
+        "competition_url": "https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants",
+        "code_url": "https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/code",
+        "teams_count": 1608
+    },
+    {
+        "slug": "avazu-ctr-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/avazu-ctr-prediction",
+        "code_url": "https://www.kaggle.com/competitions/avazu-ctr-prediction/code",
+        "teams_count": 1602
+    },
+    {
+        "slug": "shelter-animal-outcomes",
+        "competition_url": "https://www.kaggle.com/competitions/shelter-animal-outcomes",
+        "code_url": "https://www.kaggle.com/competitions/shelter-animal-outcomes/code",
+        "teams_count": 1599
+    },
+    {
+        "slug": "leaf-classification",
+        "competition_url": "https://www.kaggle.com/competitions/leaf-classification",
+        "code_url": "https://www.kaggle.com/competitions/leaf-classification/code",
+        "teams_count": 1595
+    },
+    {
+        "slug": "tabular-playground-series-jan-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-jan-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/code",
+        "teams_count": 1591
+    },
+    {
+        "slug": "happy-whale-and-dolphin",
+        "competition_url": "https://www.kaggle.com/competitions/happy-whale-and-dolphin",
+        "code_url": "https://www.kaggle.com/competitions/happy-whale-and-dolphin/code",
+        "teams_count": 1588
+    },
+    {
+        "slug": "google-quest-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/google-quest-challenge",
+        "code_url": "https://www.kaggle.com/competitions/google-quest-challenge/code",
+        "teams_count": 1571
+    },
+    {
+        "slug": "allstate-purchase-prediction-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/allstate-purchase-prediction-challenge",
+        "code_url": "https://www.kaggle.com/competitions/allstate-purchase-prediction-challenge/code",
+        "teams_count": 1566
+    },
+    {
+        "slug": "feedback-prize-effectiveness",
+        "competition_url": "https://www.kaggle.com/competitions/feedback-prize-effectiveness",
+        "code_url": "https://www.kaggle.com/competitions/feedback-prize-effectiveness/code",
+        "teams_count": 1557
+    },
+    {
+        "slug": "rsna-miccai-brain-tumor-radiogenomic-classification",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification",
+        "code_url": "https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/code",
+        "teams_count": 1555
+    },
+    {
+        "slug": "uw-madison-gi-tract-image-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/code",
+        "teams_count": 1548
+    },
+    {
+        "slug": "ranzcr-clip-catheter-line-classification",
+        "competition_url": "https://www.kaggle.com/competitions/ranzcr-clip-catheter-line-classification",
+        "code_url": "https://www.kaggle.com/competitions/ranzcr-clip-catheter-line-classification/code",
+        "teams_count": 1547
+    },
+    {
+        "slug": "playground-series-s3e22",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e22",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e22/code",
+        "teams_count": 1541
+    },
+    {
+        "slug": "understanding_cloud_organization",
+        "competition_url": "https://www.kaggle.com/competitions/understanding_cloud_organization",
+        "code_url": "https://www.kaggle.com/competitions/understanding_cloud_organization/code",
+        "teams_count": 1531
+    },
+    {
+        "slug": "pubg-finish-placement-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/pubg-finish-placement-prediction",
+        "code_url": "https://www.kaggle.com/competitions/pubg-finish-placement-prediction/code",
+        "teams_count": 1528
+    },
+    {
+        "slug": "axa-driver-telematics-analysis",
+        "competition_url": "https://www.kaggle.com/competitions/axa-driver-telematics-analysis",
+        "code_url": "https://www.kaggle.com/competitions/axa-driver-telematics-analysis/code",
+        "teams_count": 1524
+    },
+    {
+        "slug": "sartorius-cell-instance-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/code",
+        "teams_count": 1505
+    },
+    {
+        "slug": "playground-series-s3e17",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e17",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e17/code",
+        "teams_count": 1502
+    },
+    {
+        "slug": "rsna-pneumonia-detection-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge",
+        "code_url": "https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/code",
+        "teams_count": 1499
+    },
+    {
+        "slug": "tabular-playground-series-mar-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-mar-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-mar-2021/code",
+        "teams_count": 1495
+    },
+    {
+        "slug": "new-york-city-taxi-fare-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction",
+        "code_url": "https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/code",
+        "teams_count": 1483
+    },
+    {
+        "slug": "siim-acr-pneumothorax-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/siim-acr-pneumothorax-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/siim-acr-pneumothorax-segmentation/code",
+        "teams_count": 1475
+    },
+    {
+        "slug": "nbme-score-clinical-patient-notes",
+        "competition_url": "https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes",
+        "code_url": "https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/code",
+        "teams_count": 1471
+    },
+    {
+        "slug": "airbnb-recruiting-new-user-bookings",
+        "competition_url": "https://www.kaggle.com/competitions/airbnb-recruiting-new-user-bookings",
+        "code_url": "https://www.kaggle.com/competitions/airbnb-recruiting-new-user-bookings/code",
+        "teams_count": 1458
+    },
+    {
+        "slug": "eedi-mining-misconceptions-in-mathematics",
+        "competition_url": "https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics",
+        "code_url": "https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/code",
+        "teams_count": 1446
+    },
+    {
+        "slug": "vsb-power-line-fault-detection",
+        "competition_url": "https://www.kaggle.com/competitions/vsb-power-line-fault-detection",
+        "code_url": "https://www.kaggle.com/competitions/vsb-power-line-fault-detection/code",
+        "teams_count": 1445
+    },
+    {
+        "slug": "career-con-2019",
+        "competition_url": "https://www.kaggle.com/competitions/career-con-2019",
+        "code_url": "https://www.kaggle.com/competitions/career-con-2019/code",
+        "teams_count": 1443
+    },
+    {
+        "slug": "playground-series-s3e20",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e20",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e20/code",
+        "teams_count": 1440
+    },
+    {
+        "slug": "state-farm-distracted-driver-detection",
+        "competition_url": "https://www.kaggle.com/competitions/state-farm-distracted-driver-detection",
+        "code_url": "https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/code",
+        "teams_count": 1438
+    },
+    {
+        "slug": "tabular-playground-series-feb-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-feb-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-feb-2021/code",
+        "teams_count": 1433
+    },
+    {
+        "slug": "playground-series-s3e16",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e16",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e16/code",
+        "teams_count": 1429
+    },
+    {
+        "slug": "arc-prize-2024",
+        "competition_url": "https://www.kaggle.com/competitions/arc-prize-2024",
+        "code_url": "https://www.kaggle.com/competitions/arc-prize-2024/code",
+        "teams_count": 1427
+    },
+    {
+        "slug": "tmdb-box-office-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/tmdb-box-office-prediction",
+        "code_url": "https://www.kaggle.com/competitions/tmdb-box-office-prediction/code",
+        "teams_count": 1395
+    },
+    {
+        "slug": "birdsong-recognition",
+        "competition_url": "https://www.kaggle.com/competitions/birdsong-recognition",
+        "code_url": "https://www.kaggle.com/competitions/birdsong-recognition/code",
+        "teams_count": 1390
+    },
+    {
+        "slug": "whats-cooking",
+        "competition_url": "https://www.kaggle.com/competitions/whats-cooking",
+        "code_url": "https://www.kaggle.com/competitions/whats-cooking/code",
+        "teams_count": 1387
+    },
+    {
+        "slug": "msk-redefining-cancer-treatment",
+        "competition_url": "https://www.kaggle.com/competitions/msk-redefining-cancer-treatment",
+        "code_url": "https://www.kaggle.com/competitions/msk-redefining-cancer-treatment/code",
+        "teams_count": 1386
+    },
+    {
+        "slug": "tabular-playground-series-sep-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-sep-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/code",
+        "teams_count": 1381
+    },
+    {
+        "slug": "tlvmc-parkinsons-freezing-gait-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "code_url": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/code",
+        "teams_count": 1379
+    },
+    {
+        "slug": "bosch-production-line-performance",
+        "competition_url": "https://www.kaggle.com/competitions/bosch-production-line-performance",
+        "code_url": "https://www.kaggle.com/competitions/bosch-production-line-performance/code",
+        "teams_count": 1370
+    },
+    {
+        "slug": "tabular-playground-series-nov-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-nov-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/code",
+        "teams_count": 1362
+    },
+    {
+        "slug": "hhp",
+        "competition_url": "https://www.kaggle.com/competitions/hhp",
+        "code_url": "https://www.kaggle.com/competitions/hhp/code",
+        "teams_count": 1350
+    },
+    {
+        "slug": "rsna-intracranial-hemorrhage-detection",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection",
+        "code_url": "https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/code",
+        "teams_count": 1345
+    },
+    {
+        "slug": "ai-village-capture-the-flag-defcon31",
+        "competition_url": "https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31",
+        "code_url": "https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/code",
+        "teams_count": 1344
+    },
+    {
+        "slug": "cat-in-the-dat",
+        "competition_url": "https://www.kaggle.com/competitions/cat-in-the-dat",
+        "code_url": "https://www.kaggle.com/competitions/cat-in-the-dat/code",
+        "teams_count": 1338
+    },
+    {
+        "slug": "UBC-OCEAN",
+        "competition_url": "https://www.kaggle.com/competitions/UBC-OCEAN",
+        "code_url": "https://www.kaggle.com/competitions/UBC-OCEAN/code",
+        "teams_count": 1326
+    },
+    {
+        "slug": "crowdflower-search-relevance",
+        "competition_url": "https://www.kaggle.com/competitions/crowdflower-search-relevance",
+        "code_url": "https://www.kaggle.com/competitions/crowdflower-search-relevance/code",
+        "teams_count": 1324
+    },
+    {
+        "slug": "machinery-tube-pricing",
+        "competition_url": "https://www.kaggle.com/competitions/machinery-tube-pricing",
+        "code_url": "https://www.kaggle.com/competitions/machinery-tube-pricing/code",
+        "teams_count": 1320
+    },
+    {
+        "slug": "plant-pathology-2020-fgvc7",
+        "competition_url": "https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7",
+        "code_url": "https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7/code",
+        "teams_count": 1317
+    },
+    {
+        "slug": "dogs-vs-cats-redux-kernels-edition",
+        "competition_url": "https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition",
+        "code_url": "https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition/code",
+        "teams_count": 1314
+    },
+    {
+        "slug": "asl-fingerspelling",
+        "competition_url": "https://www.kaggle.com/competitions/asl-fingerspelling",
+        "code_url": "https://www.kaggle.com/competitions/asl-fingerspelling/code",
+        "teams_count": 1314
+    },
+    {
+        "slug": "tensorflow-speech-recognition-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/tensorflow-speech-recognition-challenge",
+        "code_url": "https://www.kaggle.com/competitions/tensorflow-speech-recognition-challenge/code",
+        "teams_count": 1313
+    },
+    {
+        "slug": "quickdraw-doodle-recognition",
+        "competition_url": "https://www.kaggle.com/competitions/quickdraw-doodle-recognition",
+        "code_url": "https://www.kaggle.com/competitions/quickdraw-doodle-recognition/code",
+        "teams_count": 1309
+    },
+    {
+        "slug": "siim-covid19-detection",
+        "competition_url": "https://www.kaggle.com/competitions/siim-covid19-detection",
+        "code_url": "https://www.kaggle.com/competitions/siim-covid19-detection/code",
+        "teams_count": 1305
+    },
+    {
+        "slug": "predict-west-nile-virus",
+        "competition_url": "https://www.kaggle.com/competitions/predict-west-nile-virus",
+        "code_url": "https://www.kaggle.com/competitions/predict-west-nile-virus/code",
+        "teams_count": 1304
+    },
+    {
+        "slug": "tabular-playground-series-jul-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-jul-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-jul-2021/code",
+        "teams_count": 1293
+    },
+    {
+        "slug": "dog-breed-identification",
+        "competition_url": "https://www.kaggle.com/competitions/dog-breed-identification",
+        "code_url": "https://www.kaggle.com/competitions/dog-breed-identification/code",
+        "teams_count": 1280
+    },
+    {
+        "slug": "vinbigdata-chest-xray-abnormalities-detection",
+        "competition_url": "https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection",
+        "code_url": "https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection/code",
+        "teams_count": 1275
+    },
+    {
+        "slug": "tabular-playground-series-feb-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-feb-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-feb-2022/code",
+        "teams_count": 1255
+    },
+    {
+        "slug": "nyc-taxi-trip-duration",
+        "competition_url": "https://www.kaggle.com/competitions/nyc-taxi-trip-duration",
+        "code_url": "https://www.kaggle.com/competitions/nyc-taxi-trip-duration/code",
+        "teams_count": 1254
+    },
+    {
+        "slug": "tabular-playground-series-jul-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-jul-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/code",
+        "teams_count": 1253
+    },
+    {
+        "slug": "vesuvius-challenge-ink-detection",
+        "competition_url": "https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection",
+        "code_url": "https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/code",
+        "teams_count": 1249
+    },
+    {
+        "slug": "tabular-playground-series-apr-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-apr-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-apr-2021/code",
+        "teams_count": 1244
+    },
+    {
+        "slug": "spooky-author-identification",
+        "competition_url": "https://www.kaggle.com/competitions/spooky-author-identification",
+        "code_url": "https://www.kaggle.com/competitions/spooky-author-identification/code",
+        "teams_count": 1241
+    },
+    {
+        "slug": "tensorflow2-question-answering",
+        "competition_url": "https://www.kaggle.com/competitions/tensorflow2-question-answering",
+        "code_url": "https://www.kaggle.com/competitions/tensorflow2-question-answering/code",
+        "teams_count": 1233
+    },
+    {
+        "slug": "afsis-soil-properties",
+        "competition_url": "https://www.kaggle.com/competitions/afsis-soil-properties",
+        "code_url": "https://www.kaggle.com/competitions/afsis-soil-properties/code",
+        "teams_count": 1231
+    },
+    {
+        "slug": "stable-diffusion-image-to-prompts",
+        "competition_url": "https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts",
+        "code_url": "https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/code",
+        "teams_count": 1231
+    },
+    {
+        "slug": "aerial-cactus-identification",
+        "competition_url": "https://www.kaggle.com/competitions/aerial-cactus-identification",
+        "code_url": "https://www.kaggle.com/competitions/aerial-cactus-identification/code",
+        "teams_count": 1221
+    },
+    {
+        "slug": "open-problems-multimodal",
+        "competition_url": "https://www.kaggle.com/competitions/open-problems-multimodal",
+        "code_url": "https://www.kaggle.com/competitions/open-problems-multimodal/code",
+        "teams_count": 1220
+    },
+    {
+        "slug": "g2net-gravitational-wave-detection",
+        "competition_url": "https://www.kaggle.com/competitions/g2net-gravitational-wave-detection",
+        "code_url": "https://www.kaggle.com/competitions/g2net-gravitational-wave-detection/code",
+        "teams_count": 1219
+    },
+    {
+        "slug": "digit-recognizer",
+        "competition_url": "https://www.kaggle.com/competitions/digit-recognizer",
+        "code_url": "https://www.kaggle.com/competitions/digit-recognizer/code",
+        "teams_count": 1213
+    },
+    {
+        "slug": "Kannada-MNIST",
+        "competition_url": "https://www.kaggle.com/competitions/Kannada-MNIST",
+        "code_url": "https://www.kaggle.com/competitions/Kannada-MNIST/code",
+        "teams_count": 1212
+    },
+    {
+        "slug": "facebook-v-predicting-check-ins",
+        "competition_url": "https://www.kaggle.com/competitions/facebook-v-predicting-check-ins",
+        "code_url": "https://www.kaggle.com/competitions/facebook-v-predicting-check-ins/code",
+        "teams_count": 1209
+    },
+    {
+        "slug": "hubmap-kidney-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/hubmap-kidney-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/hubmap-kidney-segmentation/code",
+        "teams_count": 1200
+    },
+    {
+        "slug": "birdclef-2023",
+        "competition_url": "https://www.kaggle.com/competitions/birdclef-2023",
+        "code_url": "https://www.kaggle.com/competitions/birdclef-2023/code",
+        "teams_count": 1189
+    },
+    {
+        "slug": "tabular-playground-series-dec-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-dec-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/code",
+        "teams_count": 1188
+    },
+    {
+        "slug": "neurips-2023-machine-unlearning",
+        "competition_url": "https://www.kaggle.com/competitions/neurips-2023-machine-unlearning",
+        "code_url": "https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/code",
+        "teams_count": 1188
+    },
+    {
+        "slug": "lux-ai-2021",
+        "competition_url": "https://www.kaggle.com/competitions/lux-ai-2021",
+        "code_url": "https://www.kaggle.com/competitions/lux-ai-2021/code",
+        "teams_count": 1178
+    },
+    {
+        "slug": "hubmap-organ-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/hubmap-organ-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/hubmap-organ-segmentation/code",
+        "teams_count": 1174
+    },
+    {
+        "slug": "playground-series-s3e19",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e19",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e19/code",
+        "teams_count": 1172
+    },
+    {
+        "slug": "tabular-playground-series-jun-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-jun-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-jun-2021/code",
+        "teams_count": 1171
+    },
+    {
+        "slug": "indoor-location-navigation",
+        "competition_url": "https://www.kaggle.com/competitions/indoor-location-navigation",
+        "code_url": "https://www.kaggle.com/competitions/indoor-location-navigation/code",
+        "teams_count": 1170
+    },
+    {
+        "slug": "asl-signs",
+        "competition_url": "https://www.kaggle.com/competitions/asl-signs",
+        "code_url": "https://www.kaggle.com/competitions/asl-signs/code",
+        "teams_count": 1165
+    },
+    {
+        "slug": "cat-in-the-dat-ii",
+        "competition_url": "https://www.kaggle.com/competitions/cat-in-the-dat-ii",
+        "code_url": "https://www.kaggle.com/competitions/cat-in-the-dat-ii/code",
+        "teams_count": 1161
+    },
+    {
+        "slug": "ai-mathematical-olympiad-prize",
+        "competition_url": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize",
+        "code_url": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/code",
+        "teams_count": 1161
+    },
+    {
+        "slug": "tabular-playground-series-may-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-may-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-may-2022/code",
+        "teams_count": 1151
+    },
+    {
+        "slug": "ariel-data-challenge-2024",
+        "competition_url": "https://www.kaggle.com/competitions/ariel-data-challenge-2024",
+        "code_url": "https://www.kaggle.com/competitions/ariel-data-challenge-2024/code",
+        "teams_count": 1151
+    },
+    {
+        "slug": "histopathologic-cancer-detection",
+        "competition_url": "https://www.kaggle.com/competitions/histopathologic-cancer-detection",
+        "code_url": "https://www.kaggle.com/competitions/histopathologic-cancer-detection/code",
+        "teams_count": 1149
+    },
+    {
+        "slug": "blood-vessel-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/blood-vessel-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/blood-vessel-segmentation/code",
+        "teams_count": 1149
+    },
+    {
+        "slug": "rfcx-species-audio-detection",
+        "competition_url": "https://www.kaggle.com/competitions/rfcx-species-audio-detection",
+        "code_url": "https://www.kaggle.com/competitions/rfcx-species-audio-detection/code",
+        "teams_count": 1143
+    },
+    {
+        "slug": "halite",
+        "competition_url": "https://www.kaggle.com/competitions/halite",
+        "code_url": "https://www.kaggle.com/competitions/halite/code",
+        "teams_count": 1139
+    },
+    {
+        "slug": "google-football",
+        "competition_url": "https://www.kaggle.com/competitions/google-football",
+        "code_url": "https://www.kaggle.com/competitions/google-football/code",
+        "teams_count": 1138
+    },
+    {
+        "slug": "AI4Code",
+        "competition_url": "https://www.kaggle.com/competitions/AI4Code",
+        "code_url": "https://www.kaggle.com/competitions/AI4Code/code",
+        "teams_count": 1135
+    },
+    {
+        "slug": "santas-stolen-sleigh",
+        "competition_url": "https://www.kaggle.com/competitions/santas-stolen-sleigh",
+        "code_url": "https://www.kaggle.com/competitions/santas-stolen-sleigh/code",
+        "teams_count": 1126
+    },
+    {
+        "slug": "rsna-2023-abdominal-trauma-detection",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection",
+        "code_url": "https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/code",
+        "teams_count": 1125
+    },
+    {
+        "slug": "kobe-bryant-shot-selection",
+        "competition_url": "https://www.kaggle.com/competitions/kobe-bryant-shot-selection",
+        "code_url": "https://www.kaggle.com/competitions/kobe-bryant-shot-selection/code",
+        "teams_count": 1117
+    },
+    {
+        "slug": "tabular-playground-series-may-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-may-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-may-2021/code",
+        "teams_count": 1097
+    },
+    {
+        "slug": "open-problems-single-cell-perturbations",
+        "competition_url": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations",
+        "code_url": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/code",
+        "teams_count": 1097
+    },
+    {
+        "slug": "web-traffic-time-series-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/web-traffic-time-series-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/web-traffic-time-series-forecasting/code",
+        "teams_count": 1095
+    },
+    {
+        "slug": "alaska2-image-steganalysis",
+        "competition_url": "https://www.kaggle.com/competitions/alaska2-image-steganalysis",
+        "code_url": "https://www.kaggle.com/competitions/alaska2-image-steganalysis/code",
+        "teams_count": 1095
+    },
+    {
+        "slug": "PLAsTiCC-2018",
+        "competition_url": "https://www.kaggle.com/competitions/PLAsTiCC-2018",
+        "code_url": "https://www.kaggle.com/competitions/PLAsTiCC-2018/code",
+        "teams_count": 1089
+    },
+    {
+        "slug": "tabular-playground-series-oct-2021",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-oct-2021",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/code",
+        "teams_count": 1089
+    },
+    {
+        "slug": "playground-series-s3e12",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e12",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e12/code",
+        "teams_count": 1088
+    },
+    {
+        "slug": "kkbox-music-recommendation-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/kkbox-music-recommendation-challenge",
+        "code_url": "https://www.kaggle.com/competitions/kkbox-music-recommendation-challenge/code",
+        "teams_count": 1081
+    },
+    {
+        "slug": "foursquare-location-matching",
+        "competition_url": "https://www.kaggle.com/competitions/foursquare-location-matching",
+        "code_url": "https://www.kaggle.com/competitions/foursquare-location-matching/code",
+        "teams_count": 1079
+    },
+    {
+        "slug": "coupon-purchase-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/coupon-purchase-prediction",
+        "code_url": "https://www.kaggle.com/competitions/coupon-purchase-prediction/code",
+        "teams_count": 1072
+    },
+    {
+        "slug": "learning-equality-curriculum-recommendations",
+        "competition_url": "https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations",
+        "code_url": "https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/code",
+        "teams_count": 1057
+    },
+    {
+        "slug": "santa-2023",
+        "competition_url": "https://www.kaggle.com/competitions/santa-2023",
+        "code_url": "https://www.kaggle.com/competitions/santa-2023/code",
+        "teams_count": 1054
+    },
+    {
+        "slug": "datasciencebowl",
+        "competition_url": "https://www.kaggle.com/competitions/datasciencebowl",
+        "code_url": "https://www.kaggle.com/competitions/datasciencebowl/code",
+        "teams_count": 1049
+    },
+    {
+        "slug": "trends-assessment-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/trends-assessment-prediction",
+        "code_url": "https://www.kaggle.com/competitions/trends-assessment-prediction/code",
+        "teams_count": 1047
+    },
+    {
+        "slug": "playground-series-s3e18",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e18",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e18/code",
+        "teams_count": 1047
+    },
+    {
+        "slug": "walmart-recruiting-trip-type-classification",
+        "competition_url": "https://www.kaggle.com/competitions/walmart-recruiting-trip-type-classification",
+        "code_url": "https://www.kaggle.com/competitions/walmart-recruiting-trip-type-classification/code",
+        "teams_count": 1043
+    },
+    {
+        "slug": "march-machine-learning-mania-2023",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2023",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2023/code",
+        "teams_count": 1033
+    },
+    {
+        "slug": "google-universal-image-embedding",
+        "competition_url": "https://www.kaggle.com/competitions/google-universal-image-embedding",
+        "code_url": "https://www.kaggle.com/competitions/google-universal-image-embedding/code",
+        "teams_count": 1022
+    },
+    {
+        "slug": "hubmap-hacking-the-human-vasculature",
+        "competition_url": "https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature",
+        "code_url": "https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/code",
+        "teams_count": 1021
+    },
+    {
+        "slug": "prostate-cancer-grade-assessment",
+        "competition_url": "https://www.kaggle.com/competitions/prostate-cancer-grade-assessment",
+        "code_url": "https://www.kaggle.com/competitions/prostate-cancer-grade-assessment/code",
+        "teams_count": 1010
+    },
+    {
+        "slug": "facebook-recruiting-iv-human-or-bot",
+        "competition_url": "https://www.kaggle.com/competitions/facebook-recruiting-iv-human-or-bot",
+        "code_url": "https://www.kaggle.com/competitions/facebook-recruiting-iv-human-or-bot/code",
+        "teams_count": 983
+    },
+    {
+        "slug": "outbrain-click-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/outbrain-click-prediction",
+        "code_url": "https://www.kaggle.com/competitions/outbrain-click-prediction/code",
+        "teams_count": 978
+    },
+    {
+        "slug": "birdclef-2024",
+        "competition_url": "https://www.kaggle.com/competitions/birdclef-2024",
+        "code_url": "https://www.kaggle.com/competitions/birdclef-2024/code",
+        "teams_count": 974
+    },
+    {
+        "slug": "telstra-recruiting-network",
+        "competition_url": "https://www.kaggle.com/competitions/telstra-recruiting-network",
+        "code_url": "https://www.kaggle.com/competitions/telstra-recruiting-network/code",
+        "teams_count": 971
+    },
+    {
+        "slug": "tabular-playground-series-mar-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-mar-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/code",
+        "teams_count": 956
+    },
+    {
+        "slug": "playground-series-s3e21",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e21",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e21/code",
+        "teams_count": 955
+    },
+    {
+        "slug": "google-research-identify-contrails-reduce-global-warming",
+        "competition_url": "https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming",
+        "code_url": "https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/code",
+        "teams_count": 954
+    },
+    {
+        "slug": "playground-series-s3e11",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e11",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e11/code",
+        "teams_count": 952
+    },
+    {
+        "slug": "acquire-valued-shoppers-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/acquire-valued-shoppers-challenge",
+        "code_url": "https://www.kaggle.com/competitions/acquire-valued-shoppers-challenge/code",
+        "teams_count": 949
+    },
+    {
+        "slug": "chaii-hindi-and-tamil-question-answering",
+        "competition_url": "https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering",
+        "code_url": "https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/code",
+        "teams_count": 943
+    },
+    {
+        "slug": "nfl-player-contact-detection",
+        "competition_url": "https://www.kaggle.com/competitions/nfl-player-contact-detection",
+        "code_url": "https://www.kaggle.com/competitions/nfl-player-contact-detection/code",
+        "teams_count": 939
+    },
+    {
+        "slug": "planet-understanding-the-amazon-from-space",
+        "competition_url": "https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space",
+        "code_url": "https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/code",
+        "teams_count": 936
+    },
+    {
+        "slug": "g2net-detecting-continuous-gravitational-waves",
+        "competition_url": "https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves",
+        "code_url": "https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/code",
+        "teams_count": 936
+    },
+    {
+        "slug": "lyft-motion-prediction-autonomous-vehicles",
+        "competition_url": "https://www.kaggle.com/competitions/lyft-motion-prediction-autonomous-vehicles",
+        "code_url": "https://www.kaggle.com/competitions/lyft-motion-prediction-autonomous-vehicles/code",
+        "teams_count": 935
+    },
+    {
+        "slug": "playground-series-s3e13",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e13",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e13/code",
+        "teams_count": 934
+    },
+    {
+        "slug": "mens-machine-learning-competition-2018",
+        "competition_url": "https://www.kaggle.com/competitions/mens-machine-learning-competition-2018",
+        "code_url": "https://www.kaggle.com/competitions/mens-machine-learning-competition-2018/code",
+        "teams_count": 933
+    },
+    {
+        "slug": "mens-march-mania-2022",
+        "competition_url": "https://www.kaggle.com/competitions/mens-march-mania-2022",
+        "code_url": "https://www.kaggle.com/competitions/mens-march-mania-2022/code",
+        "teams_count": 930
+    },
+    {
+        "slug": "image-matching-challenge-2024",
+        "competition_url": "https://www.kaggle.com/competitions/image-matching-challenge-2024",
+        "code_url": "https://www.kaggle.com/competitions/image-matching-challenge-2024/code",
+        "teams_count": 929
+    },
+    {
+        "slug": "generative-dog-images",
+        "competition_url": "https://www.kaggle.com/competitions/generative-dog-images",
+        "code_url": "https://www.kaggle.com/competitions/generative-dog-images/code",
+        "teams_count": 927
+    },
+    {
+        "slug": "GiveMeSomeCredit",
+        "competition_url": "https://www.kaggle.com/competitions/GiveMeSomeCredit",
+        "code_url": "https://www.kaggle.com/competitions/GiveMeSomeCredit/code",
+        "teams_count": 924
+    },
+    {
+        "slug": "ultrasound-nerve-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/ultrasound-nerve-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/ultrasound-nerve-segmentation/code",
+        "teams_count": 922
+    },
+    {
+        "slug": "abstraction-and-reasoning-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/abstraction-and-reasoning-challenge",
+        "code_url": "https://www.kaggle.com/competitions/abstraction-and-reasoning-challenge/code",
+        "teams_count": 913
+    },
+    {
+        "slug": "m5-forecasting-uncertainty",
+        "competition_url": "https://www.kaggle.com/competitions/m5-forecasting-uncertainty",
+        "code_url": "https://www.kaggle.com/competitions/m5-forecasting-uncertainty/code",
+        "teams_count": 907
+    },
+    {
+        "slug": "playground-series-s3e5",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e5",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e5/code",
+        "teams_count": 901
+    },
+    {
+        "slug": "mayo-clinic-strip-ai",
+        "competition_url": "https://www.kaggle.com/competitions/mayo-clinic-strip-ai",
+        "code_url": "https://www.kaggle.com/competitions/mayo-clinic-strip-ai/code",
+        "teams_count": 888
+    },
+    {
+        "slug": "rsna-2022-cervical-spine-fracture-detection",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection",
+        "code_url": "https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/code",
+        "teams_count": 883
+    },
+    {
+        "slug": "freesound-audio-tagging-2019",
+        "competition_url": "https://www.kaggle.com/competitions/freesound-audio-tagging-2019",
+        "code_url": "https://www.kaggle.com/competitions/freesound-audio-tagging-2019/code",
+        "teams_count": 880
+    },
+    {
+        "slug": "hungry-geese",
+        "competition_url": "https://www.kaggle.com/competitions/hungry-geese",
+        "code_url": "https://www.kaggle.com/competitions/hungry-geese/code",
+        "teams_count": 879
+    },
+    {
+        "slug": "nomad2018-predict-transparent-conductors",
+        "competition_url": "https://www.kaggle.com/competitions/nomad2018-predict-transparent-conductors",
+        "code_url": "https://www.kaggle.com/competitions/nomad2018-predict-transparent-conductors/code",
+        "teams_count": 878
+    },
+    {
+        "slug": "airbus-ship-detection",
+        "competition_url": "https://www.kaggle.com/competitions/airbus-ship-detection",
+        "code_url": "https://www.kaggle.com/competitions/airbus-ship-detection/code",
+        "teams_count": 878
+    },
+    {
+        "slug": "bms-molecular-translation",
+        "competition_url": "https://www.kaggle.com/competitions/bms-molecular-translation",
+        "code_url": "https://www.kaggle.com/competitions/bms-molecular-translation/code",
+        "teams_count": 874
+    },
+    {
+        "slug": "santa-2022",
+        "competition_url": "https://www.kaggle.com/competitions/santa-2022",
+        "code_url": "https://www.kaggle.com/competitions/santa-2022/code",
+        "teams_count": 874
+    },
+    {
+        "slug": "santa-2021",
+        "competition_url": "https://www.kaggle.com/competitions/santa-2021",
+        "code_url": "https://www.kaggle.com/competitions/santa-2021/code",
+        "teams_count": 867
+    },
+    {
+        "slug": "recursion-cellular-image-classification",
+        "competition_url": "https://www.kaggle.com/competitions/recursion-cellular-image-classification",
+        "code_url": "https://www.kaggle.com/competitions/recursion-cellular-image-classification/code",
+        "teams_count": 865
+    },
+    {
+        "slug": "pku-autonomous-driving",
+        "competition_url": "https://www.kaggle.com/competitions/pku-autonomous-driving",
+        "code_url": "https://www.kaggle.com/competitions/pku-autonomous-driving/code",
+        "teams_count": 864
+    },
+    {
+        "slug": "mens-machine-learning-competition-2019",
+        "competition_url": "https://www.kaggle.com/competitions/mens-machine-learning-competition-2019",
+        "code_url": "https://www.kaggle.com/competitions/mens-machine-learning-competition-2019/code",
+        "teams_count": 862
+    },
+    {
+        "slug": "sentiment-analysis-on-movie-reviews",
+        "competition_url": "https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews",
+        "code_url": "https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/code",
+        "teams_count": 860
+    },
+    {
+        "slug": "mlb-player-digital-engagement-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/mlb-player-digital-engagement-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/mlb-player-digital-engagement-forecasting/code",
+        "teams_count": 852
+    },
+    {
+        "slug": "intel-mobileodt-cervical-cancer-screening",
+        "competition_url": "https://www.kaggle.com/competitions/intel-mobileodt-cervical-cancer-screening",
+        "code_url": "https://www.kaggle.com/competitions/intel-mobileodt-cervical-cancer-screening/code",
+        "teams_count": 848
+    },
+    {
+        "slug": "flower-classification-with-tpus",
+        "competition_url": "https://www.kaggle.com/competitions/flower-classification-with-tpus",
+        "code_url": "https://www.kaggle.com/competitions/flower-classification-with-tpus/code",
+        "teams_count": 848
+    },
+    {
+        "slug": "tabular-playground-series-jun-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-jun-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/code",
+        "teams_count": 844
+    },
+    {
+        "slug": "gendered-pronoun-resolution",
+        "competition_url": "https://www.kaggle.com/competitions/gendered-pronoun-resolution",
+        "code_url": "https://www.kaggle.com/competitions/gendered-pronoun-resolution/code",
+        "teams_count": 838
+    },
+    {
+        "slug": "plant-seedlings-classification",
+        "competition_url": "https://www.kaggle.com/competitions/plant-seedlings-classification",
+        "code_url": "https://www.kaggle.com/competitions/plant-seedlings-classification/code",
+        "teams_count": 833
+    },
+    {
+        "slug": "llm-20-questions",
+        "competition_url": "https://www.kaggle.com/competitions/llm-20-questions",
+        "code_url": "https://www.kaggle.com/competitions/llm-20-questions/code",
+        "teams_count": 832
+    },
+    {
+        "slug": "the-winton-stock-market-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/the-winton-stock-market-challenge",
+        "code_url": "https://www.kaggle.com/competitions/the-winton-stock-market-challenge/code",
+        "teams_count": 829
+    },
+    {
+        "slug": "nfl-health-and-safety-helmet-assignment",
+        "competition_url": "https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment",
+        "code_url": "https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/code",
+        "teams_count": 825
+    },
+    {
+        "slug": "march-machine-learning-mania-2024",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2024",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2024/code",
+        "teams_count": 820
+    },
+    {
+        "slug": "birdclef-2021",
+        "competition_url": "https://www.kaggle.com/competitions/birdclef-2021",
+        "code_url": "https://www.kaggle.com/competitions/birdclef-2021/code",
+        "teams_count": 816
+    },
+    {
+        "slug": "tabular-playground-series-apr-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-apr-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/code",
+        "teams_count": 816
+    },
+    {
+        "slug": "icecube-neutrinos-in-deep-ice",
+        "competition_url": "https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice",
+        "code_url": "https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/code",
+        "teams_count": 812
+    },
+    {
+        "slug": "google-smartphone-decimeter-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/google-smartphone-decimeter-challenge",
+        "code_url": "https://www.kaggle.com/competitions/google-smartphone-decimeter-challenge/code",
+        "teams_count": 810
+    },
+    {
+        "slug": "playground-series-s3e10",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e10",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e10/code",
+        "teams_count": 807
+    },
+    {
+        "slug": "birdclef-2022",
+        "competition_url": "https://www.kaggle.com/competitions/birdclef-2022",
+        "code_url": "https://www.kaggle.com/competitions/birdclef-2022/code",
+        "teams_count": 801
+    },
+    {
+        "slug": "nlp-getting-started",
+        "competition_url": "https://www.kaggle.com/competitions/nlp-getting-started",
+        "code_url": "https://www.kaggle.com/competitions/nlp-getting-started/code",
+        "teams_count": 800
+    },
+    {
+        "slug": "santa-2020",
+        "competition_url": "https://www.kaggle.com/competitions/santa-2020",
+        "code_url": "https://www.kaggle.com/competitions/santa-2020/code",
+        "teams_count": 792
+    },
+    {
+        "slug": "rsna-str-pulmonary-embolism-detection",
+        "competition_url": "https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection",
+        "code_url": "https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/code",
+        "teams_count": 784
+    },
+    {
+        "slug": "playground-series-s3e2",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e2",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e2/code",
+        "teams_count": 770
+    },
+    {
+        "slug": "seti-breakthrough-listen",
+        "competition_url": "https://www.kaggle.com/competitions/seti-breakthrough-listen",
+        "code_url": "https://www.kaggle.com/competitions/seti-breakthrough-listen/code",
+        "teams_count": 768
+    },
+    {
+        "slug": "playground-series-s3e9",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e9",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e9/code",
+        "teams_count": 765
+    },
+    {
+        "slug": "ghouls-goblins-and-ghosts-boo",
+        "competition_url": "https://www.kaggle.com/competitions/ghouls-goblins-and-ghosts-boo",
+        "code_url": "https://www.kaggle.com/competitions/ghouls-goblins-and-ghosts-boo/code",
+        "teams_count": 763
+    },
+    {
+        "slug": "hpa-single-cell-image-classification",
+        "competition_url": "https://www.kaggle.com/competitions/hpa-single-cell-image-classification",
+        "code_url": "https://www.kaggle.com/competitions/hpa-single-cell-image-classification/code",
+        "teams_count": 757
+    },
+    {
+        "slug": "stanford-ribonanza-rna-folding",
+        "competition_url": "https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding",
+        "code_url": "https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/code",
+        "teams_count": 755
+    },
+    {
+        "slug": "bengaliai-speech",
+        "competition_url": "https://www.kaggle.com/competitions/bengaliai-speech",
+        "code_url": "https://www.kaggle.com/competitions/bengaliai-speech/code",
+        "teams_count": 744
+    },
+    {
+        "slug": "landmark-recognition-2020",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-recognition-2020",
+        "code_url": "https://www.kaggle.com/competitions/landmark-recognition-2020/code",
+        "teams_count": 736
+    },
+    {
+        "slug": "carvana-image-masking-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/carvana-image-masking-challenge",
+        "code_url": "https://www.kaggle.com/competitions/carvana-image-masking-challenge/code",
+        "teams_count": 734
+    },
+    {
+        "slug": "playground-series-s3e8",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e8",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e8/code",
+        "teams_count": 734
+    },
+    {
+        "slug": "criteo-display-ad-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/criteo-display-ad-challenge",
+        "code_url": "https://www.kaggle.com/competitions/criteo-display-ad-challenge/code",
+        "teams_count": 717
+    },
+    {
+        "slug": "ncaam-march-mania-2021",
+        "competition_url": "https://www.kaggle.com/competitions/ncaam-march-mania-2021",
+        "code_url": "https://www.kaggle.com/competitions/ncaam-march-mania-2021/code",
+        "teams_count": 707
+    },
+    {
+        "slug": "playground-series-s3e6",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e6",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e6/code",
+        "teams_count": 703
+    },
+    {
+        "slug": "bioresponse",
+        "competition_url": "https://www.kaggle.com/competitions/bioresponse",
+        "code_url": "https://www.kaggle.com/competitions/bioresponse/code",
+        "teams_count": 698
+    },
+    {
+        "slug": "playground-series-s3e15",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e15",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e15/code",
+        "teams_count": 693
+    },
+    {
+        "slug": "leap-atmospheric-physics-ai-climsim",
+        "competition_url": "https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim",
+        "code_url": "https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/code",
+        "teams_count": 693
+    },
+    {
+        "slug": "santas-uncertain-bags",
+        "competition_url": "https://www.kaggle.com/competitions/santas-uncertain-bags",
+        "code_url": "https://www.kaggle.com/competitions/santas-uncertain-bags/code",
+        "teams_count": 692
+    },
+    {
+        "slug": "tabular-playground-series-nov-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-nov-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/code",
+        "teams_count": 689
+    },
+    {
+        "slug": "playground-series-s3e1",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e1",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e1/code",
+        "teams_count": 689
+    },
+    {
+        "slug": "walmart-recruiting-store-sales-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/code",
+        "teams_count": 688
+    },
+    {
+        "slug": "playground-series-s3e7",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e7",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e7/code",
+        "teams_count": 678
+    },
+    {
+        "slug": "flavours-of-physics",
+        "competition_url": "https://www.kaggle.com/competitions/flavours-of-physics",
+        "code_url": "https://www.kaggle.com/competitions/flavours-of-physics/code",
+        "teams_count": 673
+    },
+    {
+        "slug": "loan-default-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/loan-default-prediction",
+        "code_url": "https://www.kaggle.com/competitions/loan-default-prediction/code",
+        "teams_count": 672
+    },
+    {
+        "slug": "ai-village-ctf",
+        "competition_url": "https://www.kaggle.com/competitions/ai-village-ctf",
+        "code_url": "https://www.kaggle.com/competitions/ai-village-ctf/code",
+        "teams_count": 668
+    },
+    {
+        "slug": "playground-series-s3e3",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e3",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e3/code",
+        "teams_count": 665
+    },
+    {
+        "slug": "diabetic-retinopathy-detection",
+        "competition_url": "https://www.kaggle.com/competitions/diabetic-retinopathy-detection",
+        "code_url": "https://www.kaggle.com/competitions/diabetic-retinopathy-detection/code",
+        "teams_count": 660
+    },
+    {
+        "slug": "kddcup2012-track1",
+        "competition_url": "https://www.kaggle.com/competitions/kddcup2012-track1",
+        "code_url": "https://www.kaggle.com/competitions/kddcup2012-track1/code",
+        "teams_count": 656
+    },
+    {
+        "slug": "youtube8m",
+        "competition_url": "https://www.kaggle.com/competitions/youtube8m",
+        "code_url": "https://www.kaggle.com/competitions/youtube8m/code",
+        "teams_count": 655
+    },
+    {
+        "slug": "trackml-particle-identification",
+        "competition_url": "https://www.kaggle.com/competitions/trackml-particle-identification",
+        "code_url": "https://www.kaggle.com/competitions/trackml-particle-identification/code",
+        "teams_count": 651
+    },
+    {
+        "slug": "womens-march-mania-2022",
+        "competition_url": "https://www.kaggle.com/competitions/womens-march-mania-2022",
+        "code_url": "https://www.kaggle.com/competitions/womens-march-mania-2022/code",
+        "teams_count": 651
+    },
+    {
+        "slug": "lux-ai-season-2",
+        "competition_url": "https://www.kaggle.com/competitions/lux-ai-season-2",
+        "code_url": "https://www.kaggle.com/competitions/lux-ai-season-2/code",
+        "teams_count": 646
+    },
+    {
+        "slug": "store-sales-time-series-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting/code",
+        "teams_count": 643
+    },
+    {
+        "slug": "image-matching-challenge-2022",
+        "competition_url": "https://www.kaggle.com/competitions/image-matching-challenge-2022",
+        "code_url": "https://www.kaggle.com/competitions/image-matching-challenge-2022/code",
+        "teams_count": 642
+    },
+    {
+        "slug": "playground-series-s3e4",
+        "competition_url": "https://www.kaggle.com/competitions/playground-series-s3e4",
+        "code_url": "https://www.kaggle.com/competitions/playground-series-s3e4/code",
+        "teams_count": 641
+    },
+    {
+        "slug": "liberty-mutual-fire-peril",
+        "competition_url": "https://www.kaggle.com/competitions/liberty-mutual-fire-peril",
+        "code_url": "https://www.kaggle.com/competitions/liberty-mutual-fire-peril/code",
+        "teams_count": 632
+    },
+    {
+        "slug": "accelerometer-biometric-competition",
+        "competition_url": "https://www.kaggle.com/competitions/accelerometer-biometric-competition",
+        "code_url": "https://www.kaggle.com/competitions/accelerometer-biometric-competition/code",
+        "teams_count": 630
+    },
+    {
+        "slug": "cdiscount-image-classification-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/cdiscount-image-classification-challenge",
+        "code_url": "https://www.kaggle.com/competitions/cdiscount-image-classification-challenge/code",
+        "teams_count": 626
+    },
+    {
+        "slug": "plant-pathology-2021-fgvc8",
+        "competition_url": "https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8",
+        "code_url": "https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8/code",
+        "teams_count": 625
+    },
+    {
+        "slug": "stumbleupon",
+        "competition_url": "https://www.kaggle.com/competitions/stumbleupon",
+        "code_url": "https://www.kaggle.com/competitions/stumbleupon/code",
+        "teams_count": 624
+    },
+    {
+        "slug": "predict-volcanic-eruptions-ingv-oe",
+        "competition_url": "https://www.kaggle.com/competitions/predict-volcanic-eruptions-ingv-oe",
+        "code_url": "https://www.kaggle.com/competitions/predict-volcanic-eruptions-ingv-oe/code",
+        "teams_count": 620
+    },
+    {
+        "slug": "costa-rican-household-poverty-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/costa-rican-household-poverty-prediction",
+        "code_url": "https://www.kaggle.com/competitions/costa-rican-household-poverty-prediction/code",
+        "teams_count": 616
+    },
+    {
+        "slug": "predict-ai-model-runtime",
+        "competition_url": "https://www.kaggle.com/competitions/predict-ai-model-runtime",
+        "code_url": "https://www.kaggle.com/competitions/predict-ai-model-runtime/code",
+        "teams_count": 616
+    },
+    {
+        "slug": "benetech-making-graphs-accessible",
+        "competition_url": "https://www.kaggle.com/competitions/benetech-making-graphs-accessible",
+        "code_url": "https://www.kaggle.com/competitions/benetech-making-graphs-accessible/code",
+        "teams_count": 608
+    },
+    {
+        "slug": "pakdd-cup-2014",
+        "competition_url": "https://www.kaggle.com/competitions/pakdd-cup-2014",
+        "code_url": "https://www.kaggle.com/competitions/pakdd-cup-2014/code",
+        "teams_count": 607
+    },
+    {
+        "slug": "march-machine-learning-mania-2016",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2016",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2016/code",
+        "teams_count": 596
+    },
+    {
+        "slug": "how-much-did-it-rain-ii",
+        "competition_url": "https://www.kaggle.com/competitions/how-much-did-it-rain-ii",
+        "code_url": "https://www.kaggle.com/competitions/how-much-did-it-rain-ii/code",
+        "teams_count": 587
+    },
+    {
+        "slug": "donorschoose-application-screening",
+        "competition_url": "https://www.kaggle.com/competitions/donorschoose-application-screening",
+        "code_url": "https://www.kaggle.com/competitions/donorschoose-application-screening/code",
+        "teams_count": 580
+    },
+    {
+        "slug": "sp-society-camera-model-identification",
+        "competition_url": "https://www.kaggle.com/competitions/sp-society-camera-model-identification",
+        "code_url": "https://www.kaggle.com/competitions/sp-society-camera-model-identification/code",
+        "teams_count": 580
+    },
+    {
+        "slug": "word2vec-nlp-tutorial",
+        "competition_url": "https://www.kaggle.com/competitions/word2vec-nlp-tutorial",
+        "code_url": "https://www.kaggle.com/competitions/word2vec-nlp-tutorial/code",
+        "teams_count": 577
+    },
+    {
+        "slug": "kkbox-churn-prediction-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/kkbox-churn-prediction-challenge",
+        "code_url": "https://www.kaggle.com/competitions/kkbox-churn-prediction-challenge/code",
+        "teams_count": 574
+    },
+    {
+        "slug": "smartphone-decimeter-2022",
+        "competition_url": "https://www.kaggle.com/competitions/smartphone-decimeter-2022",
+        "code_url": "https://www.kaggle.com/competitions/smartphone-decimeter-2022/code",
+        "teams_count": 573
+    },
+    {
+        "slug": "uspto-explainable-ai",
+        "competition_url": "https://www.kaggle.com/competitions/uspto-explainable-ai",
+        "code_url": "https://www.kaggle.com/competitions/uspto-explainable-ai/code",
+        "teams_count": 571
+    },
+    {
+        "slug": "DontGetKicked",
+        "competition_url": "https://www.kaggle.com/competitions/DontGetKicked",
+        "code_url": "https://www.kaggle.com/competitions/DontGetKicked/code",
+        "teams_count": 570
+    },
+    {
+        "slug": "open-images-2019-object-detection",
+        "competition_url": "https://www.kaggle.com/competitions/open-images-2019-object-detection",
+        "code_url": "https://www.kaggle.com/competitions/open-images-2019-object-detection/code",
+        "teams_count": 558
+    },
+    {
+        "slug": "freesound-audio-tagging",
+        "competition_url": "https://www.kaggle.com/competitions/freesound-audio-tagging",
+        "code_url": "https://www.kaggle.com/competitions/freesound-audio-tagging/code",
+        "teams_count": 556
+    },
+    {
+        "slug": "kdd-cup-2013-author-paper-identification-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/kdd-cup-2013-author-paper-identification-challenge",
+        "code_url": "https://www.kaggle.com/competitions/kdd-cup-2013-author-paper-identification-challenge/code",
+        "teams_count": 552
+    },
+    {
+        "slug": "avito-duplicate-ads-detection",
+        "competition_url": "https://www.kaggle.com/competitions/avito-duplicate-ads-detection",
+        "code_url": "https://www.kaggle.com/competitions/avito-duplicate-ads-detection/code",
+        "teams_count": 546
+    },
+    {
+        "slug": "3d-object-detection-for-autonomous-vehicles",
+        "competition_url": "https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles",
+        "code_url": "https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles/code",
+        "teams_count": 546
+    },
+    {
+        "slug": "covid19-global-forecasting-week-1",
+        "competition_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-1",
+        "code_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-1/code",
+        "teams_count": 545
+    },
+    {
+        "slug": "landmark-retrieval-2020",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-retrieval-2020",
+        "code_url": "https://www.kaggle.com/competitions/landmark-retrieval-2020/code",
+        "teams_count": 541
+    },
+    {
+        "slug": "see-click-predict-fix",
+        "competition_url": "https://www.kaggle.com/competitions/see-click-predict-fix",
+        "code_url": "https://www.kaggle.com/competitions/see-click-predict-fix/code",
+        "teams_count": 530
+    },
+    {
+        "slug": "dfl-bundesliga-data-shootout",
+        "competition_url": "https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout",
+        "code_url": "https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/code",
+        "teams_count": 530
+    },
+    {
+        "slug": "whale-categorization-playground",
+        "competition_url": "https://www.kaggle.com/competitions/whale-categorization-playground",
+        "code_url": "https://www.kaggle.com/competitions/whale-categorization-playground/code",
+        "teams_count": 527
+    },
+    {
+        "slug": "recognizing-faces-in-the-wild",
+        "competition_url": "https://www.kaggle.com/competitions/recognizing-faces-in-the-wild",
+        "code_url": "https://www.kaggle.com/competitions/recognizing-faces-in-the-wild/code",
+        "teams_count": 522
+    },
+    {
+        "slug": "imet-2019-fgvc6",
+        "competition_url": "https://www.kaggle.com/competitions/imet-2019-fgvc6",
+        "code_url": "https://www.kaggle.com/competitions/imet-2019-fgvc6/code",
+        "teams_count": 521
+    },
+    {
+        "slug": "whats-cooking-kernels-only",
+        "competition_url": "https://www.kaggle.com/competitions/whats-cooking-kernels-only",
+        "code_url": "https://www.kaggle.com/competitions/whats-cooking-kernels-only/code",
+        "teams_count": 520
+    },
+    {
+        "slug": "passenger-screening-algorithm-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/passenger-screening-algorithm-challenge",
+        "code_url": "https://www.kaggle.com/competitions/passenger-screening-algorithm-challenge/code",
+        "teams_count": 518
+    },
+    {
+        "slug": "invasive-species-monitoring",
+        "competition_url": "https://www.kaggle.com/competitions/invasive-species-monitoring",
+        "code_url": "https://www.kaggle.com/competitions/invasive-species-monitoring/code",
+        "teams_count": 511
+    },
+    {
+        "slug": "seizure-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/seizure-prediction",
+        "code_url": "https://www.kaggle.com/competitions/seizure-prediction/code",
+        "teams_count": 504
+    },
+    {
+        "slug": "womens-machine-learning-competition-2018",
+        "competition_url": "https://www.kaggle.com/competitions/womens-machine-learning-competition-2018",
+        "code_url": "https://www.kaggle.com/competitions/womens-machine-learning-competition-2018/code",
+        "teams_count": 504
+    },
+    {
+        "slug": "womens-machine-learning-competition-2019",
+        "competition_url": "https://www.kaggle.com/competitions/womens-machine-learning-competition-2019",
+        "code_url": "https://www.kaggle.com/competitions/womens-machine-learning-competition-2019/code",
+        "teams_count": 497
+    },
+    {
+        "slug": "image-matching-challenge-2023",
+        "competition_url": "https://www.kaggle.com/competitions/image-matching-challenge-2023",
+        "code_url": "https://www.kaggle.com/competitions/image-matching-challenge-2023/code",
+        "teams_count": 494
+    },
+    {
+        "slug": "walmart-recruiting-sales-in-stormy-weather",
+        "competition_url": "https://www.kaggle.com/competitions/walmart-recruiting-sales-in-stormy-weather",
+        "code_url": "https://www.kaggle.com/competitions/walmart-recruiting-sales-in-stormy-weather/code",
+        "teams_count": 484
+    },
+    {
+        "slug": "melbourne-university-seizure-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/melbourne-university-seizure-prediction",
+        "code_url": "https://www.kaggle.com/competitions/melbourne-university-seizure-prediction/code",
+        "teams_count": 477
+    },
+    {
+        "slug": "landmark-recognition-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-recognition-challenge",
+        "code_url": "https://www.kaggle.com/competitions/landmark-recognition-challenge/code",
+        "teams_count": 476
+    },
+    {
+        "slug": "bluebook-for-bulldozers",
+        "competition_url": "https://www.kaggle.com/competitions/bluebook-for-bulldozers",
+        "code_url": "https://www.kaggle.com/competitions/bluebook-for-bulldozers/code",
+        "teams_count": 474
+    },
+    {
+        "slug": "kdd-cup-2014-predicting-excitement-at-donors-choose",
+        "competition_url": "https://www.kaggle.com/competitions/kdd-cup-2014-predicting-excitement-at-donors-choose",
+        "code_url": "https://www.kaggle.com/competitions/kdd-cup-2014-predicting-excitement-at-donors-choose/code",
+        "teams_count": 472
+    },
+    {
+        "slug": "covid19-global-forecasting-week-4",
+        "competition_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-4",
+        "code_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/code",
+        "teams_count": 472
+    },
+    {
+        "slug": "kore-2022",
+        "competition_url": "https://www.kaggle.com/competitions/kore-2022",
+        "code_url": "https://www.kaggle.com/competitions/kore-2022/code",
+        "teams_count": 469
+    },
+    {
+        "slug": "inclusive-images-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/inclusive-images-challenge",
+        "code_url": "https://www.kaggle.com/competitions/inclusive-images-challenge/code",
+        "teams_count": 468
+    },
+    {
+        "slug": "tabular-playground-series-oct-2022",
+        "competition_url": "https://www.kaggle.com/competitions/tabular-playground-series-oct-2022",
+        "code_url": "https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/code",
+        "teams_count": 463
+    },
+    {
+        "slug": "random-acts-of-pizza",
+        "competition_url": "https://www.kaggle.com/competitions/random-acts-of-pizza",
+        "code_url": "https://www.kaggle.com/competitions/random-acts-of-pizza/code",
+        "teams_count": 462
+    },
+    {
+        "slug": "demand-forecasting-kernels-only",
+        "competition_url": "https://www.kaggle.com/competitions/demand-forecasting-kernels-only",
+        "code_url": "https://www.kaggle.com/competitions/demand-forecasting-kernels-only/code",
+        "teams_count": 459
+    },
+    {
+        "slug": "nfl-impact-detection",
+        "competition_url": "https://www.kaggle.com/competitions/nfl-impact-detection",
+        "code_url": "https://www.kaggle.com/competitions/nfl-impact-detection/code",
+        "teams_count": 459
+    },
+    {
+        "slug": "google-ai-open-images-object-detection-track",
+        "competition_url": "https://www.kaggle.com/competitions/google-ai-open-images-object-detection-track",
+        "code_url": "https://www.kaggle.com/competitions/google-ai-open-images-object-detection-track/code",
+        "teams_count": 452
+    },
+    {
+        "slug": "covid19-global-forecasting-week-3",
+        "competition_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-3",
+        "code_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-3/code",
+        "teams_count": 452
+    },
+    {
+        "slug": "ncaaw-march-mania-2021",
+        "competition_url": "https://www.kaggle.com/competitions/ncaaw-march-mania-2021",
+        "code_url": "https://www.kaggle.com/competitions/ncaaw-march-mania-2021/code",
+        "teams_count": 451
+    },
+    {
+        "slug": "march-machine-learning-mania-2017",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2017",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2017/code",
+        "teams_count": 441
+    },
+    {
+        "slug": "helping-santas-helpers",
+        "competition_url": "https://www.kaggle.com/competitions/helping-santas-helpers",
+        "code_url": "https://www.kaggle.com/competitions/helping-santas-helpers/code",
+        "teams_count": 437
+    },
+    {
+        "slug": "bigquery-geotab-intersection-congestion",
+        "competition_url": "https://www.kaggle.com/competitions/bigquery-geotab-intersection-congestion",
+        "code_url": "https://www.kaggle.com/competitions/bigquery-geotab-intersection-congestion/code",
+        "teams_count": 432
+    },
+    {
+        "slug": "santa-gift-matching",
+        "competition_url": "https://www.kaggle.com/competitions/santa-gift-matching",
+        "code_url": "https://www.kaggle.com/competitions/santa-gift-matching/code",
+        "teams_count": 428
+    },
+    {
+        "slug": "imaterialist-challenge-furniture-2018",
+        "competition_url": "https://www.kaggle.com/competitions/imaterialist-challenge-furniture-2018",
+        "code_url": "https://www.kaggle.com/competitions/imaterialist-challenge-furniture-2018/code",
+        "teams_count": 426
+    },
+    {
+        "slug": "battlefin-s-big-data-combine-forecasting-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/battlefin-s-big-data-combine-forecasting-challenge",
+        "code_url": "https://www.kaggle.com/competitions/battlefin-s-big-data-combine-forecasting-challenge/code",
+        "teams_count": 424
+    },
+    {
+        "slug": "dstl-satellite-imagery-feature-detection",
+        "competition_url": "https://www.kaggle.com/competitions/dstl-satellite-imagery-feature-detection",
+        "code_url": "https://www.kaggle.com/competitions/dstl-satellite-imagery-feature-detection/code",
+        "teams_count": 419
+    },
+    {
+        "slug": "FacebookRecruiting",
+        "competition_url": "https://www.kaggle.com/competitions/FacebookRecruiting",
+        "code_url": "https://www.kaggle.com/competitions/FacebookRecruiting/code",
+        "teams_count": 418
+    },
+    {
+        "slug": "avito-context-ad-clicks",
+        "competition_url": "https://www.kaggle.com/competitions/avito-context-ad-clicks",
+        "code_url": "https://www.kaggle.com/competitions/avito-context-ad-clicks/code",
+        "teams_count": 413
+    },
+    {
+        "slug": "movie-review-sentiment-analysis-kernels-only",
+        "competition_url": "https://www.kaggle.com/competitions/movie-review-sentiment-analysis-kernels-only",
+        "code_url": "https://www.kaggle.com/competitions/movie-review-sentiment-analysis-kernels-only/code",
+        "teams_count": 409
+    },
+    {
+        "slug": "draper-satellite-image-chronology",
+        "competition_url": "https://www.kaggle.com/competitions/draper-satellite-image-chronology",
+        "code_url": "https://www.kaggle.com/competitions/draper-satellite-image-chronology/code",
+        "teams_count": 399
+    },
+    {
+        "slug": "planttraits2024",
+        "competition_url": "https://www.kaggle.com/competitions/planttraits2024",
+        "code_url": "https://www.kaggle.com/competitions/planttraits2024/code",
+        "teams_count": 398
+    },
+    {
+        "slug": "noaa-fisheries-steller-sea-lion-population-count",
+        "competition_url": "https://www.kaggle.com/competitions/noaa-fisheries-steller-sea-lion-population-count",
+        "code_url": "https://www.kaggle.com/competitions/noaa-fisheries-steller-sea-lion-population-count/code",
+        "teams_count": 385
+    },
+    {
+        "slug": "landmark-recognition-2021",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-recognition-2021",
+        "code_url": "https://www.kaggle.com/competitions/landmark-recognition-2021/code",
+        "teams_count": 383
+    },
+    {
+        "slug": "pkdd-15-predict-taxi-service-trajectory-i",
+        "competition_url": "https://www.kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i",
+        "code_url": "https://www.kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i/code",
+        "teams_count": 381
+    },
+    {
+        "slug": "transfer-learning-on-stack-exchange-tags",
+        "competition_url": "https://www.kaggle.com/competitions/transfer-learning-on-stack-exchange-tags",
+        "code_url": "https://www.kaggle.com/competitions/transfer-learning-on-stack-exchange-tags/code",
+        "teams_count": 380
+    },
+    {
+        "slug": "grasp-and-lift-eeg-detection",
+        "competition_url": "https://www.kaggle.com/competitions/grasp-and-lift-eeg-detection",
+        "code_url": "https://www.kaggle.com/competitions/grasp-and-lift-eeg-detection/code",
+        "teams_count": 378
+    },
+    {
+        "slug": "malware-classification",
+        "competition_url": "https://www.kaggle.com/competitions/malware-classification",
+        "code_url": "https://www.kaggle.com/competitions/malware-classification/code",
+        "teams_count": 377
+    },
+    {
+        "slug": "tradeshift-text-classification",
+        "competition_url": "https://www.kaggle.com/competitions/tradeshift-text-classification",
+        "code_url": "https://www.kaggle.com/competitions/tradeshift-text-classification/code",
+        "teams_count": 374
+    },
+    {
+        "slug": "facebook-recruiting-iii-keyword-extraction",
+        "competition_url": "https://www.kaggle.com/competitions/facebook-recruiting-iii-keyword-extraction",
+        "code_url": "https://www.kaggle.com/competitions/facebook-recruiting-iii-keyword-extraction/code",
+        "teams_count": 366
+    },
+    {
+        "slug": "noaa-right-whale-recognition",
+        "competition_url": "https://www.kaggle.com/competitions/noaa-right-whale-recognition",
+        "code_url": "https://www.kaggle.com/competitions/noaa-right-whale-recognition/code",
+        "teams_count": 364
+    },
+    {
+        "slug": "online-sales",
+        "competition_url": "https://www.kaggle.com/competitions/online-sales",
+        "code_url": "https://www.kaggle.com/competitions/online-sales/code",
+        "teams_count": 363
+    },
+    {
+        "slug": "packing-santas-sleigh",
+        "competition_url": "https://www.kaggle.com/competitions/packing-santas-sleigh",
+        "code_url": "https://www.kaggle.com/competitions/packing-santas-sleigh/code",
+        "teams_count": 361
+    },
+    {
+        "slug": "forest-cover-type-kernels-only",
+        "competition_url": "https://www.kaggle.com/competitions/forest-cover-type-kernels-only",
+        "code_url": "https://www.kaggle.com/competitions/forest-cover-type-kernels-only/code",
+        "teams_count": 358
+    },
+    {
+        "slug": "yelp-restaurant-photo-classification",
+        "competition_url": "https://www.kaggle.com/competitions/yelp-restaurant-photo-classification",
+        "code_url": "https://www.kaggle.com/competitions/yelp-restaurant-photo-classification/code",
+        "teams_count": 355
+    },
+    {
+        "slug": "RTA",
+        "competition_url": "https://www.kaggle.com/competitions/RTA",
+        "code_url": "https://www.kaggle.com/competitions/RTA/code",
+        "teams_count": 354
+    },
+    {
+        "slug": "traveling-santa-problem",
+        "competition_url": "https://www.kaggle.com/competitions/traveling-santa-problem",
+        "code_url": "https://www.kaggle.com/competitions/traveling-santa-problem/code",
+        "teams_count": 353
+    },
+    {
+        "slug": "DarkWorlds",
+        "competition_url": "https://www.kaggle.com/competitions/DarkWorlds",
+        "code_url": "https://www.kaggle.com/competitions/DarkWorlds/code",
+        "teams_count": 351
+    },
+    {
+        "slug": "yelp-recruiting",
+        "competition_url": "https://www.kaggle.com/competitions/yelp-recruiting",
+        "code_url": "https://www.kaggle.com/competitions/yelp-recruiting/code",
+        "teams_count": 350
+    },
+    {
+        "slug": "pkdd-15-taxi-trip-time-prediction-ii",
+        "competition_url": "https://www.kaggle.com/competitions/pkdd-15-taxi-trip-time-prediction-ii",
+        "code_url": "https://www.kaggle.com/competitions/pkdd-15-taxi-trip-time-prediction-ii/code",
+        "teams_count": 345
+    },
+    {
+        "slug": "march-machine-learning-mania-2015",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2015",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2015/code",
+        "teams_count": 340
+    },
+    {
+        "slug": "icdm-2015-drawbridge-cross-device-connections",
+        "competition_url": "https://www.kaggle.com/competitions/icdm-2015-drawbridge-cross-device-connections",
+        "code_url": "https://www.kaggle.com/competitions/icdm-2015-drawbridge-cross-device-connections/code",
+        "teams_count": 338
+    },
+    {
+        "slug": "expedia-personalized-sort",
+        "competition_url": "https://www.kaggle.com/competitions/expedia-personalized-sort",
+        "code_url": "https://www.kaggle.com/competitions/expedia-personalized-sort/code",
+        "teams_count": 336
+    },
+    {
+        "slug": "iwildcam-2019-fgvc6",
+        "competition_url": "https://www.kaggle.com/competitions/iwildcam-2019-fgvc6",
+        "code_url": "https://www.kaggle.com/competitions/iwildcam-2019-fgvc6/code",
+        "teams_count": 336
+    },
+    {
+        "slug": "galaxy-zoo-the-galaxy-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/galaxy-zoo-the-galaxy-challenge",
+        "code_url": "https://www.kaggle.com/competitions/galaxy-zoo-the-galaxy-challenge/code",
+        "teams_count": 326
+    },
+    {
+        "slug": "how-much-did-it-rain",
+        "competition_url": "https://www.kaggle.com/competitions/how-much-did-it-rain",
+        "code_url": "https://www.kaggle.com/competitions/how-much-did-it-rain/code",
+        "teams_count": 319
+    },
+    {
+        "slug": "mlsp-2014-mri",
+        "competition_url": "https://www.kaggle.com/competitions/mlsp-2014-mri",
+        "code_url": "https://www.kaggle.com/competitions/mlsp-2014-mri/code",
+        "teams_count": 313
+    },
+    {
+        "slug": "youtube8m-2018",
+        "competition_url": "https://www.kaggle.com/competitions/youtube8m-2018",
+        "code_url": "https://www.kaggle.com/competitions/youtube8m-2018/code",
+        "teams_count": 312
+    },
+    {
+        "slug": "scrabble-player-rating",
+        "competition_url": "https://www.kaggle.com/competitions/scrabble-player-rating",
+        "code_url": "https://www.kaggle.com/competitions/scrabble-player-rating/code",
+        "teams_count": 301
+    },
+    {
+        "slug": "kuzushiji-recognition",
+        "competition_url": "https://www.kaggle.com/competitions/kuzushiji-recognition",
+        "code_url": "https://www.kaggle.com/competitions/kuzushiji-recognition/code",
+        "teams_count": 293
+    },
+    {
+        "slug": "job-salary-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/job-salary-prediction",
+        "code_url": "https://www.kaggle.com/competitions/job-salary-prediction/code",
+        "teams_count": 289
+    },
+    {
+        "slug": "avito-prohibited-content",
+        "competition_url": "https://www.kaggle.com/competitions/avito-prohibited-content",
+        "code_url": "https://www.kaggle.com/competitions/avito-prohibited-content/code",
+        "teams_count": 284
+    },
+    {
+        "slug": "integer-sequence-learning",
+        "competition_url": "https://www.kaggle.com/competitions/integer-sequence-learning",
+        "code_url": "https://www.kaggle.com/competitions/integer-sequence-learning/code",
+        "teams_count": 284
+    },
+    {
+        "slug": "youtube8m-2019",
+        "competition_url": "https://www.kaggle.com/competitions/youtube8m-2019",
+        "code_url": "https://www.kaggle.com/competitions/youtube8m-2019/code",
+        "teams_count": 282
+    },
+    {
+        "slug": "landmark-recognition-2019",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-recognition-2019",
+        "code_url": "https://www.kaggle.com/competitions/landmark-recognition-2019/code",
+        "teams_count": 281
+    },
+    {
+        "slug": "dunnhumbychallenge",
+        "competition_url": "https://www.kaggle.com/competitions/dunnhumbychallenge",
+        "code_url": "https://www.kaggle.com/competitions/dunnhumbychallenge/code",
+        "teams_count": 276
+    },
+    {
+        "slug": "dato-native",
+        "competition_url": "https://www.kaggle.com/competitions/dato-native",
+        "code_url": "https://www.kaggle.com/competitions/dato-native/code",
+        "teams_count": 273
+    },
+    {
+        "slug": "decoding-the-human-brain",
+        "competition_url": "https://www.kaggle.com/competitions/decoding-the-human-brain",
+        "code_url": "https://www.kaggle.com/competitions/decoding-the-human-brain/code",
+        "teams_count": 267
+    },
+    {
+        "slug": "cause-effect-pairs",
+        "competition_url": "https://www.kaggle.com/competitions/cause-effect-pairs",
+        "code_url": "https://www.kaggle.com/competitions/cause-effect-pairs/code",
+        "teams_count": 266
+    },
+    {
+        "slug": "dont-call-me-turkey",
+        "competition_url": "https://www.kaggle.com/competitions/dont-call-me-turkey",
+        "code_url": "https://www.kaggle.com/competitions/dont-call-me-turkey/code",
+        "teams_count": 266
+    },
+    {
+        "slug": "benchmark-bond-trade-price-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/benchmark-bond-trade-price-challenge",
+        "code_url": "https://www.kaggle.com/competitions/benchmark-bond-trade-price-challenge/code",
+        "teams_count": 263
+    },
+    {
+        "slug": "landmark-retrieval-2021",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-retrieval-2021",
+        "code_url": "https://www.kaggle.com/competitions/landmark-retrieval-2021/code",
+        "teams_count": 263
+    },
+    {
+        "slug": "inria-bci-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/inria-bci-challenge",
+        "code_url": "https://www.kaggle.com/competitions/inria-bci-challenge/code",
+        "teams_count": 260
+    },
+    {
+        "slug": "text-normalization-challenge-english-language",
+        "competition_url": "https://www.kaggle.com/competitions/text-normalization-challenge-english-language",
+        "code_url": "https://www.kaggle.com/competitions/text-normalization-challenge-english-language/code",
+        "teams_count": 260
+    },
+    {
+        "slug": "overfitting",
+        "competition_url": "https://www.kaggle.com/competitions/overfitting",
+        "code_url": "https://www.kaggle.com/competitions/overfitting/code",
+        "teams_count": 259
+    },
+    {
+        "slug": "crowdflower-weather-twitter",
+        "competition_url": "https://www.kaggle.com/competitions/crowdflower-weather-twitter",
+        "code_url": "https://www.kaggle.com/competitions/crowdflower-weather-twitter/code",
+        "teams_count": 258
+    },
+    {
+        "slug": "chess",
+        "competition_url": "https://www.kaggle.com/competitions/chess",
+        "code_url": "https://www.kaggle.com/competitions/chess/code",
+        "teams_count": 252
+    },
+    {
+        "slug": "sorghum-id-fgvc-9",
+        "competition_url": "https://www.kaggle.com/competitions/sorghum-id-fgvc-9",
+        "code_url": "https://www.kaggle.com/competitions/sorghum-id-fgvc-9/code",
+        "teams_count": 252
+    },
+    {
+        "slug": "march-machine-learning-mania-2014",
+        "competition_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2014",
+        "code_url": "https://www.kaggle.com/competitions/march-machine-learning-mania-2014/code",
+        "teams_count": 248
+    },
+    {
+        "slug": "whale-detection-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/whale-detection-challenge",
+        "code_url": "https://www.kaggle.com/competitions/whale-detection-challenge/code",
+        "teams_count": 245
+    },
+    {
+        "slug": "us-census-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/us-census-challenge",
+        "code_url": "https://www.kaggle.com/competitions/us-census-challenge/code",
+        "teams_count": 243
+    },
+    {
+        "slug": "imaterialist-fashion-2019-FGVC6",
+        "competition_url": "https://www.kaggle.com/competitions/imaterialist-fashion-2019-FGVC6",
+        "code_url": "https://www.kaggle.com/competitions/imaterialist-fashion-2019-FGVC6/code",
+        "teams_count": 241
+    },
+    {
+        "slug": "WhatDoYouKnow",
+        "competition_url": "https://www.kaggle.com/competitions/WhatDoYouKnow",
+        "code_url": "https://www.kaggle.com/competitions/WhatDoYouKnow/code",
+        "teams_count": 238
+    },
+    {
+        "slug": "kdd-cup-2013-author-disambiguation",
+        "competition_url": "https://www.kaggle.com/competitions/kdd-cup-2013-author-disambiguation",
+        "code_url": "https://www.kaggle.com/competitions/kdd-cup-2013-author-disambiguation/code",
+        "teams_count": 237
+    },
+    {
+        "slug": "MerckActivity",
+        "competition_url": "https://www.kaggle.com/competitions/MerckActivity",
+        "code_url": "https://www.kaggle.com/competitions/MerckActivity/code",
+        "teams_count": 236
+    },
+    {
+        "slug": "cifar-10",
+        "competition_url": "https://www.kaggle.com/competitions/cifar-10",
+        "code_url": "https://www.kaggle.com/competitions/cifar-10/code",
+        "teams_count": 231
+    },
+    {
+        "slug": "google-ai-open-images-visual-relationship-track",
+        "competition_url": "https://www.kaggle.com/competitions/google-ai-open-images-visual-relationship-track",
+        "code_url": "https://www.kaggle.com/competitions/google-ai-open-images-visual-relationship-track/code",
+        "teams_count": 231
+    },
+    {
+        "slug": "event-recommendation-engine-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/event-recommendation-engine-challenge",
+        "code_url": "https://www.kaggle.com/competitions/event-recommendation-engine-challenge/code",
+        "teams_count": 223
+    },
+    {
+        "slug": "2023-kaggle-ai-report",
+        "competition_url": "https://www.kaggle.com/competitions/2023-kaggle-ai-report",
+        "code_url": "https://www.kaggle.com/competitions/2023-kaggle-ai-report/code",
+        "teams_count": 220
+    },
+    {
+        "slug": "covid19-global-forecasting-week-2",
+        "competition_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-2",
+        "code_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-2/code",
+        "teams_count": 215
+    },
+    {
+        "slug": "dogs-vs-cats",
+        "competition_url": "https://www.kaggle.com/competitions/dogs-vs-cats",
+        "code_url": "https://www.kaggle.com/competitions/dogs-vs-cats/code",
+        "teams_count": 213
+    },
+    {
+        "slug": "inaturalist-2019-fgvc6",
+        "competition_url": "https://www.kaggle.com/competitions/inaturalist-2019-fgvc6",
+        "code_url": "https://www.kaggle.com/competitions/inaturalist-2019-fgvc6/code",
+        "teams_count": 213
+    },
+    {
+        "slug": "imaterialist-challenge-fashion-2018",
+        "competition_url": "https://www.kaggle.com/competitions/imaterialist-challenge-fashion-2018",
+        "code_url": "https://www.kaggle.com/competitions/imaterialist-challenge-fashion-2018/code",
+        "teams_count": 212
+    },
+    {
+        "slug": "challenges-in-representation-learning-the-black-box-learning-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/challenges-in-representation-learning-the-black-box-learning-challenge",
+        "code_url": "https://www.kaggle.com/competitions/challenges-in-representation-learning-the-black-box-learning-challenge/code",
+        "teams_count": 211
+    },
+    {
+        "slug": "landmark-retrieval-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-retrieval-challenge",
+        "code_url": "https://www.kaggle.com/competitions/landmark-retrieval-challenge/code",
+        "teams_count": 209
+    },
+    {
+        "slug": "poker-rule-induction",
+        "competition_url": "https://www.kaggle.com/competitions/poker-rule-induction",
+        "code_url": "https://www.kaggle.com/competitions/poker-rule-induction/code",
+        "teams_count": 207
+    },
+    {
+        "slug": "connectx",
+        "competition_url": "https://www.kaggle.com/competitions/connectx",
+        "code_url": "https://www.kaggle.com/competitions/connectx/code",
+        "teams_count": 207
+    },
+    {
+        "slug": "random-number-grand-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/random-number-grand-challenge",
+        "code_url": "https://www.kaggle.com/competitions/random-number-grand-challenge/code",
+        "teams_count": 205
+    },
+    {
+        "slug": "unimelb",
+        "competition_url": "https://www.kaggle.com/competitions/unimelb",
+        "code_url": "https://www.kaggle.com/competitions/unimelb/code",
+        "teams_count": 203
+    },
+    {
+        "slug": "learning-social-circles",
+        "competition_url": "https://www.kaggle.com/competitions/learning-social-circles",
+        "code_url": "https://www.kaggle.com/competitions/learning-social-circles/code",
+        "teams_count": 202
+    },
+    {
+        "slug": "PhotoQualityPrediction",
+        "competition_url": "https://www.kaggle.com/competitions/PhotoQualityPrediction",
+        "code_url": "https://www.kaggle.com/competitions/PhotoQualityPrediction/code",
+        "teams_count": 200
+    },
+    {
+        "slug": "seizure-detection",
+        "competition_url": "https://www.kaggle.com/competitions/seizure-detection",
+        "code_url": "https://www.kaggle.com/competitions/seizure-detection/code",
+        "teams_count": 200
+    },
+    {
+        "slug": "open-images-2019-visual-relationship",
+        "competition_url": "https://www.kaggle.com/competitions/open-images-2019-visual-relationship",
+        "code_url": "https://www.kaggle.com/competitions/open-images-2019-visual-relationship/code",
+        "teams_count": 200
+    },
+    {
+        "slug": "yandex-personalized-web-search-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/yandex-personalized-web-search-challenge",
+        "code_url": "https://www.kaggle.com/competitions/yandex-personalized-web-search-challenge/code",
+        "teams_count": 194
+    },
+    {
+        "slug": "open-images-2019-instance-segmentation",
+        "competition_url": "https://www.kaggle.com/competitions/open-images-2019-instance-segmentation",
+        "code_url": "https://www.kaggle.com/competitions/open-images-2019-instance-segmentation/code",
+        "teams_count": 193
+    },
+    {
+        "slug": "second-annual-data-science-bowl",
+        "competition_url": "https://www.kaggle.com/competitions/second-annual-data-science-bowl",
+        "code_url": "https://www.kaggle.com/competitions/second-annual-data-science-bowl/code",
+        "teams_count": 192
+    },
+    {
+        "slug": "data-science-london-scikit-learn",
+        "competition_url": "https://www.kaggle.com/competitions/data-science-london-scikit-learn",
+        "code_url": "https://www.kaggle.com/competitions/data-science-london-scikit-learn/code",
+        "teams_count": 190
+    },
+    {
+        "slug": "covid19-local-us-ca-forecasting-week-1",
+        "competition_url": "https://www.kaggle.com/competitions/covid19-local-us-ca-forecasting-week-1",
+        "code_url": "https://www.kaggle.com/competitions/covid19-local-us-ca-forecasting-week-1/code",
+        "teams_count": 190
+    },
+    {
+        "slug": "icdar2013-gender-prediction-from-handwriting",
+        "competition_url": "https://www.kaggle.com/competitions/icdar2013-gender-prediction-from-handwriting",
+        "code_url": "https://www.kaggle.com/competitions/icdar2013-gender-prediction-from-handwriting/code",
+        "teams_count": 189
+    },
+    {
+        "slug": "conways-reverse-game-of-life-2020",
+        "competition_url": "https://www.kaggle.com/competitions/conways-reverse-game-of-life-2020",
+        "code_url": "https://www.kaggle.com/competitions/conways-reverse-game-of-life-2020/code",
+        "teams_count": 188
+    },
+    {
+        "slug": "ChessRatings2",
+        "competition_url": "https://www.kaggle.com/competitions/ChessRatings2",
+        "code_url": "https://www.kaggle.com/competitions/ChessRatings2/code",
+        "teams_count": 181
+    },
+    {
+        "slug": "hashcode-2021-oqr-extension",
+        "competition_url": "https://www.kaggle.com/competitions/hashcode-2021-oqr-extension",
+        "code_url": "https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/code",
+        "teams_count": 179
+    },
+    {
+        "slug": "reducing-commercial-aviation-fatalities",
+        "competition_url": "https://www.kaggle.com/competitions/reducing-commercial-aviation-fatalities",
+        "code_url": "https://www.kaggle.com/competitions/reducing-commercial-aviation-fatalities/code",
+        "teams_count": 178
+    },
+    {
+        "slug": "stayalert",
+        "competition_url": "https://www.kaggle.com/competitions/stayalert",
+        "code_url": "https://www.kaggle.com/competitions/stayalert/code",
+        "teams_count": 176
+    },
+    {
+        "slug": "facial-keypoints-detection",
+        "competition_url": "https://www.kaggle.com/competitions/facial-keypoints-detection",
+        "code_url": "https://www.kaggle.com/competitions/facial-keypoints-detection/code",
+        "teams_count": 175
+    },
+    {
+        "slug": "covid19-global-forecasting-week-5",
+        "competition_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-5",
+        "code_url": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-5/code",
+        "teams_count": 173
+    },
+    {
+        "slug": "flight",
+        "competition_url": "https://www.kaggle.com/competitions/flight",
+        "code_url": "https://www.kaggle.com/competitions/flight/code",
+        "teams_count": 172
+    },
+    {
+        "slug": "the-allen-ai-science-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/the-allen-ai-science-challenge",
+        "code_url": "https://www.kaggle.com/competitions/the-allen-ai-science-challenge/code",
+        "teams_count": 170
+    },
+    {
+        "slug": "belkin-energy-disaggregation-competition",
+        "competition_url": "https://www.kaggle.com/competitions/belkin-energy-disaggregation-competition",
+        "code_url": "https://www.kaggle.com/competitions/belkin-energy-disaggregation-competition/code",
+        "teams_count": 165
+    },
+    {
+        "slug": "kddcup2012-track2",
+        "competition_url": "https://www.kaggle.com/competitions/kddcup2012-track2",
+        "code_url": "https://www.kaggle.com/competitions/kddcup2012-track2/code",
+        "teams_count": 163
+    },
+    {
+        "slug": "text-normalization-challenge-russian-language",
+        "competition_url": "https://www.kaggle.com/competitions/text-normalization-challenge-russian-language",
+        "code_url": "https://www.kaggle.com/competitions/text-normalization-challenge-russian-language/code",
+        "teams_count": 162
+    },
+    {
+        "slug": "predict-closed-questions-on-stack-overflow",
+        "competition_url": "https://www.kaggle.com/competitions/predict-closed-questions-on-stack-overflow",
+        "code_url": "https://www.kaggle.com/competitions/predict-closed-questions-on-stack-overflow/code",
+        "teams_count": 161
+    },
+    {
+        "slug": "denoising-dirty-documents",
+        "competition_url": "https://www.kaggle.com/competitions/denoising-dirty-documents",
+        "code_url": "https://www.kaggle.com/competitions/denoising-dirty-documents/code",
+        "teams_count": 161
+    },
+    {
+        "slug": "ams-2014-solar-energy-prediction-contest",
+        "competition_url": "https://www.kaggle.com/competitions/ams-2014-solar-energy-prediction-contest",
+        "code_url": "https://www.kaggle.com/competitions/ams-2014-solar-energy-prediction-contest/code",
+        "teams_count": 160
+    },
+    {
+        "slug": "yelp-recsys-2013",
+        "competition_url": "https://www.kaggle.com/competitions/yelp-recsys-2013",
+        "code_url": "https://www.kaggle.com/competitions/yelp-recsys-2013/code",
+        "teams_count": 158
+    },
+    {
+        "slug": "finding-elo",
+        "competition_url": "https://www.kaggle.com/competitions/finding-elo",
+        "code_url": "https://www.kaggle.com/competitions/finding-elo/code",
+        "teams_count": 157
+    },
+    {
+        "slug": "asap-aes",
+        "competition_url": "https://www.kaggle.com/competitions/asap-aes",
+        "code_url": "https://www.kaggle.com/competitions/asap-aes/code",
+        "teams_count": 153
+    },
+    {
+        "slug": "herbarium-2020-fgvc7",
+        "competition_url": "https://www.kaggle.com/competitions/herbarium-2020-fgvc7",
+        "code_url": "https://www.kaggle.com/competitions/herbarium-2020-fgvc7/code",
+        "teams_count": 153
+    },
+    {
+        "slug": "asap-sas",
+        "competition_url": "https://www.kaggle.com/competitions/asap-sas",
+        "code_url": "https://www.kaggle.com/competitions/asap-sas/code",
+        "teams_count": 151
+    },
+    {
+        "slug": "msdchallenge",
+        "competition_url": "https://www.kaggle.com/competitions/msdchallenge",
+        "code_url": "https://www.kaggle.com/competitions/msdchallenge/code",
+        "teams_count": 150
+    },
+    {
+        "slug": "informs2010",
+        "competition_url": "https://www.kaggle.com/competitions/informs2010",
+        "code_url": "https://www.kaggle.com/competitions/informs2010/code",
+        "teams_count": 145
+    },
+    {
+        "slug": "pf2012-diabetes",
+        "competition_url": "https://www.kaggle.com/competitions/pf2012-diabetes",
+        "code_url": "https://www.kaggle.com/competitions/pf2012-diabetes/code",
+        "teams_count": 145
+    },
+    {
+        "slug": "landmark-retrieval-2019",
+        "competition_url": "https://www.kaggle.com/competitions/landmark-retrieval-2019",
+        "code_url": "https://www.kaggle.com/competitions/landmark-retrieval-2019/code",
+        "teams_count": 144
+    },
+    {
+        "slug": "connectomics",
+        "competition_url": "https://www.kaggle.com/competitions/connectomics",
+        "code_url": "https://www.kaggle.com/competitions/connectomics/code",
+        "teams_count": 143
+    },
+    {
+        "slug": "20-newsgroups-ciphertext-challenge",
+        "competition_url": "https://www.kaggle.com/competitions/20-newsgroups-ciphertext-challenge",
+        "code_url": "https://www.kaggle.com/competitions/20-newsgroups-ciphertext-challenge/code",
+        "teams_count": 142
+    },
+    {
+        "slug": "conway-s-reverse-game-of-life",
+        "competition_url": "https://www.kaggle.com/competitions/conway-s-reverse-game-of-life",
+        "code_url": "https://www.kaggle.com/competitions/conway-s-reverse-game-of-life/code",
+        "teams_count": 141
+    },
+    {
+        "slug": "cvpr-2018-autonomous-driving",
+        "competition_url": "https://www.kaggle.com/competitions/cvpr-2018-autonomous-driving",
+        "code_url": "https://www.kaggle.com/competitions/cvpr-2018-autonomous-driving/code",
+        "teams_count": 141
+    },
+    {
+        "slug": "herbarium-2022-fgvc9",
+        "competition_url": "https://www.kaggle.com/competitions/herbarium-2022-fgvc9",
+        "code_url": "https://www.kaggle.com/competitions/herbarium-2022-fgvc9/code",
+        "teams_count": 134
+    },
+    {
+        "slug": "MusicHackathon",
+        "competition_url": "https://www.kaggle.com/competitions/MusicHackathon",
+        "code_url": "https://www.kaggle.com/competitions/MusicHackathon/code",
+        "teams_count": 133
+    },
+    {
+        "slug": "GEF2012-wind-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/GEF2012-wind-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/GEF2012-wind-forecasting/code",
+        "teams_count": 133
+    },
+    {
+        "slug": "predict-who-is-more-influential-in-a-social-network",
+        "competition_url": "https://www.kaggle.com/competitions/predict-who-is-more-influential-in-a-social-network",
+        "code_url": "https://www.kaggle.com/competitions/predict-who-is-more-influential-in-a-social-network/code",
+        "teams_count": 132
+    },
+    {
+        "slug": "hashcode-drone-delivery",
+        "competition_url": "https://www.kaggle.com/competitions/hashcode-drone-delivery",
+        "code_url": "https://www.kaggle.com/competitions/hashcode-drone-delivery/code",
+        "teams_count": 130
+    },
+    {
+        "slug": "the-icml-2013-whale-challenge-right-whale-redux",
+        "competition_url": "https://www.kaggle.com/competitions/the-icml-2013-whale-challenge-right-whale-redux",
+        "code_url": "https://www.kaggle.com/competitions/the-icml-2013-whale-challenge-right-whale-redux/code",
+        "teams_count": 129
+    },
+    {
+        "slug": "flight2-milestone",
+        "competition_url": "https://www.kaggle.com/competitions/flight2-milestone",
+        "code_url": "https://www.kaggle.com/competitions/flight2-milestone/code",
+        "teams_count": 129
+    },
+    {
+        "slug": "flight2-main",
+        "competition_url": "https://www.kaggle.com/competitions/flight2-main",
+        "code_url": "https://www.kaggle.com/competitions/flight2-main/code",
+        "teams_count": 121
+    },
+    {
+        "slug": "iwildcam-2020-fgvc7",
+        "competition_url": "https://www.kaggle.com/competitions/iwildcam-2020-fgvc7",
+        "code_url": "https://www.kaggle.com/competitions/iwildcam-2020-fgvc7/code",
+        "teams_count": 121
+    },
+    {
+        "slug": "wise-2014",
+        "competition_url": "https://www.kaggle.com/competitions/wise-2014",
+        "code_url": "https://www.kaggle.com/competitions/wise-2014/code",
+        "teams_count": 120
+    },
+    {
+        "slug": "lshtc",
+        "competition_url": "https://www.kaggle.com/competitions/lshtc",
+        "code_url": "https://www.kaggle.com/competitions/lshtc/code",
+        "teams_count": 119
+    },
+    {
+        "slug": "socialNetwork",
+        "competition_url": "https://www.kaggle.com/competitions/socialNetwork",
+        "code_url": "https://www.kaggle.com/competitions/socialNetwork/code",
+        "teams_count": 117
+    },
+    {
+        "slug": "AlgorithmicTradingChallenge",
+        "competition_url": "https://www.kaggle.com/competitions/AlgorithmicTradingChallenge",
+        "code_url": "https://www.kaggle.com/competitions/AlgorithmicTradingChallenge/code",
+        "teams_count": 111
+    },
+    {
+        "slug": "twitter-psychopathy-prediction",
+        "competition_url": "https://www.kaggle.com/competitions/twitter-psychopathy-prediction",
+        "code_url": "https://www.kaggle.com/competitions/twitter-psychopathy-prediction/code",
+        "teams_count": 111
+    },
+    {
+        "slug": "facebook-ii",
+        "competition_url": "https://www.kaggle.com/competitions/facebook-ii",
+        "code_url": "https://www.kaggle.com/competitions/facebook-ii/code",
+        "teams_count": 111
+    },
+    {
+        "slug": "dsg-hackathon",
+        "competition_url": "https://www.kaggle.com/competitions/dsg-hackathon",
+        "code_url": "https://www.kaggle.com/competitions/dsg-hackathon/code",
+        "teams_count": 110
+    },
+    {
+        "slug": "hack-reduce-dunnhumby-hackathon",
+        "competition_url": "https://www.kaggle.com/competitions/hack-reduce-dunnhumby-hackathon",
+        "code_url": "https://www.kaggle.com/competitions/hack-reduce-dunnhumby-hackathon/code",
+        "teams_count": 108
+    },
+    {
+        "slug": "hivprogression",
+        "competition_url": "https://www.kaggle.com/competitions/hivprogression",
+        "code_url": "https://www.kaggle.com/competitions/hivprogression/code",
+        "teams_count": 107
+    },
+    {
+        "slug": "nips-2017-defense-against-adversarial-attack",
+        "competition_url": "https://www.kaggle.com/competitions/nips-2017-defense-against-adversarial-attack",
+        "code_url": "https://www.kaggle.com/competitions/nips-2017-defense-against-adversarial-attack/code",
+        "teams_count": 107
+    },
+    {
+        "slug": "santa-2019-revenge-of-the-accountants",
+        "competition_url": "https://www.kaggle.com/competitions/santa-2019-revenge-of-the-accountants",
+        "code_url": "https://www.kaggle.com/competitions/santa-2019-revenge-of-the-accountants/code",
+        "teams_count": 106
+    },
+    {
+        "slug": "wikipedia-image-caption",
+        "competition_url": "https://www.kaggle.com/competitions/wikipedia-image-caption",
+        "code_url": "https://www.kaggle.com/competitions/wikipedia-image-caption/code",
+        "teams_count": 105
+    },
+    {
+        "slug": "global-energy-forecasting-competition-2012-load-forecasting",
+        "competition_url": "https://www.kaggle.com/competitions/global-energy-forecasting-competition-2012-load-forecasting",
+        "code_url": "https://www.kaggle.com/competitions/global-energy-forecasting-competition-2012-load-forecasting/code",
+        "teams_count": 103
+    },
+    {
+        "slug": "ciphertext-challenge-iii",
+        "competition_url": "https://www.kaggle.com/competitions/ciphertext-challenge-iii",
+        "code_url": "https://www.kaggle.com/competitions/ciphertext-challenge-iii/code",
+        "teams_count": 103
+    },
+    {
+        "slug": "ClaimPredictionChallenge",
+        "competition_url": "https://www.kaggle.com/competitions/ClaimPredictionChallenge",
+        "code_url": "https://www.kaggle.com/competitions/ClaimPredictionChallenge/code",
+        "teams_count": 102
+    }
+]
