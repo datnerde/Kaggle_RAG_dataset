@@ -22,3 +22,5 @@ Dataset itself
               
 def ds_agent(, , , memory):  external: 1. purly good top 15 votes notebook, 2. mixed top 10 + bottom 5, 3. bottom 15
                               internal: chain-of-thoughts + external
+
+
