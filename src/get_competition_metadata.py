@@ -10,10 +10,12 @@ import sys
 import argparse
 
 class CompetitionScraper:
-    def __init__(self, headless=True):
+    def __init__(self, headless=True, output_dir = None):
         self.user_agent = self._get_random_user_agent()
+        self.output_dir = os.path.abspath(output_dir) if output_dir else os.getcwd()
         self.driver = self._init_driver(headless)
         self.wait = WebDriverWait(self.driver, 15)
+        os.makedirs(self.output_dir, exist_ok=True)  # Create directory if needed
     
     def _get_random_user_agent(self):
         user_agents = [
@@ -30,6 +32,13 @@ class CompetitionScraper:
         options.headless = headless
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_argument(f'--user-agent={self.user_agent}')
+        # add download path
+        prefs = {
+            "download.default_directory": self.output_dir,
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True
+        }
         return uc.Chrome(options=options)
 
     def refresh_driver(self, headless):
@@ -126,12 +135,6 @@ class CompetitionScraper:
             print(f"Error extracting data sidebar from {url}: {str(e)}")
             files = size = file_type = ""
         
-        # extracted = self.extract_fields(
-        #     sidebar_content,
-        #     desired_fields={"Files", "Size", "Type"},
-        #     ignore_fields={"License"}
-        # )
-        
         return {
             'Description': description,
             'Files': files,
@@ -139,11 +142,65 @@ class CompetitionScraper:
             'Type': file_type
         }
         
+    def verify_download_completion(self):
+        """Check for .crdownload files to confirm download completion"""
+        time.sleep(1)  # Initial wait
+        for _ in range(30):  # Max 30 seconds wait
+            if any(f.endswith('.crdownload') for f in os.listdir(self.output_dir)):
+                time.sleep(1)  # Still downloading
+            else:
+                return True  # No more temp files
+        return False
+    
+    def close_interfering_elements(self):
+        try:
+            # Close sign-in modal (if present)
+            self.driver.execute_script('''
+                document.querySelectorAll("div[role='dialog'] button[aria-label='Close']")
+                    .forEach(btn => btn.click());
+            ''')
+            
+            # Dismiss cookie banner (if present)
+            cookie_accept = WebDriverWait(self.driver, 3).until(
+                EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'Accept')]"))
+            )
+            cookie_accept.click()
+            time.sleep(0.5)
+            
+        except:
+            pass  # No interfering elements found
+    
+    def download_data(self, url):
+        self.driver.get(url)
+        time.sleep(random.uniform(0.5, 2))
+        try:
+            # 1. Close any potential overlays (Kaggle-specific)
+            self.close_interfering_elements()
+            
+            # 2. Wait for button AND scroll into view
+            download_button = self.wait.until(EC.element_to_be_clickable(
+                (By.XPATH, "//button[.//span[text()='Download All']]")
+            ))
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", download_button)
+            
+            # 3. Use JavaScript click to bypass overlay interference
+            time.sleep(random.uniform(0.5, 1))  # Allow final positioning
+            self.driver.execute_script("arguments[0].click();", download_button)
+            # Add verification
+            if self.verify_download_completion():
+                print(f"Download completed to: {self.output_dir}")
+                return True
+            return False
+            
+        except Exception as e:
+            print(f"Error downloading: {str(e)}")
+            return False
+        
     def close(self):
         self.driver.quit()
 # Modified main function
 def main(args):
-    scraper = CompetitionScraper(headless=args.headless)
+    scraper = CompetitionScraper(headless=args.headless, output_dir=args.output_dir)
     os.makedirs(args.data_dir, exist_ok=True)
     
     # Initialize rotation counter
@@ -195,10 +252,16 @@ def main(args):
             metadata[competition_name] = competition_data
             save_json(metadata, metadata_path)
             
+            # Download data if available
+            if scraper.download_data(data_url):
+                print("Data download initiated")
+            else:
+                print("Skipping data download")
+                
             # Random delays
             time.sleep(random.uniform(2, 5))
             if i % random.randint(5, 10) == 0:
-                sleep_time = random.uniform(8, 15)
+                sleep_time = random.uniform(1, 5)
                 print(f"Random anti-detection delay: {sleep_time:.1f} seconds")
                 time.sleep(sleep_time)
                 
@@ -238,6 +301,11 @@ if __name__ == "__main__":
                        help='Directory for input/output data (default: ./data/test)')
     parser.add_argument('--rotation-interval', type=int, default=30,
                        help='Number of competitions between user agent rotations (default: 30)')
-    
+    parser.add_argument('--output-dir', default='./data/dataset',
+                          help='Directory for output data (default: ./data/dataset)')
     args = parser.parse_args()
+
+    # Adjust output directory for test mode
+    if args.test:
+        args.output_dir = './data/test/dataset'
     main(args)
