@@ -39,6 +39,8 @@ class CompetitionScraper:
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True
         }
+        
+        options.add_experimental_option("prefs", prefs)  # This was missing
         return uc.Chrome(options=options)
 
     def refresh_driver(self, headless):
@@ -186,16 +188,42 @@ class CompetitionScraper:
             # 3. Use JavaScript click to bypass overlay interference
             time.sleep(random.uniform(0.5, 1))  # Allow final positioning
             self.driver.execute_script("arguments[0].click();", download_button)
-            # Add verification
-            if self.verify_download_completion():
-                print(f"Download completed to: {self.output_dir}")
-                return True
+            # # Add verification
+            # if self.verify_download_completion():
+            #     print(f"Download completed to: {self.output_dir}")
+            #     return True
+            # return False
+            
+            return True
+        except Exception as e:
+            print(f"Error downloading: {str(e)}")
             return False
+    def download_leaderboard(self, url):
+        self.driver.get(url)
+        time.sleep(random.uniform(0.5, 2))
+        try:
+            # 1. Close any potential overlays (Kaggle-specific)
+            self.close_interfering_elements()
+            
+            # 2. Wait for button AND scroll into view
+            download_button = self.wait.until(EC.element_to_be_clickable(
+                (By.XPATH, "//button[@title='Download Leaderboard']")
+            ))
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", download_button)
+            
+            # 3. Use JavaScript click to bypass overlay interference
+            time.sleep(random.uniform(0.5, 1))  # Allow final positioning
+            self.driver.execute_script("arguments[0].click();", download_button)
+            # Add verification
+            # if self.verify_download_completion():
+            #     print(f"Download completed to: {self.output_dir}")
+            #     return True
+            # return False
+            return True
             
         except Exception as e:
             print(f"Error downloading: {str(e)}")
             return False
-        
     def close(self):
         self.driver.quit()
 # Modified main function
@@ -253,11 +281,18 @@ def main(args):
             save_json(metadata, metadata_path)
             
             # Download data if available
-            if scraper.download_data(data_url):
-                print("Data download initiated")
-            else:
-                print("Skipping data download")
-                
+            # if scraper.download_data(data_url):
+            #     print("Data download initiated")
+            # else:
+            #     print("Skipping data download")
+            
+            # # Download leaderboard if available
+            # leaderboard_url = f"{url.rstrip('/')}/leaderboard"
+            # if scraper.download_leaderboard(leaderboard_url):
+            #     print("Leaderboard download initiated")
+            # else:
+            #     print("Skipping leaderboard download")
+            
             # Random delays
             time.sleep(random.uniform(2, 5))
             if i % random.randint(5, 10) == 0:
