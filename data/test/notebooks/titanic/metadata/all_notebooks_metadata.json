@@ -1,0 +1,200 @@
+{
+    "titanic-tutorial": {
+        "url": "https://www.kaggle.com/code/alexisbcook/titanic-tutorial/comments",
+        "sort_by": "voteCount",
+        "score": 0.0,
+        "votes": 17240,
+        "comments": 29961,
+        "date_created": "Thu Jun 23 2022 17:25:16 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-competition-w-tensorflow-decision-forests": {
+        "url": "https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-forests/comments",
+        "sort_by": "voteCount",
+        "score": 0.80143,
+        "votes": 1125,
+        "comments": 326,
+        "date_created": "Thu May 18 2023 03:30:25 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-data-science-solutions": {
+        "url": "https://www.kaggle.com/code/startupsci/titanic-data-science-solutions/comments",
+        "sort_by": "voteCount",
+        "score": 0.0,
+        "votes": 10745,
+        "comments": 2594,
+        "date_created": "Sun Feb 10 2019 18:21:23 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "a-data-science-framework-to-achieve-99-accuracy": {
+        "url": "https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy/comments",
+        "sort_by": "voteCount",
+        "score": 0.88516,
+        "votes": 6034,
+        "comments": 736,
+        "date_created": "Sun Dec 31 2017 11:27:17 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "introduction-to-ensembling-stacking-in-python": {
+        "url": "https://www.kaggle.com/code/arthurtok/introduction-to-ensembling-stacking-in-python/comments",
+        "sort_by": "voteCount",
+        "score": 0.0,
+        "votes": 5926,
+        "comments": 1066,
+        "date_created": "Sat Jun 16 2018 07:41:15 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "exploring-survival-on-the-titanic": {
+        "url": "https://www.kaggle.com/code/mrisdal/exploring-survival-on-the-titanic/comments",
+        "sort_by": "voteCount",
+        "score": 0.80382,
+        "votes": 3973,
+        "comments": 1073,
+        "date_created": "Tue Dec 26 2017 12:42:24 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "eda-to-prediction-dietanic": {
+        "url": "https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/comments",
+        "sort_by": "voteCount",
+        "score": 0.0,
+        "votes": 3112,
+        "comments": 391,
+        "date_created": "Thu Mar 08 2018 10:55:32 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-top-4-with-ensemble-modeling": {
+        "url": "https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/comments",
+        "sort_by": "voteCount",
+        "score": 0.0,
+        "votes": 2950,
+        "comments": 441,
+        "date_created": "Wed Nov 22 2023 12:13:03 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-advanced-feature-engineering-tutorial": {
+        "url": "https://www.kaggle.com/code/gunesevitan/titanic-advanced-feature-engineering-tutorial/comments",
+        "sort_by": "voteCount",
+        "score": 0.83732,
+        "votes": 2486,
+        "comments": 409,
+        "date_created": "Mon Jan 20 2020 03:16:43 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-survival-predictions-beginner": {
+        "url": "https://www.kaggle.com/code/nadintamer/titanic-survival-predictions-beginner/comments",
+        "sort_by": "voteCount",
+        "score": 0.80382,
+        "votes": 1592,
+        "comments": 313,
+        "date_created": "Sun Oct 28 2018 14:48:26 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "preliminary-exploration": {
+        "url": "https://www.kaggle.com/code/letfly/preliminary-exploration/comments",
+        "sort_by": "scoreAscending",
+        "score": 0.0,
+        "votes": 13,
+        "comments": 3,
+        "date_created": "Tue Apr 26 2016 00:28:27 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "test1": {
+        "url": "https://www.kaggle.com/code/bolids/test1/comments",
+        "sort_by": "scoreAscending",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Mon Jun 06 2016 17:05:24 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "boarding-a-sinking-ship": {
+        "url": "https://www.kaggle.com/code/seantacular/boarding-a-sinking-ship/comments",
+        "sort_by": "scoreAscending",
+        "score": 0.0,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Fri Jul 29 2016 05:28:41 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "a-journey-through-titanic": {
+        "url": "https://www.kaggle.com/code/omarelgabry/a-journey-through-titanic/comments",
+        "sort_by": "commentCount",
+        "score": 0.74162,
+        "votes": 1424,
+        "comments": 437,
+        "date_created": "Tue Nov 15 2016 11:19:03 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "comparison-of-each-model-lr-sgd-dt-rf-gb": {
+        "url": "https://www.kaggle.com/code/damiroan/comparison-of-each-model-lr-sgd-dt-rf-gb/comments",
+        "sort_by": "dateCreated",
+        "score": 0.78229,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 22:56:05 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "exercise-arithmetic-and-variables": {
+        "url": "https://www.kaggle.com/code/alexisbcook/exercise-arithmetic-and-variables",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 17:55:24 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "building-an-ml-pipeline-titanic": {
+        "url": "https://www.kaggle.com/code/gianlucarapaglia/building-an-ml-pipeline-titanic/comments",
+        "sort_by": "dateCreated",
+        "score": 0.78947,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 14:16:20 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-project-with-random-forest": {
+        "url": "https://www.kaggle.com/code/seifelmyzaien/titanic-project-with-random-forest/comments",
+        "sort_by": "dateCreated",
+        "score": 0.78708,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 15:26:23 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic": {
+        "url": "https://www.kaggle.com/code/alkhwarizmi114/titanic/comments",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 22:54:12 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-linear-logistic-regression-implementation": {
+        "url": "https://www.kaggle.com/code/supriya21k/titanic-linear-logistic-regression-implementation/comments",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 14:55:00 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "unsinkable-ai-lr-dt-rf-svm-gb-xgboost": {
+        "url": "https://www.kaggle.com/code/elieli94/unsinkable-ai-lr-dt-rf-svm-gb-xgboost/comments",
+        "sort_by": "dateCreated",
+        "score": 0.77511,
+        "votes": 2,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 11:28:26 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "titanic-dataframe": {
+        "url": "https://www.kaggle.com/code/alexandrughiurutan/titanic-dataframe/comments",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 09:40:55 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    }
+}
