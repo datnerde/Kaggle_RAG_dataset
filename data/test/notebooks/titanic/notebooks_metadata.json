@@ -1,7 +1,7 @@
 {
     "https://www.kaggle.com/code/alexisbcook/titanic-tutorial/comments": {
         "score": 0.0,
-        "votes": 17228
+        "votes": 17239
     },
     "https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-forests/comments": {
         "score": 0.80143,
@@ -29,11 +29,11 @@
     },
     "https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/comments": {
         "score": 0.0,
-        "votes": 2949
+        "votes": 2950
     },
     "https://www.kaggle.com/code/gunesevitan/titanic-advanced-feature-engineering-tutorial/comments": {
         "score": 0.83732,
-        "votes": 2485
+        "votes": 2486
     },
     "https://www.kaggle.com/code/nadintamer/titanic-survival-predictions-beginner/comments": {
         "score": 0.80382,
@@ -78,5 +78,49 @@
     "https://www.kaggle.com/code/jhoward/how-random-forests-really-work/comments": {
         "score": 0.76555,
         "votes": 1071
+    },
+    "https://www.kaggle.com/code/parulpandey/10-simple-hacks-to-speed-up-your-data-analysis/comments": {
+        "score": 0.0,
+        "votes": 991
+    },
+    "https://www.kaggle.com/code/helgejo/an-interactive-data-science-tutorial/comments": {
+        "score": 0.75598,
+        "votes": 878
+    },
+    "https://www.kaggle.com/code/jhoward/why-you-should-use-a-framework/comments": {
+        "score": 0.7799,
+        "votes": 804
+    },
+    "https://www.kaggle.com/code/parulpandey/a-guide-to-handling-missing-values-in-python/comments": {
+        "score": 0.0,
+        "votes": 771
+    },
+    "https://www.kaggle.com/code/pmarcelino/data-analysis-and-feature-extraction-with-python/comments": {
+        "score": 0.0,
+        "votes": 704
+    },
+    "https://www.kaggle.com/code/sishihara/upura-kaggle-tutorial-01-first-submission/comments": {
+        "score": 0.66507,
+        "votes": 666
+    },
+    "https://www.kaggle.com/code/erikbruin/titanic-2nd-degree-families-and-majority-voting/comments": {
+        "score": 0.81818,
+        "votes": 665
+    },
+    "https://www.kaggle.com/code/mnassrib/titanic-logistic-regression-with-python/comments": {
+        "score": 0.76076,
+        "votes": 651
+    },
+    "https://www.kaggle.com/code/brendan45774/titanic-top-solution/comments": {
+        "score": 0.0,
+        "votes": 636
+    },
+    "https://www.kaggle.com/code/pavansanagapati/14-simple-tips-to-save-ram-memory-for-1-gb-dataset/comments": {
+        "score": 0.0,
+        "votes": 602
+    },
+    "https://www.kaggle.com/code/tarunpaparaju/titanic-competition-how-top-lb-got-their-score/comments": {
+        "score": 0.0,
+        "votes": 574
     }
 }
