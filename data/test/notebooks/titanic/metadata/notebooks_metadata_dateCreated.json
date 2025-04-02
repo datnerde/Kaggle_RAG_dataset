@@ -68,5 +68,19 @@
         "comments": 0,
         "date_created": "Tue Apr 01 2025 09:40:55 GMT-0700 (Mountain Standard Time)",
         "notebook_slug": "titanic-dataframe"
+    },
+    "https://www.kaggle.com/code/xiazhijian/titanic-xgboost/comments": {
+        "score": 0.78229,
+        "votes": 2,
+        "comments": 1,
+        "date_created": "Tue Apr 01 2025 08:15:46 GMT-0700 (Mountain Standard Time)",
+        "notebook_slug": "titanic-xgboost"
+    },
+    "https://www.kaggle.com/code/xiazhijian/titanic-cat/comments": {
+        "score": 0.78708,
+        "votes": 2,
+        "comments": 1,
+        "date_created": "Tue Apr 01 2025 07:36:43 GMT-0700 (Mountain Standard Time)",
+        "notebook_slug": "titanic-cat"
     }
 }

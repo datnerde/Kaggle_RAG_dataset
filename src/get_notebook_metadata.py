@@ -390,18 +390,18 @@ class NotebookDownloader:
         print("\nStarting notebook downloads...")
         
         # Check which notebooks we've already downloaded according to master metadata
-        for url, data in solution_urls.items():
-            # Get notebook slug from URL or metadata
-            notebook_slug = data.get("notebook_slug", "")
-            if not notebook_slug:
-                parsed_url = urlparse(url)
-                path_segments = parsed_url.path.strip('/').split('/')
-                if len(path_segments) >= 3 and path_segments[0] == 'code':
-                    notebook_slug = path_segments[2]
-            
-            # Skip if notebook is already in master metadata
-            if notebook_slug in master_metadata:
+        for url in solution_urls.keys():
+            # Skip if URL is already in master metadata
+            if url in master_metadata:
                 already_downloaded_count += 1
+            # # Get notebook slug from URL or metadata
+            # notebook_slug = data.get("notebook_slug", "")
+            # if not notebook_slug:
+            #     parsed_url = urlparse(url)
+            #     path_segments = parsed_url.path.strip('/').split('/')
+            #     if len(path_segments) >= 3 and path_segments[0] == 'code':
+            #         notebook_slug = path_segments[2]
+        
                 
         if already_downloaded_count > 0:
             print(f"Found {already_downloaded_count} notebooks that have already been downloaded.")
@@ -424,7 +424,7 @@ class NotebookDownloader:
                     continue
             
             # Check if notebook is already in master metadata
-            if notebook_slug in master_metadata:
+            if sol_url in master_metadata:
                 print(f"✓ Notebook '{notebook_slug}' already recorded in master metadata. Skipping.")
                 downloaded_count += 1
                 continue
@@ -434,8 +434,8 @@ class NotebookDownloader:
             if self.file_exists(*possible_paths):
                 existing_file = next(p for p in possible_paths if os.path.exists(p))
                 print(f"✓ Notebook '{os.path.basename(existing_file)}' already exists but not in metadata. Adding to metadata.")
-                master_metadata[notebook_slug] = {
-                    "url": sol_url,
+                master_metadata[sol_url] = {
+                    "notebook_name": notebook_slug,
                     "sort_by": self.sort_by,
                     "score": data.get("score", 0),
                     "votes": data.get("votes", 0),
@@ -450,8 +450,8 @@ class NotebookDownloader:
             success = self.download_solution(sol_url, base_folder)
             if success:
                 # Add to master metadata
-                master_metadata[notebook_slug] = {
-                    "url": sol_url,
+                master_metadata[sol_url] = {
+                    "notebook_name": notebook_slug,
                     "sort_by": self.sort_by,
                     "score": data.get("score", 0),
                     "votes": data.get("votes", 0),

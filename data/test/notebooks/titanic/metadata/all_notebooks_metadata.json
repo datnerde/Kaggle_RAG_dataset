@@ -196,5 +196,113 @@
         "comments": 0,
         "date_created": "Tue Apr 01 2025 09:40:55 GMT-0700 (Mountain Standard Time)",
         "downloaded": true
+    },
+    "https://www.kaggle.com/code/alexisbcook/titanic-tutorial/comments": {
+        "notebook_name": "titanic-tutorial",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 17240,
+        "comments": 29962,
+        "date_created": "Thu Jun 23 2022 17:25:16 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-forests/comments": {
+        "notebook_name": "titanic-competition-w-tensorflow-decision-forests",
+        "sort_by": "dateCreated",
+        "score": 0.80143,
+        "votes": 1125,
+        "comments": 326,
+        "date_created": "Thu May 18 2023 03:30:25 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/damiroan/comparison-of-each-model-lr-sgd-dt-rf-gb/comments": {
+        "notebook_name": "comparison-of-each-model-lr-sgd-dt-rf-gb",
+        "sort_by": "dateCreated",
+        "score": 0.78229,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 22:56:05 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/alexisbcook/exercise-arithmetic-and-variables": {
+        "notebook_name": "exercise-arithmetic-and-variables",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 17:55:24 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/gianlucarapaglia/building-an-ml-pipeline-titanic/comments": {
+        "notebook_name": "building-an-ml-pipeline-titanic",
+        "sort_by": "dateCreated",
+        "score": 0.78947,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 14:16:20 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/seifelmyzaien/titanic-project-with-random-forest/comments": {
+        "notebook_name": "titanic-project-with-random-forest",
+        "sort_by": "dateCreated",
+        "score": 0.78708,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 15:26:23 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/alkhwarizmi114/titanic/comments": {
+        "notebook_name": "titanic",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 22:54:12 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/supriya21k/titanic-linear-logistic-regression-implementation/comments": {
+        "notebook_name": "titanic-linear-logistic-regression-implementation",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 14:55:00 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/elieli94/unsinkable-ai-lr-dt-rf-svm-gb-xgboost/comments": {
+        "notebook_name": "unsinkable-ai-lr-dt-rf-svm-gb-xgboost",
+        "sort_by": "dateCreated",
+        "score": 0.77511,
+        "votes": 2,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 11:28:26 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/alexandrughiurutan/titanic-dataframe/comments": {
+        "notebook_name": "titanic-dataframe",
+        "sort_by": "dateCreated",
+        "score": 0.0,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Apr 01 2025 09:40:55 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/xiazhijian/titanic-xgboost/comments": {
+        "notebook_name": "titanic-xgboost",
+        "sort_by": "dateCreated",
+        "score": 0.78229,
+        "votes": 2,
+        "comments": 1,
+        "date_created": "Tue Apr 01 2025 08:15:46 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/xiazhijian/titanic-cat/comments": {
+        "notebook_name": "titanic-cat",
+        "sort_by": "dateCreated",
+        "score": 0.78708,
+        "votes": 2,
+        "comments": 1,
+        "date_created": "Tue Apr 01 2025 07:36:43 GMT-0700 (Mountain Standard Time)",
+        "downloaded": true
     }
 }
