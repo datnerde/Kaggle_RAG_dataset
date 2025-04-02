@@ -280,19 +280,6 @@ def main(args):
             metadata[competition_name] = competition_data
             save_json(metadata, metadata_path)
             
-            # Download data if available
-            # if scraper.download_data(data_url):
-            #     print("Data download initiated")
-            # else:
-            #     print("Skipping data download")
-            
-            # # Download leaderboard if available
-            # leaderboard_url = f"{url.rstrip('/')}/leaderboard"
-            # if scraper.download_leaderboard(leaderboard_url):
-            #     print("Leaderboard download initiated")
-            # else:
-            #     print("Skipping leaderboard download")
-            
             # Random delays
             time.sleep(random.uniform(2, 5))
             if i % random.randint(5, 10) == 0:
