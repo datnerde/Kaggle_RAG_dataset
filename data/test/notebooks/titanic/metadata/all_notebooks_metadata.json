@@ -44,15 +44,6 @@
         "date_created": "Sat Jun 16 2018 07:41:15 GMT-0700 (Mountain Standard Time)",
         "downloaded": true
     },
-    "exploring-survival-on-the-titanic": {
-        "url": "https://www.kaggle.com/code/mrisdal/exploring-survival-on-the-titanic/comments",
-        "sort_by": "voteCount",
-        "score": 0.80382,
-        "votes": 3973,
-        "comments": 1073,
-        "date_created": "Tue Dec 26 2017 12:42:24 GMT-0700 (Mountain Standard Time)",
-        "downloaded": true
-    },
     "eda-to-prediction-dietanic": {
         "url": "https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/comments",
         "sort_by": "voteCount",
@@ -161,15 +152,6 @@
         "date_created": "Tue Apr 01 2025 15:26:23 GMT-0700 (Mountain Standard Time)",
         "downloaded": true
     },
-    "titanic": {
-        "url": "https://www.kaggle.com/code/alkhwarizmi114/titanic/comments",
-        "sort_by": "dateCreated",
-        "score": 0.0,
-        "votes": 0,
-        "comments": 0,
-        "date_created": "Tue Apr 01 2025 22:54:12 GMT-0700 (Mountain Standard Time)",
-        "downloaded": true
-    },
     "titanic-linear-logistic-regression-implementation": {
         "url": "https://www.kaggle.com/code/supriya21k/titanic-linear-logistic-regression-implementation/comments",
         "sort_by": "dateCreated",
@@ -249,15 +231,6 @@
         "votes": 1,
         "comments": 0,
         "date_created": "Tue Apr 01 2025 15:26:23 GMT-0700 (Mountain Standard Time)",
-        "downloaded": true
-    },
-    "https://www.kaggle.com/code/alkhwarizmi114/titanic/comments": {
-        "notebook_name": "titanic",
-        "sort_by": "dateCreated",
-        "score": 0.0,
-        "votes": 0,
-        "comments": 0,
-        "date_created": "Tue Apr 01 2025 22:54:12 GMT-0700 (Mountain Standard Time)",
         "downloaded": true
     },
     "https://www.kaggle.com/code/supriya21k/titanic-linear-logistic-regression-implementation/comments": {
