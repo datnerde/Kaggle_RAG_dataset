@@ -84,15 +84,27 @@ class NotebookDownloader:
         self.test_mode = test_mode
         self.sort_by = sort_by
         
-    def get_notebook_path(self, competition_folder, notebook_slug):
-        """Get potential notebook file paths including .py and .R"""
-        base = os.path.join(competition_folder, notebook_slug)
-        return [
-            f"{base}.ipynb",  # Jupyter Notebook
-            f"{base}.Rmd",    # R Markdown
-            f"{base}.py",     # Python script
-            f"{base}.R"       # R script
-        ]
+    
+    def get_notebook_path(self, competition_folder, notebook_name, original = False):
+        """Get potential notebook file paths, accounting for hyphen/underscore variants and file extensions."""
+        # Generate slug variants
+        if original:
+            variants = {
+                notebook_name,
+                notebook_name.replace('-', '_'),
+                notebook_name.replace('_', '-')
+            }
+        else:
+            variants = {notebook_name}
+
+        extensions = [".ipynb", ".Rmd", ".py", ".R"]
+        paths = []
+
+        for variant in variants:
+            for ext in extensions:
+                paths.append(os.path.join(competition_folder, f"{variant}{ext}"))
+
+        return paths
     
     def file_exists(self, *filepaths):
         """Check if any of the given filepaths exist."""
@@ -120,6 +132,9 @@ class NotebookDownloader:
             for card in cards:
                 outer_html = card.get_attribute("outerHTML")
                 if "Upvote" not in outer_html:
+                    continue
+                if "Notebook copied with edits from" in outer_html:
+                    # Skip notebooks copied from others
                     continue
                 try:
                     score_elem = card.find_element(By.XPATH, ".//span[contains(text(), 'Score')]")
@@ -158,7 +173,8 @@ class NotebookDownloader:
                 parsed_url = urlparse(solution_url)
                 path_segments = parsed_url.path.strip('/').split('/')
                 notebook_slug = path_segments[2] if len(path_segments) >= 3 else ""
-                
+                username = path_segments[1] if len(path_segments) >= 2 else ""  # e.g., 'code/username'
+                notebook_name = username + "_" + notebook_slug.replace('_','-')
                 # Add if new solution
                 if solution_url not in collected:
                     new_added += 1
@@ -167,7 +183,8 @@ class NotebookDownloader:
                         "votes": votes,
                         "comments": comment_count,
                         "date_created": date_created,
-                        "notebook_slug": notebook_slug
+                        "notebook_slug": notebook_slug,
+                        "notebook_name": notebook_name,
                     }
                     print_progress(len(collected), self.target_count, prefix='Metadata collected: ')
                     
@@ -221,16 +238,10 @@ class NotebookDownloader:
         if len(path_segments) < 3 or path_segments[0] != 'code':
             print(f"❌ Invalid solution URL structure: {solution_url}")
             return False
-            
-        notebook_slug = path_segments[2]
-        possible_paths = self.get_notebook_path(competition_folder, notebook_slug)
         
-        # Skip if any format already exists
-        existing_file = next((p for p in possible_paths if os.path.exists(p)), None)
-        if existing_file:
-            print(f"✓ Notebook '{os.path.basename(existing_file)}' already exists. Skipping download.")
-            return True
-            
+        username = path_segments[1]  # e.g., 'code/username'    
+        notebook_slug = path_segments[2]
+
         # Create folder if it doesn't exist
         os.makedirs(competition_folder, exist_ok=True)
         
@@ -244,17 +255,19 @@ class NotebookDownloader:
         self.driver.get(solution_url)
         WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
         
-        return self._try_download(notebook_slug, competition_folder)
+        downloaded_file_name = self._try_download(notebook_slug, competition_folder)
+        if downloaded_file_name is None:
+            print(f"❌ Failed to download notebook")
+            return False
+        else:
+            new_filename = username + "_" + os.path.basename(downloaded_file_name.replace("_", "-"))
+            new_filepath = os.path.join(competition_folder, new_filename)
+            os.rename(downloaded_file_name, new_filepath)
+            return True
+        
     
     def _try_download(self, notebook_slug,competition_folder):
         """Try multiple methods to download the notebook."""
-        possible_paths = self.get_notebook_path(competition_folder, notebook_slug)
-    
-        # Check if any format already exists
-        existing_file = next((p for p in possible_paths if os.path.exists(p)), None)
-        if existing_file:
-            print(f"✓ Notebook '{os.path.basename(existing_file)}' already exists. Skipping download.")
-            return True
         # Finding more options button
         try:
             more_options_btn = WebDriverWait(self.driver, 15).until(
@@ -269,7 +282,7 @@ class NotebookDownloader:
             more_options_btn.click()
         except Exception as e:
             print(f"❌ Failed at more options button: {str(e)}")
-            return False
+            return None
 
         # Finding download menu item
         try:
@@ -289,8 +302,10 @@ class NotebookDownloader:
             random_sleep(1, 0.2)
         except Exception as e:
             print(f"❌ Failed to find download item: {str(e)}")
-            return False
+            return None
 
+        possible_paths = self.get_notebook_path(competition_folder, notebook_slug, original=True)  # Include original names in the path variants
+        
         def check_file_downloaded():
             return any(os.path.exists(p) for p in possible_paths)
         
@@ -298,8 +313,8 @@ class NotebookDownloader:
         try:
             ActionChains(self.driver).move_to_element(download_item).pause(0.5).click().perform()
             WebDriverWait(self.driver, 10).until(lambda _: check_file_downloaded())
-            self._report_success(notebook_slug, possible_paths)
-            return True
+            existing_file = self._report_success(possible_paths)
+            return existing_file
         except Exception as e:
             print(f"❌ Primary click failed: {str(e)}")
         
@@ -308,8 +323,8 @@ class NotebookDownloader:
             print("🔄 Attempting JavaScript click")
             self.driver.execute_script("arguments[0].click();", download_item)
             WebDriverWait(self.driver, 10).until(lambda _: check_file_downloaded())
-            self._report_success(notebook_slug, possible_paths)
-            return True
+            existing_file = self._report_success(possible_paths)
+            return existing_file
         except Exception as e:
             print(f"❌ JavaScript click failed: {str(e)}")
         
@@ -318,20 +333,22 @@ class NotebookDownloader:
             print("🔄 Attempting direct element click")
             download_item.click()
             WebDriverWait(self.driver, 10).until(lambda _: check_file_downloaded())
-            self._report_success(notebook_slug, possible_paths)
-            return True
+            existing_file = self._report_success(possible_paths)
+            return existing_file
         except Exception as e:
             print(f"❌ All click attempts failed: {str(e)}")
-            return False
+            return None
     
-    def _report_success(self, notebook_slug, possible_paths):
+    def _report_success(self, possible_paths):
         """Report which file was successfully downloaded."""
         downloaded = [p for p in possible_paths if os.path.exists(p)]
         if downloaded:
             for path in downloaded:
                 print(f"✅ Downloaded '{os.path.basename(path)}' successfully.")
+                return path
         else:
             print("❌ Download completed but no file found")
+            return None
     
     def process_competition(self, competition):
         """Process a competition: collect metadata and download notebooks."""
@@ -370,7 +387,7 @@ class NotebookDownloader:
             
             if len(solution_urls) < self.target_count:
                 print(f"Need {self.target_count - len(solution_urls)} more entries. Collecting additional solutions...")
-                new_solutions = self.collect_solution_metadata(code_page_url)
+                new_solutions = self.collect_solution_metadata(code_page_url) # username_notebook_slug(with hyphen/underscore) will be used as key
                 
                 # Merge with existing metadata
                 for url, data in new_solutions.items():
@@ -394,14 +411,6 @@ class NotebookDownloader:
             # Skip if URL is already in master metadata
             if url in master_metadata:
                 already_downloaded_count += 1
-            # # Get notebook slug from URL or metadata
-            # notebook_slug = data.get("notebook_slug", "")
-            # if not notebook_slug:
-            #     parsed_url = urlparse(url)
-            #     path_segments = parsed_url.path.strip('/').split('/')
-            #     if len(path_segments) >= 3 and path_segments[0] == 'code':
-            #         notebook_slug = path_segments[2]
-        
                 
         if already_downloaded_count > 0:
             print(f"Found {already_downloaded_count} notebooks that have already been downloaded.")
@@ -413,29 +422,26 @@ class NotebookDownloader:
             
             # Get notebook slug
             notebook_slug = data.get("notebook_slug", "")
-            if not notebook_slug:
-                parsed_url = urlparse(sol_url)
-                path_segments = parsed_url.path.strip('/').split('/')
-                if len(path_segments) >= 3 and path_segments[0] == 'code':
-                    notebook_slug = path_segments[2]
-                else:
-                    print(f"❌ Invalid URL structure: {sol_url}")
-                    skipped_count += 1
-                    continue
+            notebook_name = data.get("notebook_name", "")
+            if notebook_slug == "" or notebook_name == "":
+                print(f"❌ Invalid URL structure: {sol_url}")
+                skipped_count += 1
+                continue
             
             # Check if notebook is already in master metadata
             if sol_url in master_metadata:
-                print(f"✓ Notebook '{notebook_slug}' already recorded in master metadata. Skipping.")
+                print(f"✓ Notebook '{notebook_name}' already recorded in master metadata. Skipping.")
                 downloaded_count += 1
                 continue
                 
             # Check if notebook file already exists
-            possible_paths = self.get_notebook_path(base_folder, notebook_slug)
+            possible_paths = self.get_notebook_path(base_folder, notebook_name)
             if self.file_exists(*possible_paths):
-                existing_file = next(p for p in possible_paths if os.path.exists(p))
-                print(f"✓ Notebook '{os.path.basename(existing_file)}' already exists but not in metadata. Adding to metadata.")
+                # existing_file = next(p for p in possible_paths if os.path.exists(p))
+                # notebook_name = os.path.basename(existing_file)
+                print(f"✓ Notebook '{notebook_name}' already exists but not in metadata. Adding to metadata.")
                 master_metadata[sol_url] = {
-                    "notebook_name": notebook_slug,
+                    "notebook_name": notebook_name,  # Use username to ensure uniqueness
                     "sort_by": self.sort_by,
                     "score": data.get("score", 0),
                     "votes": data.get("votes", 0),
@@ -451,7 +457,7 @@ class NotebookDownloader:
             if success:
                 # Add to master metadata
                 master_metadata[sol_url] = {
-                    "notebook_name": notebook_slug,
+                    "notebook_name": notebook_name,
                     "sort_by": self.sort_by,
                     "score": data.get("score", 0),
                     "votes": data.get("votes", 0),
