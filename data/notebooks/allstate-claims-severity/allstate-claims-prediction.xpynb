@@ -1,0 +1,411 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "_cell_guid": "860ef5ea-8d69-5442-d2e8-b864b2250791"
+   },
+   "source": [
+    "**Module name**: readTrainingData \n",
+    "\n",
+    "**Parameters**: None\n",
+    "\n",
+    "**Description**: \n",
+    "Reads the train.csv and separates the categorical and continuous data.\n",
+    "This module also removes the target *loss* values from the training data which is required as an input during training the predictive model.\n",
+    "\n",
+    "**Return values**:\n",
+    "\n",
+    " - **categories**: The categorical values read from the data\n",
+    " - **continuous**: The continuous data read from the data\n",
+    " - **target**: The ***loss*** values extracted from data\n",
+    " - **data**: A dictionary of ***id*** as keys and the rest of the row of data as values (not used anywhere, did just in case if required at any time)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "_cell_guid": "8aecd7e9-29c6-d819-8a9f-71d631a6040e"
+   },
+   "outputs": [],
+   "source": [
+    "import csv\n",
+    "def readTrainingData():\n",
+    "    data = {}\n",
+    "    colNames = []\n",
+    "    categories = []\n",
+    "    continuous = []\n",
+    "    target = []\n",
+    "    target1 = []\n",
+    "    with open('../input/train.csv') as csvfile:\n",
+    "        trainReader = csv.reader(csvfile, delimiter=',')\n",
+    "        count = 0\n",
+    "        for row in trainReader:\n",
+    "            if count == 0:\n",
+    "                colNames = row\n",
+    "                count+=1\n",
+    "            else:\n",
+    "                key = int(row[0])\n",
+    "                row.pop(0)\n",
+    "                categories.append(row[0:116])\n",
+    "                continuous1 = row[116:130]\n",
+    "                target1.extend(row[130:131])\n",
+    "                idxToBeDeleted = len(row) - 1\n",
+    "                row.pop(idxToBeDeleted)\n",
+    "                continuous1 = [ float(x) for x in continuous1 ]\n",
+    "                continuous.append(continuous1)\n",
+    "                data[key] = row\n",
+    "        for item in target1:\n",
+    "            target.append(float(item))\n",
+    "    return data, categories,continuous,target"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "_cell_guid": "662ebe91-d5d6-dad3-a628-f4d28a1c2a7a"
+   },
+   "source": [
+    "Below cell is just used to call the ***readTrainingData*** module"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "_cell_guid": "06b041d7-3a4b-e670-fc66-d39d2cc19196"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "readTrainingData done\n"
+     ]
+    }
+   ],
+   "source": [
+    "data, categories,continuous,target = readTrainingData()\n",
+    "print (\"readTrainingData done\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "_cell_guid": "3853af13-fed7-077b-ee1a-a7c376644db2"
+   },
+   "source": [
+    "**Module name**: categoryEncoder\n",
+    "\n",
+    "**Parameters**: \n",
+    "\n",
+    " - **categories**: Categories values extracted during **readTrainingData**\n",
+    " - **continuous**: Continuous values extracted during **readTrainingData**\n",
+    "\n",
+    "**Description**: \n",
+    "This is the most important module since it converts the training categorical data into continuous ones. This is how its done:\n",
+    "\n",
+    " - Every unique category in the training data, is assigned a unique ***label*** \n",
+    "\n",
+    " - Now this ***label*** is replaced in the place of categorical values in a 2D list called encodedCategories.\n",
+    "\n",
+    " - A dictionary of unique categories along with their labels is maintained to use during encoding of test data categories\n",
+    "\n",
+    "The continuous and encoded categorical values are zipped together to resemble the training data\n",
+    "\n",
+    "**Return values**:\n",
+    "\n",
+    " - **encodedCategories**: The encoded categorical values\n",
+    " - **uniqCatAndCounts**: A dictionary of categories and its labels required during test data categories encoding.\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "_cell_guid": "953722be-ff15-443e-36dd-3815fc3fa386"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "categoryEncoder done\n"
+     ]
+    }
+   ],
+   "source": [
+    "def categoryEncoder(categories,continuous): \n",
+    "    uniqCatAndCounts = {}\n",
+    "    numRows = len(categories)\n",
+    "    numCols = len(categories[0])\n",
+    "    encodedCategories = [[0 for x in range(numCols)] for y in range(numRows)] \n",
+    "    for i in range(numRows):\n",
+    "        for j in range(numCols):\n",
+    "            if categories[i][j] in uniqCatAndCounts:\n",
+    "                uniqCatAndCounts[categories[i][j]] += 1\n",
+    "            else:\n",
+    "                uniqCatAndCounts[categories[i][j]] = 1\n",
+    "    label = 1\n",
+    "    for cat in uniqCatAndCounts:\n",
+    "        uniqCatAndCounts[cat] = label\n",
+    "        label += 1\n",
+    "    for i in range(numRows):\n",
+    "        for j in range(numCols):\n",
+    "            if categories[i][j] in uniqCatAndCounts:\n",
+    "                encodedCategories[i][j] = float(uniqCatAndCounts[categories[i][j]])\n",
+    "        encodedCategories[i].extend(continuous[i])\n",
+    "    return encodedCategories,uniqCatAndCounts\n",
+    "\n",
+    "encodedCategories,uniqCatAndCounts = categoryEncoder(categories,continuous)\n",
+    "print (\"categoryEncoder done\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "_cell_guid": "5ec40b5d-f859-2c38-6ee0-83b884cca748"
+   },
+   "source": [
+    "**Module name**: readTestData\n",
+    "\n",
+    "**Parameters**: None\n",
+    "\n",
+    "**Description**: Reads the test.csv and separates the categorical and continuous data.\n",
+    "This module separates the test ids which is needed in producing final predicted values.\n",
+    "\n",
+    "\n",
+    "**Return values**:\n",
+    "\n",
+    " - **categories**: The categorical values read from the data\n",
+    " - **continuous**: The continuous data read from the data\n",
+    " - **testIds**: The ***id*** of each row in the test data\n",
+    " - **data**: A dictionary of ***id*** as keys and the rest of the row of data as values (not used anywhere, did just in case if required at any time)\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "_cell_guid": "732968da-16f3-2f0e-c464-cf529741db36"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "readTestData done\n"
+     ]
+    }
+   ],
+   "source": [
+    "import csv\n",
+    "def readTestData():\n",
+    "    data = {}\n",
+    "    testIds = []\n",
+    "    colNames = []\n",
+    "    categories = []\n",
+    "    continuous = []\n",
+    "    count = 0\n",
+    "    with open('../input/test.csv') as csvfile:\n",
+    "        testReader = csv.reader(csvfile, delimiter=',')\n",
+    "        for row in testReader:\n",
+    "            if count == 0:\n",
+    "                colNames = row\n",
+    "                count+=1\n",
+    "            else:\n",
+    "                key = int(row[0])\n",
+    "                testIds.append(int(row.pop(0)))\n",
+    "                categories.append(row[0:116])\n",
+    "                continuous1 = row[116:130]\n",
+    "                continuous1 = [ float(x) for x in continuous1 ]\n",
+    "                continuous.append(continuous1)\n",
+    "                data[key] = row\n",
+    "    return data, categories, continuous, testIds\n",
+    "\n",
+    "dataTest, categoriesTest, continuousTest, testIds = readTestData()\n",
+    "print(\"readTestData done\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "_cell_guid": "67345cbb-e807-6184-f778-1f8970bf1fb4"
+   },
+   "source": [
+    "**Module name**: testCatEncoder\n",
+    "\n",
+    "**Parameters**: \n",
+    "\n",
+    " - **categoriesTest**: Categories values extracted during **readTestData**\n",
+    " - **continuousTest**: Continuous values extracted during **readTestData**\n",
+    " - **uniqCatAndCounts**: The categories and their labels read from **readTrainingData**\n",
+    "\n",
+    "**Description**: \n",
+    "This is another important module since it converts the test categorical data into continuous ones. This is how its done:\n",
+    "\n",
+    " - Every category in the test data, is replaced by the ***label*** read and stored in  ***uniqCatAndCounts*** during ***readTrainingData***.\n",
+    "\n",
+    " - If there is a category in the test data which was not in train data, that category is assigned a new label and is stored in ***uniqCatAndCounts*** \n",
+    "\n",
+    "The continuous and encoded categorical values are zipped together to resemble the test data\n",
+    "\n",
+    "**Return values**:\n",
+    "\n",
+    " - **encodedCategoriesTest**: The encoded categorical values from test data\n",
+    " - **uniqCatAndCounts**: An updated dictionary of categories and its labels"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "_cell_guid": "adafe770-142d-4208-57df-8c44ab165f58"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "testCatEncoder done\n"
+     ]
+    }
+   ],
+   "source": [
+    "def testCatEncoder(categoriesTest, uniqCatAndCounts, continuousTest):\n",
+    "    #encodedCategoriesTest = categoriesTest\n",
+    "    numRows = len(categoriesTest)\n",
+    "    numCols = len(categoriesTest[0])\n",
+    "    label = len(uniqCatAndCounts) + 1\n",
+    "    encodedCategoriesTest = [[0 for x in range(numCols)] for y in range(numRows)] \n",
+    "    for i in range(numRows):\n",
+    "        for j in range(numCols):\n",
+    "            if categoriesTest[i][j] in uniqCatAndCounts:\n",
+    "                encodedCategoriesTest[i][j] = float(uniqCatAndCounts[categoriesTest[i][j]])\n",
+    "            else:\n",
+    "                #Should update uniqCatAndCounts with new key and new value\n",
+    "                uniqCatAndCounts[categoriesTest[i][j]] = label\n",
+    "                encodedCategoriesTest[i][j] = label\n",
+    "                label += 1\n",
+    "        encodedCategoriesTest[i].extend(continuousTest[i])\n",
+    "    return uniqCatAndCounts, encodedCategoriesTest\n",
+    "\n",
+    "uniqCatAndCounts, encodedCategoriesTest = testCatEncoder(categoriesTest, uniqCatAndCounts, continuousTest)\n",
+    "print(\"testCatEncoder done\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "_cell_guid": "c62675da-132f-aa42-82f6-5826faf2793f"
+   },
+   "outputs": [],
+   "source": [
+    "#Preparing model with required parameters\n",
+    "import numpy as np\n",
+    "from xgboost import XGBRegressor\n",
+    "\n",
+    "seed = 0\n",
+    "n_estimators = 1000\n",
+    "\n",
+    "best_model = XGBRegressor(n_estimators=n_estimators,seed=seed)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "_cell_guid": "b24c2954-819c-abf1-47a0-99e80a998cc2"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1150.2730631817242"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "splitIdx = int(0.2*len(encodedCategories))\n",
+    "\n",
+    "from sklearn.metrics import mean_absolute_error\n",
+    "\n",
+    "#Split the data into 80 and 20 percent\n",
+    "encodedCategories_X_train = encodedCategories[:-splitIdx]\n",
+    "encodedCategories_X_test = encodedCategories[-splitIdx:]\n",
+    "\n",
+    "#Applying log transformation to reduce the bias of the target values\n",
+    "logTransformedLoss = list(np.log(target))\n",
+    "\n",
+    "# Split the targets into training/testing sets\n",
+    "target_y_train = logTransformedLoss[:-splitIdx]\n",
+    "target_y_test = logTransformedLoss[-splitIdx:]\n",
+    "\n",
+    "fit2 = best_model.fit(encodedCategories_X_train, target_y_train)\n",
+    "\n",
+    "#fetch mean absolute error required for measuring the accuracy in the current contest\n",
+    "mean_absolute_error(np.exp(fit2.predict(encodedCategories_X_test)), np.exp(target_y_test))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "_cell_guid": "c07fe1ec-3701-7069-97a9-5125a7096751"
+   },
+   "outputs": [],
+   "source": [
+    "testPredictions = np.exp(fit2.predict(encodedCategoriesTest))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "_cell_guid": "b6b0a95e-4293-6f7d-3ba5-5396059e5662"
+   },
+   "outputs": [],
+   "source": [
+    "#Write the predicted values into csv file along with their ids\n",
+    "import csv\n",
+    "testIdsWithPredictions = zip(testIds, testPredictions)\n",
+    "with open('result.csv', 'w') as out:\n",
+    "    csv_out=csv.writer(out)\n",
+    "    csv_out.writerow(['id','loss'])\n",
+    "    for row in testIdsWithPredictions:\n",
+    "        csv_out.writerow(row)"
+   ]
+  }
+ ],
+ "metadata": {
+  "_change_revision": 1,
+  "_is_fork": false,
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

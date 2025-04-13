@@ -1,0 +1,452 @@
+{
+    "https://www.kaggle.com/code/vladimirsydor/add-leak/comments": {
+        "notebook_name": "vladimirsydor_add-leak",
+        "sort_by": "scoreAscending",
+        "score": 0.946,
+        "votes": 7,
+        "comments": 0,
+        "date_created": "Wed Dec 18 2019 15:05:50 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/yunishi0716/best-weight-searching3/comments": {
+        "notebook_name": "yunishi0716_best-weight-searching3",
+        "sort_by": "scoreAscending",
+        "score": 0.961,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Wed Dec 18 2019 16:27:45 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/aleksthegreat/public-blend/comments": {
+        "notebook_name": "aleksthegreat_public-blend",
+        "sort_by": "scoreAscending",
+        "score": 0.98,
+        "votes": 28,
+        "comments": 5,
+        "date_created": "Fri Sep 03 2021 11:18:15 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/yamsam/ashrae-leak-validation-and-more/comments": {
+        "notebook_name": "yamsam_ashrae-leak-validation-and-more",
+        "sort_by": "scoreAscending",
+        "score": 0.99,
+        "votes": 133,
+        "comments": 22,
+        "date_created": "Fri Nov 29 2019 07:23:53 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/wuliaokaola/ashrae-maybe-this-can-make-public-lb-some-useful/comments": {
+        "notebook_name": "wuliaokaola_ashrae-maybe-this-can-make-public-lb-some-useful",
+        "sort_by": "scoreAscending",
+        "score": 1.01,
+        "votes": 88,
+        "comments": 13,
+        "date_created": "Wed Nov 27 2019 23:54:37 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/vladimirsydor/bland-lgbm-on-leaks/comments": {
+        "notebook_name": "vladimirsydor_bland-lgbm-on-leaks",
+        "sort_by": "scoreAscending",
+        "score": 1.01,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Tue Dec 17 2019 05:20:49 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/vladimirsydor/bland-by-leak/comments": {
+        "notebook_name": "vladimirsydor_bland-by-leak",
+        "sort_by": "scoreAscending",
+        "score": 1.039,
+        "votes": 2,
+        "comments": 0,
+        "date_created": "Sun Dec 29 2019 03:41:42 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/rohanrao/ashrae-divide-and-conquer/comments": {
+        "notebook_name": "rohanrao_ashrae-divide-and-conquer",
+        "sort_by": "scoreAscending",
+        "score": 1.04,
+        "votes": 136,
+        "comments": 21,
+        "date_created": "Tue Nov 26 2019 00:17:28 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/teeyee314/best-single-half-half-lgbm-1-07/comments": {
+        "notebook_name": "teeyee314_best-single-half-half-lgbm-1-07",
+        "sort_by": "scoreAscending",
+        "score": 1.07,
+        "votes": 2,
+        "comments": 0,
+        "date_created": "Sat Dec 28 2019 00:32:28 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/vladimirsydor/bland-lgbm-folds/comments": {
+        "notebook_name": "vladimirsydor_bland-lgbm-folds",
+        "sort_by": "scoreAscending",
+        "score": 1.07,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Sat Dec 07 2019 02:58:38 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/mimoudata/ashrae-2-lightgbm-without-leak-data/comments": {
+        "notebook_name": "mimoudata_ashrae-2-lightgbm-without-leak-data",
+        "sort_by": "scoreAscending",
+        "score": 1.078,
+        "votes": 17,
+        "comments": 3,
+        "date_created": "Wed Dec 18 2019 12:40:32 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/aitude/ashrae-kfold-lightgbm-without-leak-1-08/comments": {
+        "notebook_name": "aitude_ashrae-kfold-lightgbm-without-leak-1-08",
+        "sort_by": "scoreAscending",
+        "score": 1.08,
+        "votes": 247,
+        "comments": 51,
+        "date_created": "Wed Nov 27 2019 07:01:16 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/purist1024/ashrae-simple-data-cleanup-lb-1-08-no-leaks/comments": {
+        "notebook_name": "purist1024_ashrae-simple-data-cleanup-lb-1-08-no-leaks",
+        "sort_by": "scoreAscending",
+        "score": 1.08,
+        "votes": 203,
+        "comments": 43,
+        "date_created": "Mon Nov 25 2019 18:40:12 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/ragnar123/another-1-08-lb-no-leak/comments": {
+        "notebook_name": "ragnar123_another-1-08-lb-no-leak",
+        "sort_by": "scoreAscending",
+        "score": 1.08,
+        "votes": 43,
+        "comments": 12,
+        "date_created": "Wed Dec 04 2019 06:11:13 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/mimoudata/ashrae-lightgbm-without-leak/comments": {
+        "notebook_name": "mimoudata_ashrae-lightgbm-without-leak",
+        "sort_by": "scoreAscending",
+        "score": 1.082,
+        "votes": 16,
+        "comments": 0,
+        "date_created": "Fri Dec 13 2019 13:07:06 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/yunishi0716/k-folds-model/comments": {
+        "notebook_name": "yunishi0716_k-folds-model",
+        "sort_by": "scoreAscending",
+        "score": 1.089,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Sun Jan 26 2020 22:43:43 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/hmendonca/4-ashrae-blended/comments": {
+        "notebook_name": "hmendonca_4-ashrae-blended",
+        "sort_by": "scoreAscending",
+        "score": 1.09,
+        "votes": 31,
+        "comments": 13,
+        "date_created": "Wed Nov 06 2019 17:27:05 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/grapestone5321/ashrae-stacking-method/comments": {
+        "notebook_name": "grapestone5321_ashrae-stacking-method",
+        "sort_by": "scoreAscending",
+        "score": 1.09,
+        "votes": 40,
+        "comments": 12,
+        "date_created": "Thu Nov 07 2019 08:36:33 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/mimoudata/ashrae-lightgbm-without-leak-data/comments": {
+        "notebook_name": "mimoudata_ashrae-lightgbm-without-leak-data",
+        "sort_by": "scoreAscending",
+        "score": 1.09,
+        "votes": 10,
+        "comments": 1,
+        "date_created": "Tue Dec 10 2019 11:15:12 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/iwatatakuya/ashrae-kfold-lightgbm-without-building-id/comments": {
+        "notebook_name": "iwatatakuya_ashrae-kfold-lightgbm-without-building-id",
+        "sort_by": "scoreAscending",
+        "score": 1.097,
+        "votes": 20,
+        "comments": 2,
+        "date_created": "Tue Dec 17 2019 20:07:08 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/remisharoon/ashrae-gep-iii-rms-nb/comments": {
+        "notebook_name": "remisharoon_ashrae-gep-iii-rms-nb",
+        "sort_by": "scoreAscending",
+        "score": 1.1,
+        "votes": 6,
+        "comments": 2,
+        "date_created": "Sun Nov 17 2019 04:49:10 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/kailex/ac-dc/comments": {
+        "notebook_name": "kailex_ac-dc",
+        "sort_by": "scoreAscending",
+        "score": 1.1,
+        "votes": 185,
+        "comments": 16,
+        "date_created": "Thu Nov 07 2019 12:59:05 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/rohanrao/ashrae-half-and-half/comments": {
+        "notebook_name": "rohanrao_ashrae-half-and-half",
+        "sort_by": "scoreAscending",
+        "score": 1.1,
+        "votes": 410,
+        "comments": 77,
+        "date_created": "Thu Nov 23 2023 07:00:08 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/litemort/implicit-merge-operation-by-litemort/comments": {
+        "notebook_name": "litemort_implicit-merge-operation-by-litemort",
+        "sort_by": "scoreAscending",
+        "score": 1.1,
+        "votes": 3,
+        "comments": 0,
+        "date_created": "Tue Dec 03 2019 01:48:51 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/kulkarnivishwanath/ashrae-great-energy-predictor-iii-eda-model/comments": {
+        "notebook_name": "kulkarnivishwanath_ashrae-great-energy-predictor-iii-eda-model",
+        "sort_by": "scoreAscending",
+        "score": 1.103,
+        "votes": 76,
+        "comments": 26,
+        "date_created": "Thu Dec 19 2019 02:22:14 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/starl1ght/ashrae-stacked-regression-lasso-ridge-lgbm/comments": {
+        "notebook_name": "starl1ght_ashrae-stacked-regression-lasso-ridge-lgbm",
+        "sort_by": "scoreAscending",
+        "score": 1.106,
+        "votes": 27,
+        "comments": 2,
+        "date_created": "Mon Dec 16 2019 20:17:30 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/hiteshsom/ashrae-3-lightgbm/comments": {
+        "notebook_name": "hiteshsom_ashrae-3-lightgbm",
+        "sort_by": "scoreAscending",
+        "score": 1.11,
+        "votes": 20,
+        "comments": 8,
+        "date_created": "Fri Jan 03 2020 03:13:48 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/nz0722/aligned-timestamp-lgbm-by-meter-type/comments": {
+        "notebook_name": "nz0722_aligned-timestamp-lgbm-by-meter-type",
+        "sort_by": "scoreAscending",
+        "score": 1.11,
+        "votes": 157,
+        "comments": 27,
+        "date_created": "Wed Apr 20 2022 14:57:21 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/yunishi0716/3-folds-by-each-meter-type/comments": {
+        "notebook_name": "yunishi0716_3-folds-by-each-meter-type",
+        "sort_by": "scoreAscending",
+        "score": 1.117,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Sun Feb 02 2020 17:34:07 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/kaushal2896/ashrae-eda-fe-lightgbm-1-12/comments": {
+        "notebook_name": "kaushal2896_ashrae-eda-fe-lightgbm-1-12",
+        "sort_by": "scoreAscending",
+        "score": 1.12,
+        "votes": 127,
+        "comments": 47,
+        "date_created": "Sat Nov 16 2019 05:20:54 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/viswajithkn/great-energy-prediction/comments": {
+        "notebook_name": "viswajithkn_great-energy-prediction",
+        "sort_by": "scoreAscending",
+        "score": 1.12,
+        "votes": 5,
+        "comments": 0,
+        "date_created": "Thu Dec 05 2019 20:38:12 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/wittmannf/keras-embedding-read-k-folds/comments": {
+        "notebook_name": "wittmannf_keras-embedding-read-k-folds",
+        "sort_by": "scoreAscending",
+        "score": 1.12,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Dec 10 2019 19:03:51 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/corochann/ashrae-training-lgbm-by-meter-type/comments": {
+        "notebook_name": "corochann_ashrae-training-lgbm-by-meter-type",
+        "sort_by": "scoreAscending",
+        "score": 1.121,
+        "votes": 299,
+        "comments": 89,
+        "date_created": "Mon Oct 28 2019 08:31:15 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/amaity0/ashrae-fifth-try/comments": {
+        "notebook_name": "amaity0_ashrae-fifth-try",
+        "sort_by": "scoreAscending",
+        "score": 1.14,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Tue Dec 10 2019 08:54:50 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/isaienkov/keras-nn-with-embeddings-for-cat-features-1-15/comments": {
+        "notebook_name": "isaienkov_keras-nn-with-embeddings-for-cat-features-1-15",
+        "sort_by": "scoreAscending",
+        "score": 1.15,
+        "votes": 143,
+        "comments": 49,
+        "date_created": "Tue Oct 29 2019 17:19:18 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/patelatharva/prediction/comments": {
+        "notebook_name": "patelatharva_prediction",
+        "sort_by": "scoreAscending",
+        "score": 1.15,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Sun Nov 24 2019 01:43:40 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/zeynepkurban/ashrae-2/comments": {
+        "notebook_name": "zeynepkurban_ashrae-2",
+        "sort_by": "scoreAscending",
+        "score": 1.158,
+        "votes": 0,
+        "comments": 2,
+        "date_created": "Thu Oct 08 2020 17:43:48 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/enigola/ashrae-ml-hw6-lgbm/comments": {
+        "notebook_name": "enigola_ashrae-ml-hw6-lgbm",
+        "sort_by": "scoreAscending",
+        "score": 1.16,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Fri Dec 13 2019 04:09:21 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/clementut/kernel4e51c0227f/comments": {
+        "notebook_name": "clementut_kernel4e51c0227f",
+        "sort_by": "scoreAscending",
+        "score": 1.163,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Thu Dec 19 2019 14:14:10 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/morituri/lgbm-baseline/comments": {
+        "notebook_name": "morituri_lgbm-baseline",
+        "sort_by": "scoreAscending",
+        "score": 1.165,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Thu Dec 12 2019 15:47:54 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/shukla84manish/energy-consumption/comments": {
+        "notebook_name": "shukla84manish_energy-consumption",
+        "sort_by": "scoreAscending",
+        "score": 1.18,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Wed Nov 27 2019 22:05:31 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/madisj/kernel3377148266/comments": {
+        "notebook_name": "madisj_kernel3377148266",
+        "sort_by": "scoreAscending",
+        "score": 1.193,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Thu Dec 19 2019 04:56:16 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/darisdzakwanhoesien2/ashrae-great-energy-predictor-iii/comments": {
+        "notebook_name": "darisdzakwanhoesien2_ashrae-great-energy-predictor-iii",
+        "sort_by": "scoreAscending",
+        "score": 1.198,
+        "votes": 2,
+        "comments": 0,
+        "date_created": "Tue Aug 04 2020 07:31:56 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/kimtaegwan/what-s-your-cv-method/comments": {
+        "notebook_name": "kimtaegwan_what-s-your-cv-method",
+        "sort_by": "scoreAscending",
+        "score": 1.207,
+        "votes": 141,
+        "comments": 40,
+        "date_created": "Sat Nov 02 2019 22:40:36 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/vladimirsydor/randomforestbaseline/comments": {
+        "notebook_name": "vladimirsydor_randomforestbaseline",
+        "sort_by": "scoreAscending",
+        "score": 1.23,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Mon Nov 25 2019 03:36:15 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/mayer79/ashrae-lgb-starter-for-r/comments": {
+        "notebook_name": "mayer79_ashrae-lgb-starter-for-r",
+        "sort_by": "scoreAscending",
+        "score": 1.24,
+        "votes": 20,
+        "comments": 4,
+        "date_created": "Sat Nov 09 2019 11:34:16 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/jiaofenx/ashrae-great-energy-predictor-iii/comments": {
+        "notebook_name": "jiaofenx_ashrae-great-energy-predictor-iii",
+        "sort_by": "scoreAscending",
+        "score": 1.24,
+        "votes": 1,
+        "comments": 0,
+        "date_created": "Tue Oct 29 2019 23:59:33 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/gouherdanishiitkgp/ashrae-basic-eda-and-feature-engineering/comments": {
+        "notebook_name": "gouherdanishiitkgp_ashrae-basic-eda-and-feature-engineering",
+        "sort_by": "scoreAscending",
+        "score": 1.244,
+        "votes": 33,
+        "comments": 7,
+        "date_created": "Thu Dec 19 2019 07:36:13 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/yshiml/ashrae-simple-lgbm-optuna-baseline/comments": {
+        "notebook_name": "yshiml_ashrae-simple-lgbm-optuna-baseline",
+        "sort_by": "scoreAscending",
+        "score": 1.263,
+        "votes": 2,
+        "comments": 0,
+        "date_created": "Fri Jan 07 2022 00:05:27 GMT-0600 (Central Standard Time)",
+        "downloaded": true
+    },
+    "https://www.kaggle.com/code/michelezoccali/ashrae-with-fast-ai-part-3/comments": {
+        "notebook_name": "michelezoccali_ashrae-with-fast-ai-part-3",
+        "sort_by": "scoreAscending",
+        "score": 1.265,
+        "votes": 0,
+        "comments": 0,
+        "date_created": "Sun Jul 04 2021 08:11:21 GMT-0500 (Central Daylight Time)",
+        "downloaded": true
+    }
+}

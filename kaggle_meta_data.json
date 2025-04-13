@@ -1,0 +1,144 @@
+{
+    "kaggle": {
+      "titanic": {
+        "category": "classification",
+        "evaluation_metric": "accuracy",
+        "list_of_tasks": ["overall_quality_improvement_under_fixed_budget", 
+                        "education_quality_improvement_under_fixed_budget",
+                        "popularity_quality_improvement_under_fixed_budget",
+                        "performance_quality_improvement_under_fixed_budget",
+                        "budget_improvement_under_fixed_overall_quality"],
+        "total_rounds_per_task": [5,5,5,5],
+        "tasks": {
+          "overall_quality_improvement_under_fixed_budget": [
+            {
+              "task_round_id": 1,
+              "task_instruction": "predict the survival rates",
+              "side_information_list":     [
+                "exercise-arithmetic-and-variables",
+                "test1",
+                "titanic-dataframe",
+                "titanic-linear-logistic-regression-implementation"
+            ],
+              "quality_score_list": [0.1, 0.1, 0.1, 0.1]
+            },
+            {
+              "task_round_id": 2,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": [
+                "boarding-a-sinking-ship",
+                "preliminary-exploration",
+                "titanic-top-4-with-ensemble-modeling",
+                "eda-to-prediction-dietanic"
+            ],
+              "quality_score_list": [0.3, 0.3, 0.3, 0.3]
+            },
+            {
+              "task_round_id": 3,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": [
+                "unsinkable-ai-lr-dt-rf-svm-gb-xgboost",
+                "comparison-of-each-model-lr-sgd-dt-rf-gb",
+                "titanic-project-with-random-forest",
+                "titanic-cat"
+            ],
+              "quality_score_list": [0.6, 0.6, 0.6, 0.6]
+            },
+            {
+              "task_round_id": 4,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": [
+                "building-an-ml-pipeline-titanic",
+                "introduction-to-ensembling-stacking-in-python",
+                "a-journey-through-titanic",
+                "titanic-competition-w-tensorflow-decision-forests"
+            ],
+              "quality_score_list": [0.8, 0.8, 0.8, 0.8]
+            },
+            {
+              "task_round_id": 5,
+              "task_instruction": "predict the survival rates",
+              "side_information_list":  [
+                "titanic-survival-predictions-beginner",
+                "titanic-advanced-feature-engineering-tutorial",
+                "titanic-data-science-solutions",
+                "titanic-tutorial"
+            ],
+              "quality_score_list": [1.0, 1.0, 1,0, 1.0]
+            }
+          ],
+          "budget_improvement_under_fixed_overall_quality": [
+            {
+              "task_round_id": 1,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": ["titanic-survival-predictions-beginner"],
+              "budget_score_list": [1.0]
+            },
+            {
+              "task_round_id": 2,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": ["titanic-survival-predictions-beginner", 
+              "titanic-advanced-feature-engineering-tutorial"],
+              "budget_score_list": [1.0, 1.0]
+            },
+            {
+              "task_round_id": 3,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": ["titanic-survival-predictions-beginner", 
+              "titanic-advanced-feature-engineering-tutorial", 
+              "titanic-data-science-solutions"],
+              "budget_score_list": [1.0, 1.0, 1.0]
+            },
+            {
+              "task_round_id": 4,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": ["titanic-survival-predictions-beginner", 
+              "titanic-advanced-feature-engineering-tutorial", 
+              "titanic-data-science-solutions",
+              "titanic-tutorial"],
+              "budget_score_list": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "task_round_id": 5,
+              "task_instruction": "predict the survival rates",
+              "side_information_list": ["titanic-survival-predictions-beginner",
+              "titanic-advanced-feature-engineering-tutorial",
+              "titanic-data-science-solutions",
+              "titanic-tutorial",
+              "titanic-competition-w-tensorflow-decision-forests"],
+              "budget_score_list": [0.8, 1.0, 1.0, 1.0, 1.0]
+            }
+          ]
+        }
+      },
+    "non-kaggle": {
+      "image_segmentation": {
+        "category": "computer_vision",
+        "evaluation_metric": "iou",
+        "type_of_tasks": ["quality_improvement_under_fixed_budget"],
+        "total_rounds_per_task": 3,
+        "tasks": {
+          "quality_improvement_under_fixed_budget": [
+            {
+              "task_round_id": 1,
+              "task_instruction": "segment medical images",
+              "side_information_list": ["i1", "i2"],
+              "quality_score_list": [0.2, 0.2]
+            },
+            {
+              "task_round_id": 2,
+              "task_instruction": "segment medical images",
+              "side_information_list": ["i3", "i4"],
+              "quality_score_list": [0.4, 0.4]
+            },
+            {
+              "task_round_id": 3,
+              "task_instruction": "segment medical images",
+              "side_information_list": ["i5", "i6"],
+              "quality_score_list": [0.6, 0.6]
+            }
+          ]
+        }
+      }
+    }
+  }
