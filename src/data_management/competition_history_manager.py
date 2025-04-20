@@ -9,7 +9,7 @@ from typing import Dict, Optional
 import pandas as pd
 from .base_manager import BaseManager
 from .user_profile_manager import UserProfileManager
-from quality_checks import validate_submission
+from .quality_checks import validate_submission
 
 logger = logging.getLogger(__name__)
 

@@ -4,6 +4,7 @@ from .user_profile_manager import UserProfileManager
 from .notebook_manager import NotebookManager
 from .dataset_manager import DatasetManager
 from .competition_history_manager import CompetitionHistoryManager
+from typing import Dict
 
 class DataManager:
     """Main facade class that composes all managers"""

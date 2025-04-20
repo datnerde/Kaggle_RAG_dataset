@@ -68,7 +68,7 @@ class DatasetManager(BaseManager):
             'import_date': datetime.datetime.now()
         }
         
-        result = self.collection._update_with_operators(
+        result = self._update_with_operators(
             {'metadata.dataset_id': dataset_id, 'metadata.competition_id': competition_id},
             {
                 '$set': {
@@ -78,7 +78,8 @@ class DatasetManager(BaseManager):
             }
         )
         
-        return result.modified_count > 0 or result.upserted_id is not None
+        # Return True if the operation was successful
+        return result
     
     def get(self, dataset_id: str, competition_id: str) -> Optional[Dict]:
         """Get dataset by ID and competition ID"""
