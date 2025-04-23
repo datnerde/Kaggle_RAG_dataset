@@ -8,6 +8,7 @@ import json
 import os
 import sys
 import argparse
+import html2text
 
 class CompetitionScraper:
     def __init__(self, headless=True, output_dir = None):
@@ -15,6 +16,10 @@ class CompetitionScraper:
         self.output_dir = os.path.abspath(output_dir) if output_dir else os.getcwd()
         self.driver = self._init_driver(headless)
         self.wait = WebDriverWait(self.driver, 15)
+        # Set up markdown converter
+        self.markdown_converter = html2text.HTML2Text()
+        self.markdown_converter.ignore_links = False
+        self.markdown_converter.ignore_images = True
         os.makedirs(self.output_dir, exist_ok=True)  # Create directory if needed
     
     def _get_random_user_agent(self):
@@ -90,17 +95,21 @@ class CompetitionScraper:
     
     def extract_competition_data(self, url):
         self.driver.get(url)
-        
-        desc_header = self.wait.until(EC.presence_of_element_located((By.ID, "description")))
-        evaluation = self.wait.until(EC.presence_of_element_located((By.ID, "evaluation"))).text.strip()
-        sidebar = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "sc-ipAaKu.blEaCU"))).text
-        
+        desc_elem = self.wait.until(EC.presence_of_element_located((By.ID, "description")))
+        eval_elem = self.wait.until(EC.presence_of_element_located((By.ID, "evaluation")))
+        sidebar = self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[.//div[contains(text(), 'Table of Contents')]]"))).text
+        desc_html = desc_elem.get_attribute("innerHTML")
+        eval_html = eval_elem.get_attribute("innerHTML")
+
+        description_md = self.markdown_converter.handle(desc_html).strip()
+        evaluation_md = self.markdown_converter.handle(eval_html).strip()
         sidebar_content = self.extract_fields(sidebar)
+        print(f"Sidebar content: {sidebar_content}")
         participation = sidebar_content.get("Participation", {})
-        
+
         return {
-            'Description': desc_header.text.strip(),
-            'Evaluation': evaluation,
+            'Description': description_md,
+            'Evaluation': evaluation_md,
             'Competition Host': sidebar_content.get("Competition Host", []),
             'Prizes & Awards': sidebar_content.get("Prizes & Awards", []),
             'Entrants': participation.get('Entrants', 0),
@@ -112,10 +121,13 @@ class CompetitionScraper:
         
     def extract_data_metadata(self, url):
         self.driver.get(url)
-        
+    
         try:
-            desc_element = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "sc-fqpjkJ.xUjLo")))
-            description = desc_element.text.strip()
+            desc_element = self.wait.until(
+                EC.visibility_of_element_located((By.XPATH, "//*[@id='site-content']/div[2]/div/div/div[6]/div[1]/div[1]"))
+            )
+            desc_html = desc_element.get_attribute("innerHTML")
+            description = self.markdown_converter.handle(desc_html).strip()
         except Exception as e:
             print(f"Error extracting data description from {url}: {str(e)}")
             description = ""

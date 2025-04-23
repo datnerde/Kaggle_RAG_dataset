@@ -71,7 +71,7 @@ def print_progress(current, total, prefix='', bar_length=40):
 def setup_driver():
     """Initialize undetected_chromedriver with options."""
     options = uc.ChromeOptions()
-    # options.add_argument('--headless')
+    options.add_argument('--headless')
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36")
     options.add_argument('--disable-blink-features=AutomationControlled')
@@ -142,7 +142,7 @@ class NotebookDownloader:
                 except (NoSuchElementException, AttributeError):
                     score = 0.0
                 # Extract solution URL
-                a_elem = card.find_element(By.XPATH, ".//a[contains(@class, 'sc-uYFMi') and contains(@href, '/code/')]")
+                a_elem = card.find_element(By.XPATH, ".//a[contains(text(), 'comments') and contains(@href, '/code/')]")
                 solution_url = a_elem.get_attribute("href")
                 
                 # Extract votes
@@ -286,20 +286,27 @@ class NotebookDownloader:
 
         # Finding download menu item
         try:
-            WebDriverWait(self.driver, 10).until(
+            # WebDriverWait(self.driver, 10).until(
+            #     EC.visibility_of_element_located((By.CSS_SELECTOR, "ul.MuiMenu-list"))
+            # )
+            # menu_items = self.driver.find_elements(By.CSS_SELECTOR, "li.MuiMenuItem-root")
+            # download_item = next((item for item in menu_items if "Download code" in item.text), None)
+            # Wait for parent menu AND at least one child item to be present
+            WebDriverWait(self.driver, 15).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, "ul.MuiMenu-list"))
             )
-            menu_items = self.driver.find_elements(By.CSS_SELECTOR, "li.MuiMenuItem-root")
+            menu_items = WebDriverWait(self.driver, 5).until(
+                lambda d: d.find_elements(By.CSS_SELECTOR, "li.MuiMenuItem-root"))
+            
             download_item = next((item for item in menu_items if "Download code" in item.text), None)
             
             if download_item is None:
                 raise Exception("Could not find 'Download code' in menu items")
-                
-            self.driver.execute_script(
-                "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", 
-                download_item
-            )
-            random_sleep(1, 0.2)
+            # self.driver.execute_script(
+            #     "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", 
+            #     download_item
+            # )
+            random_sleep(2, 0.4)
         except Exception as e:
             print(f"❌ Failed to find download item: {str(e)}")
             return None

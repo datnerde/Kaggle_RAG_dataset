@@ -2,6 +2,7 @@ import os
 import json
 import datetime
 import logging
+import numpy as np
 from typing import Dict, List, Optional, Any, Union
 from .base_manager import BaseManager
 from .competition_manager import CompetitionManager
@@ -13,7 +14,7 @@ class NotebookManager(BaseManager):
 
     SCORE_CONFIGS = {
         'quality': {
-            'weights': {'score': 0.2, 'votes': 0.5, 'comments': 0.3},
+            'weights': {'score': 0.25, 'votes': 0.5, 'comments': 0.25},
             'requires_normalization': True,
             'description': 'Overall quality score'
         }
@@ -29,6 +30,7 @@ class NotebookManager(BaseManager):
         super().__init__(db['notebooks'])
         self.competition_manager = competition_manager
         self.max_values = {'score': 1.0, 'votes': 1.0, 'comments': 1.0}
+        self.min_values = {'score': 0.0, 'votes': 0.0, 'comments': 0.0}
         self._initialize()
 
     def _initialize(self):
@@ -40,8 +42,7 @@ class NotebookManager(BaseManager):
     def _create_core_indexes(self):
         """Create all necessary indexes"""
         # Core document indexes
-        self._create_index([('notebook_id', 1), ('competition_id', 1)], unique=True)
-        
+        self._create_index([('notebook_name', 1), ('domain_name', 1)], unique=True)
         # Score indexes
         for score_type in self.SCORE_CONFIGS:
             self._create_index([(f'scores.{score_type}', -1)],unique=False)
@@ -54,14 +55,17 @@ class NotebookManager(BaseManager):
         self._create_index([('last_updated', -1)],unique=False)
 
     def _load_max_values(self):
-        """Load maximum values for normalization from database"""
+        """Load maximum and minimum values for normalization from database"""
         try:
             result = list(self.collection.aggregate([
                 {'$group': {
                     '_id': None,
                     'max_score': {'$max': '$metrics.score'},
                     'max_votes': {'$max': '$metrics.votes'},
-                    'max_comments': {'$max': '$metrics.comments'}
+                    'max_comments': {'$max': '$metrics.comments'},
+                    'min_score': {'$min': '$metrics.score'},
+                    'min_votes': {'$min': '$metrics.votes'},
+                    'min_comments': {'$min': '$metrics.comments'}
                 }}
             ]))
             
@@ -71,15 +75,24 @@ class NotebookManager(BaseManager):
                     'votes': max(result[0].get('max_votes', 1), 1),
                     'comments': max(result[0].get('max_comments', 1), 1)
                 }
+                self.min_values = {
+                    'score': result[0].get('min_score', 0),
+                    'votes': result[0].get('min_votes', 0),
+                    'comments': result[0].get('min_comments', 0)
+                }
         except Exception as e:
-            logger.error(f"Error loading max values: {str(e)}")
+            logger.error(f"Error loading max/min values: {str(e)}")
             self.max_values = {'score': 1.0, 'votes': 1.0, 'comments': 1.0}
+            self.min_values = {'score': 0.0, 'votes': 0.0, 'comments': 0.0}
 
     def _update_max_values(self, metrics: Dict):
-        """Update in-memory max values with new metrics"""
+        """Update in-memory max and min values with new metrics"""
         for metric in ['score', 'votes', 'comments']:
-            if metric in metrics and metrics[metric] > self.max_values[metric]:
-                self.max_values[metric] = metrics[metric]
+            if metric in metrics:
+                if metrics[metric] > self.max_values[metric]:
+                    self.max_values[metric] = metrics[metric]
+                if metrics[metric] < self.min_values[metric]:
+                    self.min_values[metric] = metrics[metric]
 
     def register_score_type(self, score_type: str, config: Dict):
         """
@@ -114,7 +127,7 @@ class NotebookManager(BaseManager):
                 value = metrics.get(metric, 0)
                 
                 if config['requires_normalization'] and metric in self.max_values:
-                    value = value / self.max_values[metric]
+                    value = (np.log1p(value) - np.log1p(self.min_values[metric])) / (np.log1p(self.max_values[metric])-np.log1p(self.min_values[metric]))
                 
                 total += weight * value
             
@@ -122,15 +135,14 @@ class NotebookManager(BaseManager):
         
         return scores
 
-    def import_from_file(self, file_path: str, competition_id: str, 
-                       metrics: Optional[Dict] = None, **kwargs) -> bool:
+    def import_from_file(self, file_path: str, competition_name: str, 
+                       metrics: Optional[Dict] = None) -> bool:
         """
         Import a Jupyter notebook with automatic score calculation
         Args:
             file_path: Path to .ipynb file
             competition_id: Associated competition ID
             metrics: Dictionary of scoring metrics
-            **kwargs: Additional notebook metadata
         Returns:
             bool: True if import was successful
         Raises:
@@ -147,7 +159,7 @@ class NotebookManager(BaseManager):
             raise ValueError("Only Jupyter notebook (.ipynb) files are supported")
 
         # Read notebook content
-        notebook_id = os.path.splitext(os.path.basename(file_path))[0]
+        notebook_name = os.path.splitext(os.path.basename(file_path))[0]
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 notebook_content = json.load(f)
@@ -161,22 +173,22 @@ class NotebookManager(BaseManager):
             scores = self.calculate_scores(metrics)
         else:
             scores = {}
-
+        # get the object id of the competition from domains collection
+        domain_id = self.competition_manager.get(competition_name)
         # Create notebook document
         notebook_doc = {
-            'notebook_id': notebook_id,
-            'competition_id': competition_id,
+            'domain_id':domain_id['_id'],
+            'notebook_name': notebook_name,
+            'domain_name': competition_name,
             'content': notebook_content,
             'metrics': metrics,
             'scores': scores,
-            'metadata': kwargs,
-            'created_at': datetime.datetime.now(),
             'last_updated': datetime.datetime.now()
         }
 
         # Use BaseManager's update operation
         result = self._update(
-            {'notebook_id': notebook_id, 'competition_id': competition_id},
+            {'notebook_name': notebook_name, 'domain_name': competition_name},
             notebook_doc,
             upsert=True
         )
@@ -317,7 +329,7 @@ class NotebookManager(BaseManager):
             limit=limit
         )
 
-    def recalculate_scores(self, competition_id: str = None,
+    def recalculate_scores(self, competition_name: str = None,
                          update_max_values: bool = True) -> int:
         """
         Recalculate scores for notebooks
@@ -331,15 +343,14 @@ class NotebookManager(BaseManager):
             self._load_max_values()
 
         query = {}
-        if competition_id:
-            query['competition_id'] = competition_id
+        if competition_name:
+            query['domain_name'] = competition_name
 
         updated_count = 0
         for notebook in self.collection.find(query):
             new_scores = self.calculate_scores(notebook.get('metrics', {}))
-            
             if new_scores != notebook.get('scores', {}):
-                result = self._update(
+                result = self._update_with_operators(
                     {'_id': notebook['_id']},
                     {'$set': {'scores': new_scores}}
                 )

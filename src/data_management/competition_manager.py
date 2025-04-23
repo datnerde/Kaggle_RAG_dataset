@@ -9,8 +9,8 @@ logger = logging.getLogger(__name__)
 class CompetitionManager(BaseManager):
     """Manages competition documents"""
     def __init__(self, db):
-        super().__init__(db['competitions'])
-        self._create_index('competition_id')
+        super().__init__(db['domains'])
+        # self._create_index('_id')
         
     def create_or_update(self, competition_data: Dict) -> bool:
         """
@@ -20,22 +20,21 @@ class CompetitionManager(BaseManager):
         Returns:
             bool: True if successful, False otherwise
         """
-        competition_id = competition_data.get('competition_id')
+        competition_id = competition_data.get('name')
         if not competition_id:
-            raise ValueError("Missing required field: competition_id")
+            raise ValueError("Missing required field: name")
             
         competition_data['last_updated'] = datetime.datetime.now()
         return self._update(
-            {'competition_id': competition_id},
+            {'name': competition_id},
             competition_data,
             upsert=True
         )
         
-    def get(self, competition_id: str) -> Optional[Dict]:
+    def get(self, competition_name: str) -> Optional[Dict]:
         """Get competition by ID"""
         return self.collection.find_one(
-            {'competition_id': competition_id},
-            {'_id': 0}
+            {'name': competition_name}
         )
     
     def list_all(self, projection: Optional[Dict] = None) -> List[Dict]:
@@ -45,4 +44,4 @@ class CompetitionManager(BaseManager):
     
     def exists(self, competition_id: str) -> bool:
         """Check if competition exists"""
-        return self._validate_exists({'competition_id': competition_id})
+        return self._validate_exists({'name': competition_id})

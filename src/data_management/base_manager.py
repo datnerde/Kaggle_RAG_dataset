@@ -10,7 +10,7 @@ class BaseManager:
         
     def _get_by_id(self, obj_id: str) -> Optional[Dict]:
         """Get document by its ID field"""
-        return self.collection.find_one({'id': obj_id}, {'_id': 0})
+        return self.collection.find_one({'_id': obj_id}, {'_id': 0})
     
     def _update(self, query: Dict, update_data: Dict, upsert: bool = False) -> bool:
         """Generic update operation"""
